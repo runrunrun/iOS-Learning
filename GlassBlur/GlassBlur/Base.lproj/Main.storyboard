@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GlassBlur" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudblue" translatesAutoresizingMaskIntoConstraints="NO" id="dFF-31-411">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nGF-hr-ZFR" userLabel="Overlay View">
+                                <rect key="frame" x="0.0" y="423" width="600" height="177"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="177" id="R3J-A4-HSq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IfO-U8-bOa" userLabel="Overlay View">
+                                <rect key="frame" x="0.0" y="49" width="600" height="177"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbD-Z3-e2Z">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="177"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="HqS-Tg-DKL">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="177"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                        <blurEffect style="light"/>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="YbD-Z3-e2Z" secondAttribute="bottom" id="0JI-X4-7F2"/>
+                                    <constraint firstAttribute="trailing" secondItem="YbD-Z3-e2Z" secondAttribute="trailing" id="AUD-Tj-gHc"/>
+                                    <constraint firstItem="YbD-Z3-e2Z" firstAttribute="leading" secondItem="IfO-U8-bOa" secondAttribute="leading" id="c8m-U5-fT0"/>
+                                    <constraint firstItem="YbD-Z3-e2Z" firstAttribute="top" secondItem="IfO-U8-bOa" secondAttribute="top" id="fbq-R3-Zq8"/>
+                                    <constraint firstAttribute="height" constant="177" id="kn7-oq-hxZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nGF-hr-ZFR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2rh-cn-b55"/>
+                            <constraint firstItem="IfO-U8-bOa" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="U0f-Zn-5Ib"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dFF-31-411" secondAttribute="bottom" id="a3P-tx-oZV"/>
+                            <constraint firstAttribute="trailing" secondItem="IfO-U8-bOa" secondAttribute="trailing" id="dTl-8E-4lC"/>
+                            <constraint firstAttribute="trailing" secondItem="dFF-31-411" secondAttribute="trailing" id="lN6-Wc-2VP"/>
+                            <constraint firstItem="dFF-31-411" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ojO-8j-Gh2"/>
+                            <constraint firstItem="dFF-31-411" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pLY-p4-i3P"/>
+                            <constraint firstAttribute="trailing" secondItem="nGF-hr-ZFR" secondAttribute="trailing" id="q6D-j4-3Gx"/>
+                            <constraint firstItem="IfO-U8-bOa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qnA-6P-wZQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nGF-hr-ZFR" secondAttribute="bottom" id="z0Q-A2-Nzg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="overlayView" destination="nGF-hr-ZFR" id="oth-lg-zZG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloudblue" width="3072" height="2304"/>
+    </resources>
+</document>
