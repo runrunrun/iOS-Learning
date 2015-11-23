@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6P4-Be-UiI">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -18,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello App Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r99-s0-Lao">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="NSUserActivity to add search item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r99-s0-Lao">
                                 <rect key="frame" x="20" y="58" width="560" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="dqK-1u-RTQ"/>
@@ -27,18 +26,75 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8D-Rr-cCg">
+                                <rect key="frame" x="270" y="285" width="61" height="30"/>
+                                <state key="normal" title="Screen 2"/>
+                                <connections>
+                                    <segue destination="uGR-sO-gAH" kind="show" id="rQ8-gQ-hhG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="r8D-Rr-cCg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2iU-gn-8Uo"/>
                             <constraint firstItem="r99-s0-Lao" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="38" id="MLE-al-DSa"/>
+                            <constraint firstItem="r8D-Rr-cCg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jzc-68-Lxk"/>
                             <constraint firstItem="r99-s0-Lao" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nvn-J0-HrM"/>
                             <constraint firstItem="r99-s0-Lao" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zGd-DV-fKi"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="quF-dn-N0W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="277" y="228"/>
+            <point key="canvasLocation" x="863" y="313"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="phw-sH-TzE">
+            <objects>
+                <viewController id="uGR-sO-gAH" customClass="SecondViewController" customModule="AppSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6r9-A3-kXp"/>
+                        <viewControllerLayoutGuide type="bottom" id="lR0-eb-UAp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ET8-0f-QEy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Using Core Spotlight framework for spotlight search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdt-OK-R0I">
+                                <rect key="frame" x="20" y="72" width="552" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="tdt-OK-R0I" secondAttribute="trailing" constant="8" id="Vq5-dG-erd"/>
+                            <constraint firstItem="tdt-OK-R0I" firstAttribute="top" secondItem="6r9-A3-kXp" secondAttribute="bottom" constant="8" id="hJV-uH-VsB"/>
+                            <constraint firstItem="tdt-OK-R0I" firstAttribute="leading" secondItem="ET8-0f-QEy" secondAttribute="leadingMargin" id="r2d-jM-Lla"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yL4-Hc-TAi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1636" y="313"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rqe-Wu-aWA">
+            <objects>
+                <navigationController id="6P4-Be-UiI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AEm-aC-nW5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gD1-do-26a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4oh-Vg-G3y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122" y="313"/>
         </scene>
     </scenes>
 </document>
