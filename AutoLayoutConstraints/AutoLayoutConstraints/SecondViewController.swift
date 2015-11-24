@@ -23,6 +23,10 @@ class SecondViewController: UIViewController {
         view1.translatesAutoresizingMaskIntoConstraints = false;
         self.view.addSubview(view1)
         
+        /* A constraint is typically installed on the closest common ancestor of the views involved in the constraint.
+        It is required that a constraint be installed on _a_ common ancestor of every view involved.  The numbers in a constraint are interpreted in the coordinate system of the view it is installed on.  A view is considered to be an ancestor of itself.
+        */
+        
         // Width = 100
         self.view.addConstraint(NSLayoutConstraint(item: view1,
             attribute: NSLayoutAttribute.Width,

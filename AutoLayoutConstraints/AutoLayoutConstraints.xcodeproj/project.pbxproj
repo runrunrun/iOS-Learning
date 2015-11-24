@@ -13,6 +13,7 @@
 		1E8118681C03C7EF00CDAD92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8118661C03C7EF00CDAD92 /* LaunchScreen.storyboard */; };
 		1E8118701C03C81500CDAD92 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81186F1C03C81500CDAD92 /* FirstViewController.swift */; };
 		1E8118721C03C82400CDAD92 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8118711C03C82400CDAD92 /* SecondViewController.swift */; };
+		1E8118741C03E3E900CDAD92 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8118731C03E3E900CDAD92 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1E8118691C03C7EF00CDAD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E81186F1C03C81500CDAD92 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1E8118711C03C82400CDAD92 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1E8118731C03E3E900CDAD92 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1E81185D1C03C7EF00CDAD92 /* AppDelegate.swift */,
 				1E81186F1C03C81500CDAD92 /* FirstViewController.swift */,
 				1E8118711C03C82400CDAD92 /* SecondViewController.swift */,
+				1E8118731C03E3E900CDAD92 /* ThirdViewController.swift */,
 				1E8118611C03C7EF00CDAD92 /* Main.storyboard */,
 				1E8118641C03C7EF00CDAD92 /* Assets.xcassets */,
 				1E8118661C03C7EF00CDAD92 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				1E8118721C03C82400CDAD92 /* SecondViewController.swift in Sources */,
 				1E8118701C03C81500CDAD92 /* FirstViewController.swift in Sources */,
+				1E8118741C03E3E900CDAD92 /* ThirdViewController.swift in Sources */,
 				1E81185E1C03C7EF00CDAD92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

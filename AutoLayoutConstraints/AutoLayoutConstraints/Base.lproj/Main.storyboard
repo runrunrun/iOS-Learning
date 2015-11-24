@@ -55,11 +55,31 @@
                     <connections>
                         <segue destination="cxM-Lr-hnJ" kind="relationship" relationship="viewControllers" id="qLP-qg-er9"/>
                         <segue destination="BVT-ck-TTV" kind="relationship" relationship="viewControllers" id="1Vg-Gx-t0F"/>
+                        <segue destination="KqI-Z1-Mml" kind="relationship" relationship="viewControllers" id="jtV-Ty-1QZ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dd9-eB-sdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-375" y="132"/>
+        </scene>
+        <!--Item 3-->
+        <scene sceneID="CIh-6y-Wui">
+            <objects>
+                <viewController id="KqI-Z1-Mml" customClass="ThirdViewController" customModule="AutoLayoutConstraints" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="INX-L5-1NX"/>
+                        <viewControllerLayoutGuide type="bottom" id="OI5-kr-KY5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1dn-LK-k3v">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 3" id="wUi-9B-1X8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oyl-ZN-lx0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="1233"/>
         </scene>
     </scenes>
 </document>
