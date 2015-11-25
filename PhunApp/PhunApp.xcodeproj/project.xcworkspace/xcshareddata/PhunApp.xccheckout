@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>33D7CD05-6688-42FA-9D17-40A409700EAC</string>
+	<string>B43F42D2-B48E-42AE-9ACB-BB4403235327</string>
 	<key>IDESourceControlProjectName</key>
-	<string>AutoLayoutConstraints</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>ACB536E0CBC1A930B3F0346D0EC9620362D61C62</key>
 		<string>https://github.com/runrunrun/iOS-Tutorials.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>AutoLayoutConstraints/AutoLayoutConstraints.xcodeproj</string>
+	<string>PhunApp/PhunApp.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>ACB536E0CBC1A930B3F0346D0EC9620362D61C62</key>
