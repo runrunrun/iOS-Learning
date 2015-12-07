@@ -10,7 +10,6 @@ import UIKit
 
 class HomeCell: UICollectionViewCell {
     
-    @IBOutlet weak var headingLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subtitleLabel: UILabel!
     @IBOutlet weak var summaryLabel: UILabel!

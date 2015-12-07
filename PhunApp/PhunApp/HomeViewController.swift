@@ -11,12 +11,11 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
+    let cellHeight = CGFloat(200)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        
     }
     
     override func viewWillLayoutSubviews() {
@@ -29,6 +28,7 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     // MARK: - UICollectionViewDataSource
     
@@ -49,6 +49,7 @@ class HomeViewController: UIViewController {
     // MARK: - UICollectionViewDelegateFlowLayout
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
+        // Caculate collection cell sizes based on size class
         var width = collectionView.frame.width
         if self.view.respondsToSelector("traitCollection") {
             if self.view.traitCollection.horizontalSizeClass == UIUserInterfaceSizeClass.Regular {
@@ -56,9 +57,8 @@ class HomeViewController: UIViewController {
             }
         }
         
-        return CGSizeMake(width, 200)
+        return CGSizeMake(width, self.cellHeight)
     }
-    
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
         return 1
@@ -71,6 +71,7 @@ class HomeViewController: UIViewController {
     
     // MARK: - UIContentContainer
     
+    // Detect screen size changes. e.g screen orientation changes
     override func traitCollectionDidChange(previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         self.collectionView.performBatchUpdates({ () -> Void in
@@ -78,7 +79,6 @@ class HomeViewController: UIViewController {
         })
     }
 
-    
     /*
     // MARK: - Navigation
 

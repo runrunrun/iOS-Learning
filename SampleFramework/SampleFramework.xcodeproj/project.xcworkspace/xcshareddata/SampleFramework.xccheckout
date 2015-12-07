@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B43F42D2-B48E-42AE-9ACB-BB4403235327</string>
+	<string>76320D29-29F0-4F15-9726-33E294E50A4F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>PhunApp</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>ACB536E0CBC1A930B3F0346D0EC9620362D61C62</key>
 		<string>https://github.com/runrunrun/iOS-Tutorials.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PhunApp/PhunApp.xcodeproj</string>
+	<string>SampleFramework/SampleFramework.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>ACB536E0CBC1A930B3F0346D0EC9620362D61C62</key>

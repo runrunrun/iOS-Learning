@@ -54,7 +54,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="260" height="205"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Title Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EC-dq-Op9">
-                                                    <rect key="frame" x="8" y="37" width="244" height="21"/>
+                                                    <rect key="frame" x="8" y="37" width="244" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -91,7 +91,6 @@
                                             <constraint firstItem="3W9-Ab-TJn" firstAttribute="leading" secondItem="XHI-kA-D5b" secondAttribute="leadingMargin" id="zjv-8i-TYa"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="headingLabel" destination="6EC-dq-Op9" id="dWd-TI-iXP"/>
                                             <outlet property="imageView" destination="x6a-c8-0kv" id="cB0-14-4U0"/>
                                             <outlet property="subtitleLabel" destination="3W9-Ab-TJn" id="oOz-of-YzL"/>
                                             <outlet property="summaryLabel" destination="MqP-Ta-BvL" id="zR8-5o-AVb"/>

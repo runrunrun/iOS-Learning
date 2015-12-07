@@ -15,6 +15,7 @@
 		1E4D46B61C0524DB009BFBB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D46B51C0524DB009BFBB1 /* HomeViewController.swift */; };
 		1E4D46B81C0524E8009BFBB1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D46B71C0524E8009BFBB1 /* DetailViewController.swift */; };
 		1E4D46BA1C052561009BFBB1 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D46B91C052561009BFBB1 /* HomeCell.swift */; };
+		1E95B4A51C0CCB4900794EEB /* PhunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E95B4A41C0CCB4900794EEB /* PhunModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		1E4D46B51C0524DB009BFBB1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1E4D46B71C0524E8009BFBB1 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1E4D46B91C052561009BFBB1 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		1E95B4A41C0CCB4900794EEB /* PhunModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhunModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				1E4D46B51C0524DB009BFBB1 /* HomeViewController.swift */,
 				1E4D46B71C0524E8009BFBB1 /* DetailViewController.swift */,
 				1E4D46B91C052561009BFBB1 /* HomeCell.swift */,
+				1E95B4A41C0CCB4900794EEB /* PhunModel.swift */,
 				1E4D46991C05231E009BFBB1 /* Main.storyboard */,
 				1E4D469C1C05231E009BFBB1 /* Images.xcassets */,
 				1E4D469E1C05231E009BFBB1 /* LaunchScreen.xib */,
@@ -221,6 +224,7 @@
 				1E4D46961C05231E009BFBB1 /* AppDelegate.swift in Sources */,
 				1E4D46B61C0524DB009BFBB1 /* HomeViewController.swift in Sources */,
 				1E4D46BA1C052561009BFBB1 /* HomeCell.swift in Sources */,
+				1E95B4A51C0CCB4900794EEB /* PhunModel.swift in Sources */,
 				1E4D46B81C0524E8009BFBB1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 				1E4D46B11C05231E009BFBB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E4D46B21C05231E009BFBB1 /* Build configuration list for PBXNativeTarget "PhunAppTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				1E4D46B41C05231E009BFBB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
