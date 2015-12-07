@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>76320D29-29F0-4F15-9726-33E294E50A4F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SampleFramework</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>ACB536E0CBC1A930B3F0346D0EC9620362D61C62</key>
 		<string>https://github.com/runrunrun/iOS-Tutorials.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SampleFramework/SampleFramework.xcodeproj/project.xcworkspace</string>
+	<string>SampleFramework/SampleFramework.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>ACB536E0CBC1A930B3F0346D0EC9620362D61C62</key>

@@ -17,6 +17,8 @@
 		1E38C9F31C16086E00279915 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E38C9F21C16086E00279915 /* Images.xcassets */; };
 		1E38C9F61C16086E00279915 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E38C9F41C16086E00279915 /* LaunchScreen.xib */; };
 		1E38CA021C16086E00279915 /* SampleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E38CA011C16086E00279915 /* SampleTestTests.swift */; };
+		1EED3E051C16131B00647BA7 /* SampleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E38C9C51C1607B500279915 /* SampleFramework.framework */; };
+		1EED3E061C16131B00647BA7 /* SampleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E38C9C51C1607B500279915 /* SampleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,20 @@
 			remoteInfo = SampleFramework;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EED3E071C16131B00647BA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1EED3E061C16131B00647BA7 /* SampleFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1E38C9C51C1607B500279915 /* SampleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EED3E051C16131B00647BA7 /* SampleFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +265,7 @@
 				1E38C9E31C16086E00279915 /* Sources */,
 				1E38C9E41C16086E00279915 /* Frameworks */,
 				1E38C9E51C16086E00279915 /* Resources */,
+				1EED3E071C16131B00647BA7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +301,7 @@
 		1E38C9BC1C1607B500279915 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = learning;
 				TargetAttributes = {
@@ -586,6 +605,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -600,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = SampleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -659,6 +680,7 @@
 				1E38C9DD1C1607B500279915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E38C9DE1C1607B500279915 /* Build configuration list for PBXNativeTarget "SampleFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +689,7 @@
 				1E38C9E01C1607B500279915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E38CA031C16086E00279915 /* Build configuration list for PBXNativeTarget "SampleTest" */ = {
 			isa = XCConfigurationList;
@@ -675,6 +698,7 @@
 				1E38CA051C16086E00279915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E38CA061C16086E00279915 /* Build configuration list for PBXNativeTarget "SampleTestTests" */ = {
 			isa = XCConfigurationList;
@@ -683,6 +707,7 @@
 				1E38CA081C16086E00279915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
