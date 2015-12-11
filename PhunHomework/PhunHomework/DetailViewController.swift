@@ -39,6 +39,21 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func actionButtonPressed(sender: AnyObject) {
+        if let modelInstance = self.model {
+            let string: String = modelInstance.title!
+            
+            guard let url = NSURL(string: modelInstance.imageUrl!) else {
+                return
+            }
+            
+            let activityViewController = UIActivityViewController(activityItems: [string, url], applicationActivities: nil)
+            navigationController?.presentViewController(activityViewController, animated: true) {
+                // ...
+            }
+        }
+
+    }
 
     /*
     // MARK: - Navigation

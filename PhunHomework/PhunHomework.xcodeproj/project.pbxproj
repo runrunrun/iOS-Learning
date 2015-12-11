@@ -17,7 +17,7 @@
 		1E20322E1C1B4E99002372B1 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322B1C1B4E99002372B1 /* HomeCell.swift */; settings = {ASSET_TAGS = (); }; };
 		1E20322F1C1B4E99002372B1 /* PhunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322C1C1B4E99002372B1 /* PhunModel.swift */; settings = {ASSET_TAGS = (); }; };
 		1E2032301C1B4E99002372B1 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322D1C1B4E99002372B1 /* WebServiceManager.swift */; settings = {ASSET_TAGS = (); }; };
-		1E2032371C1B4F27002372B1 /* UIImageView+AFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032361C1B4F27002372B1 /* UIImageView+AFNetworking.swift */; settings = {ASSET_TAGS = (); }; };
+		1E2032371C1B4F27002372B1 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */; settings = {ASSET_TAGS = (); }; };
 		1E2032391C1B6804002372B1 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032381C1B6804002372B1 /* NSDateExtension.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		1E20322B1C1B4E99002372B1 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		1E20322C1C1B4E99002372B1 /* PhunModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhunModel.swift; sourceTree = "<group>"; };
 		1E20322D1C1B4E99002372B1 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
-		1E2032361C1B4F27002372B1 /* UIImageView+AFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+AFNetworking.swift"; sourceTree = "<group>"; };
+		1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		1E2032381C1B6804002372B1 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +87,7 @@
 		1E2032321C1B4EC5002372B1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1E2032361C1B4F27002372B1 /* UIImageView+AFNetworking.swift */,
+				1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */,
 				1E2032381C1B6804002372B1 /* NSDateExtension.swift */,
 			);
 			name = Shared;
@@ -172,7 +172,7 @@
 				1E20322F1C1B4E99002372B1 /* PhunModel.swift in Sources */,
 				1E2032391C1B6804002372B1 /* NSDateExtension.swift in Sources */,
 				1E20322E1C1B4E99002372B1 /* HomeCell.swift in Sources */,
-				1E2032371C1B4F27002372B1 /* UIImageView+AFNetworking.swift in Sources */,
+				1E2032371C1B4F27002372B1 /* UIImageViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
