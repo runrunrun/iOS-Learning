@@ -16,7 +16,7 @@ class PhunModel: NSObject {
     var phone: String?
     var date: String?
     var timeStamp: String?
-    var image: String?
+    var imageUrl: String?
     
     class func modelWithDictionary(dict: [String: AnyObject]) -> PhunModel {
         let model = PhunModel()
@@ -27,7 +27,7 @@ class PhunModel: NSObject {
         model.phone = dict["phone"] as? String
         model.date = dict["date"] as? String
         model.timeStamp = dict["timestamp"] as? String
-        model.image = dict["image"] as? String
+        model.imageUrl = dict["image"] as? String
         return model
     }
 }

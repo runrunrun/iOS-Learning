@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E4D468F1C05231E009BFBB1"
-               BuildableName = "PhunApp.app"
-               BlueprintName = "PhunApp"
-               ReferencedContainer = "container:PhunApp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E4D46A41C05231E009BFBB1"
-               BuildableName = "PhunAppTests.xctest"
-               BlueprintName = "PhunAppTests"
-               ReferencedContainer = "container:PhunApp.xcodeproj">
+               BlueprintIdentifier = "1E2032111C1B4E77002372B1"
+               BuildableName = "PhunHomework.app"
+               BlueprintName = "PhunHomework"
+               ReferencedContainer = "container:PhunHomework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E4D46A41C05231E009BFBB1"
-               BuildableName = "PhunAppTests.xctest"
-               BlueprintName = "PhunAppTests"
-               ReferencedContainer = "container:PhunApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E4D468F1C05231E009BFBB1"
-            BuildableName = "PhunApp.app"
-            BlueprintName = "PhunApp"
-            ReferencedContainer = "container:PhunApp.xcodeproj">
+            BlueprintIdentifier = "1E2032111C1B4E77002372B1"
+            BuildableName = "PhunHomework.app"
+            BlueprintName = "PhunHomework"
+            ReferencedContainer = "container:PhunHomework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E4D468F1C05231E009BFBB1"
-            BuildableName = "PhunApp.app"
-            BlueprintName = "PhunApp"
-            ReferencedContainer = "container:PhunApp.xcodeproj">
+            BlueprintIdentifier = "1E2032111C1B4E77002372B1"
+            BuildableName = "PhunHomework.app"
+            BlueprintName = "PhunHomework"
+            ReferencedContainer = "container:PhunHomework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -98,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E4D468F1C05231E009BFBB1"
-            BuildableName = "PhunApp.app"
-            BlueprintName = "PhunApp"
-            ReferencedContainer = "container:PhunApp.xcodeproj">
+            BlueprintIdentifier = "1E2032111C1B4E77002372B1"
+            BuildableName = "PhunHomework.app"
+            BlueprintName = "PhunHomework"
+            ReferencedContainer = "container:PhunHomework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

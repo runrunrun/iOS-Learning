@@ -20,11 +20,12 @@ class HomeViewController: UIViewController {
         
         // Fetch feed content and create model instances
         let url = "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
+        
         WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
             
             for object in dataArray {
                 guard let dict = object as? [String: String] else {
-                    print("Not a dictionar")
+                    print("Not a dictionary")
                     return
                 }
                 let model = PhunModel.modelWithDictionary(dict)
@@ -56,11 +57,22 @@ class HomeViewController: UIViewController {
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("homeCell", forIndexPath: indexPath) as! HomeCell
         let model = self.models[indexPath.row]
-        cell.dateLabel.text = model.date
+        if let dateString = model.date {
+            cell.dateLabel.text = NSDate.formatDateString(dateString)
+        }
+        
         cell.titleLabel.text = model.title
         cell.locationLabel.text = model.location1
         cell.summaryLabel.text = model.summary
+        if let url = NSURL(string: model.imageUrl!) {
+            cell.imageView.setImageWithUrl(url)
+        }
+        
         return cell
+    }
+
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
     }
 
     
@@ -97,14 +109,21 @@ class HomeViewController: UIViewController {
         })
     }
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        let cell = sender as! UICollectionViewCell
+        let indexPath = self.collectionView!.indexPathForCell(cell)
+        
+        let detailViewController =  segue.destinationViewController as! DetailViewController
+        if let row = indexPath?.row {
+            detailViewController.model = self.models[row]
+        }
     }
-    */
+
 
 }
