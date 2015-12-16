@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:3DTouchPeekPop.xcodeproj">
+      location = "self:3DTouchPeek2.xcodeproj">
    </FileRef>
 </Workspace>

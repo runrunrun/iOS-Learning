@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>3DTouchPeekPop.xcscheme</key>
+		<key>3DTouchPeek2.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E20F38B1C20C28200D1C446</key>
+		<key>1E20F3F11C20E24E00D1C446</key>
 		<dict>
 			<key>primary</key>
 			<true/>

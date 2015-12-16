@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E20F3901C20C28200D1C446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F38F1C20C28200D1C446 /* AppDelegate.swift */; };
-		1E20F3921C20C28200D1C446 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F3911C20C28200D1C446 /* MasterViewController.swift */; };
-		1E20F3941C20C28200D1C446 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F3931C20C28200D1C446 /* DetailViewController.swift */; };
-		1E20F3971C20C28200D1C446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E20F3951C20C28200D1C446 /* Main.storyboard */; };
-		1E20F3991C20C28200D1C446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E20F3981C20C28200D1C446 /* Assets.xcassets */; };
-		1E20F39C1C20C28200D1C446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E20F39A1C20C28200D1C446 /* LaunchScreen.storyboard */; };
+		1E20F3F61C20E24E00D1C446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F3F51C20E24E00D1C446 /* AppDelegate.swift */; };
+		1E20F3F81C20E24E00D1C446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F3F71C20E24E00D1C446 /* ViewController.swift */; };
+		1E20F3FB1C20E24E00D1C446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E20F3F91C20E24E00D1C446 /* Main.storyboard */; };
+		1E20F3FD1C20E24E00D1C446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E20F3FC1C20E24E00D1C446 /* Assets.xcassets */; };
+		1E20F4001C20E24E00D1C446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E20F3FE1C20E24E00D1C446 /* LaunchScreen.storyboard */; };
+		1E20F4081C20E55C00D1C446 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F4071C20E55C00D1C446 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E20F38C1C20C28200D1C446 /* 3DTouchPeekPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchPeekPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E20F38F1C20C28200D1C446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E20F3911C20C28200D1C446 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		1E20F3931C20C28200D1C446 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		1E20F3961C20C28200D1C446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E20F3981C20C28200D1C446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E20F39B1C20C28200D1C446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1E20F39D1C20C28200D1C446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E20F3F21C20E24E00D1C446 /* 3DTouchPeek2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchPeek2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E20F3F51C20E24E00D1C446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E20F3F71C20E24E00D1C446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E20F3FA1C20E24E00D1C446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E20F3FC1C20E24E00D1C446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E20F3FF1C20E24E00D1C446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E20F4011C20E24E00D1C446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E20F4071C20E55C00D1C446 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E20F3891C20C28200D1C446 /* Frameworks */ = {
+		1E20F3EF1C20E24E00D1C446 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E20F3831C20C28200D1C446 = {
+		1E20F3E91C20E24E00D1C446 = {
 			isa = PBXGroup;
 			children = (
-				1E20F38E1C20C28200D1C446 /* 3DTouchPeekPop */,
-				1E20F38D1C20C28200D1C446 /* Products */,
+				1E20F3F41C20E24E00D1C446 /* 3DTouchPeek2 */,
+				1E20F3F31C20E24E00D1C446 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1E20F38D1C20C28200D1C446 /* Products */ = {
+		1E20F3F31C20E24E00D1C446 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E20F38C1C20C28200D1C446 /* 3DTouchPeekPop.app */,
+				1E20F3F21C20E24E00D1C446 /* 3DTouchPeek2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E20F38E1C20C28200D1C446 /* 3DTouchPeekPop */ = {
+		1E20F3F41C20E24E00D1C446 /* 3DTouchPeek2 */ = {
 			isa = PBXGroup;
 			children = (
-				1E20F38F1C20C28200D1C446 /* AppDelegate.swift */,
-				1E20F3911C20C28200D1C446 /* MasterViewController.swift */,
-				1E20F3931C20C28200D1C446 /* DetailViewController.swift */,
-				1E20F3951C20C28200D1C446 /* Main.storyboard */,
-				1E20F3981C20C28200D1C446 /* Assets.xcassets */,
-				1E20F39A1C20C28200D1C446 /* LaunchScreen.storyboard */,
-				1E20F39D1C20C28200D1C446 /* Info.plist */,
+				1E20F3F51C20E24E00D1C446 /* AppDelegate.swift */,
+				1E20F3F71C20E24E00D1C446 /* ViewController.swift */,
+				1E20F4071C20E55C00D1C446 /* PhotoViewController.swift */,
+				1E20F3F91C20E24E00D1C446 /* Main.storyboard */,
+				1E20F3FC1C20E24E00D1C446 /* Assets.xcassets */,
+				1E20F3FE1C20E24E00D1C446 /* LaunchScreen.storyboard */,
+				1E20F4011C20E24E00D1C446 /* Info.plist */,
 			);
-			path = 3DTouchPeekPop;
+			path = 3DTouchPeek2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E20F38B1C20C28200D1C446 /* 3DTouchPeekPop */ = {
+		1E20F3F11C20E24E00D1C446 /* 3DTouchPeek2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E20F3A01C20C28200D1C446 /* Build configuration list for PBXNativeTarget "3DTouchPeekPop" */;
+			buildConfigurationList = 1E20F4041C20E24E00D1C446 /* Build configuration list for PBXNativeTarget "3DTouchPeek2" */;
 			buildPhases = (
-				1E20F3881C20C28200D1C446 /* Sources */,
-				1E20F3891C20C28200D1C446 /* Frameworks */,
-				1E20F38A1C20C28200D1C446 /* Resources */,
+				1E20F3EE1C20E24E00D1C446 /* Sources */,
+				1E20F3EF1C20E24E00D1C446 /* Frameworks */,
+				1E20F3F01C20E24E00D1C446 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 3DTouchPeekPop;
-			productName = 3DTouchPeekPop;
-			productReference = 1E20F38C1C20C28200D1C446 /* 3DTouchPeekPop.app */;
+			name = 3DTouchPeek2;
+			productName = 3DTouchPeek2;
+			productReference = 1E20F3F21C20E24E00D1C446 /* 3DTouchPeek2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1E20F3841C20C28200D1C446 /* Project object */ = {
+		1E20F3EA1C20E24E00D1C446 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Learning;
 				TargetAttributes = {
-					1E20F38B1C20C28200D1C446 = {
+					1E20F3F11C20E24E00D1C446 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 1E20F3871C20C28200D1C446 /* Build configuration list for PBXProject "3DTouchPeekPop" */;
+			buildConfigurationList = 1E20F3ED1C20E24E00D1C446 /* Build configuration list for PBXProject "3DTouchPeek2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 1E20F3831C20C28200D1C446;
-			productRefGroup = 1E20F38D1C20C28200D1C446 /* Products */;
+			mainGroup = 1E20F3E91C20E24E00D1C446;
+			productRefGroup = 1E20F3F31C20E24E00D1C446 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E20F38B1C20C28200D1C446 /* 3DTouchPeekPop */,
+				1E20F3F11C20E24E00D1C446 /* 3DTouchPeek2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E20F38A1C20C28200D1C446 /* Resources */ = {
+		1E20F3F01C20E24E00D1C446 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E20F39C1C20C28200D1C446 /* LaunchScreen.storyboard in Resources */,
-				1E20F3991C20C28200D1C446 /* Assets.xcassets in Resources */,
-				1E20F3971C20C28200D1C446 /* Main.storyboard in Resources */,
+				1E20F4001C20E24E00D1C446 /* LaunchScreen.storyboard in Resources */,
+				1E20F3FD1C20E24E00D1C446 /* Assets.xcassets in Resources */,
+				1E20F3FB1C20E24E00D1C446 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E20F3881C20C28200D1C446 /* Sources */ = {
+		1E20F3EE1C20E24E00D1C446 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E20F3941C20C28200D1C446 /* DetailViewController.swift in Sources */,
-				1E20F3921C20C28200D1C446 /* MasterViewController.swift in Sources */,
-				1E20F3901C20C28200D1C446 /* AppDelegate.swift in Sources */,
+				1E20F3F81C20E24E00D1C446 /* ViewController.swift in Sources */,
+				1E20F3F61C20E24E00D1C446 /* AppDelegate.swift in Sources */,
+				1E20F4081C20E55C00D1C446 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E20F3951C20C28200D1C446 /* Main.storyboard */ = {
+		1E20F3F91C20E24E00D1C446 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1E20F3961C20C28200D1C446 /* Base */,
+				1E20F3FA1C20E24E00D1C446 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1E20F39A1C20C28200D1C446 /* LaunchScreen.storyboard */ = {
+		1E20F3FE1C20E24E00D1C446 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1E20F39B1C20C28200D1C446 /* Base */,
+				1E20F3FF1C20E24E00D1C446 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1E20F39E1C20C28200D1C446 /* Debug */ = {
+		1E20F4021C20E24E00D1C446 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		1E20F39F1C20C28200D1C446 /* Release */ = {
+		1E20F4031C20E24E00D1C446 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,24 +249,26 @@
 			};
 			name = Release;
 		};
-		1E20F3A11C20C28200D1C446 /* Debug */ = {
+		1E20F4051C20E24E00D1C446 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = 3DTouchPeekPop/Info.plist;
+				INFOPLIST_FILE = 3DTouchPeek2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-DTouchPeekPop";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-DTouchPeek2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1E20F3A21C20C28200D1C446 /* Release */ = {
+		1E20F4061C20E24E00D1C446 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = 3DTouchPeekPop/Info.plist;
+				INFOPLIST_FILE = 3DTouchPeek2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-DTouchPeekPop";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-DTouchPeek2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -274,24 +276,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E20F3871C20C28200D1C446 /* Build configuration list for PBXProject "3DTouchPeekPop" */ = {
+		1E20F3ED1C20E24E00D1C446 /* Build configuration list for PBXProject "3DTouchPeek2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E20F39E1C20C28200D1C446 /* Debug */,
-				1E20F39F1C20C28200D1C446 /* Release */,
+				1E20F4021C20E24E00D1C446 /* Debug */,
+				1E20F4031C20E24E00D1C446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E20F3A01C20C28200D1C446 /* Build configuration list for PBXNativeTarget "3DTouchPeekPop" */ = {
+		1E20F4041C20E24E00D1C446 /* Build configuration list for PBXNativeTarget "3DTouchPeek2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E20F3A11C20C28200D1C446 /* Debug */,
-				1E20F3A21C20C28200D1C446 /* Release */,
+				1E20F4051C20E24E00D1C446 /* Debug */,
+				1E20F4061C20E24E00D1C446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1E20F3841C20C28200D1C446 /* Project object */;
+	rootObject = 1E20F3EA1C20E24E00D1C446 /* Project object */;
 }
