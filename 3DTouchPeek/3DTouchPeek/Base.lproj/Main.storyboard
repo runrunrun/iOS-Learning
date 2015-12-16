@@ -40,11 +40,34 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sky" translatesAutoresizingMaskIntoConstraints="NO" id="x5Q-wr-nnF">
+                                <rect key="frame" x="240" y="341" width="120" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="QIg-hs-XHe"/>
+                                    <constraint firstAttribute="height" constant="88" id="bkU-Jd-gY4"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yA-jh-kMe">
+                                <rect key="frame" x="240" y="341" width="120" height="88"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="vge-x9-m2e" kind="show" identifier="photoViewController" id="z6i-Re-jhu">
+                                        <segue key="commit" inheritsFrom="parent" id="XrS-Wi-U4E"/>
+                                        <segue key="preview" inheritsFrom="commit" id="Dxf-zt-xCv"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="8yA-jh-kMe" firstAttribute="centerX" secondItem="x5Q-wr-nnF" secondAttribute="centerX" id="02l-X2-J7Q"/>
+                            <constraint firstItem="8yA-jh-kMe" firstAttribute="width" secondItem="x5Q-wr-nnF" secondAttribute="width" id="3M3-Rg-42B"/>
+                            <constraint firstItem="8yA-jh-kMe" firstAttribute="centerY" secondItem="x5Q-wr-nnF" secondAttribute="centerY" id="3Ri-Re-Efv"/>
                             <constraint firstItem="eSu-Ov-F7i" firstAttribute="centerY" secondItem="HDJ-kz-Nqr" secondAttribute="centerY" id="GaR-g0-qrN"/>
+                            <constraint firstItem="x5Q-wr-nnF" firstAttribute="centerX" secondItem="HDJ-kz-Nqr" secondAttribute="centerX" id="J85-cm-WYb"/>
+                            <constraint firstItem="8yA-jh-kMe" firstAttribute="height" secondItem="x5Q-wr-nnF" secondAttribute="height" id="MDt-ZJ-lTV"/>
                             <constraint firstItem="eSu-Ov-F7i" firstAttribute="centerX" secondItem="HDJ-kz-Nqr" secondAttribute="centerX" id="ybG-9y-Ilg"/>
+                            <constraint firstItem="x5Q-wr-nnF" firstAttribute="top" secondItem="eSu-Ov-F7i" secondAttribute="bottom" constant="30" id="yzC-0b-JZZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="f1F-88-i1q"/>
@@ -55,6 +78,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCU-QJ-Qyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1466" y="1406"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UJ0-fK-r8P">
+            <objects>
+                <viewController id="vge-x9-m2e" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0z9-5t-sMG"/>
+                        <viewControllerLayoutGuide type="bottom" id="UKo-UD-ELA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bUq-cA-cOF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Sky" translatesAutoresizingMaskIntoConstraints="NO" id="udZ-f6-xJh">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="udZ-f6-xJh" firstAttribute="leading" secondItem="bUq-cA-cOF" secondAttribute="leading" id="CJh-7g-4gB"/>
+                            <constraint firstItem="UKo-UD-ELA" firstAttribute="top" secondItem="udZ-f6-xJh" secondAttribute="bottom" id="IEP-l0-rqs"/>
+                            <constraint firstItem="udZ-f6-xJh" firstAttribute="top" secondItem="0z9-5t-sMG" secondAttribute="bottom" id="UBt-H2-2kc"/>
+                            <constraint firstAttribute="trailing" secondItem="udZ-f6-xJh" secondAttribute="trailing" id="leq-sq-JSm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tUE-gs-VOg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2231" y="1406"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CoO-SB-jPc">
@@ -149,7 +202,11 @@
             <point key="canvasLocation" x="-104" y="931"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Sky" width="1469" height="857"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="VUR-gw-WvV"/>
+        <segue reference="z6i-Re-jhu"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  PhotoViewController.swift
 //  3DTouchPeek
 //
 //  Created by Hari Kunwar on 12/15/15.
@@ -8,28 +8,11 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class PhotoViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: UILabel!
-    
-    var detailText: String? {
-        didSet {
-            self.configureView()
-        }
-    }
-    
-    func configureView() {
-        // Update the user interface for the detail item.
-        if let detail = self.detailText {
-            if let label = self.titleLabel {
-                label.text = detail
-            }
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.configureView()
+
         // Do any additional setup after loading the view.
     }
 
@@ -46,6 +29,7 @@ class DetailViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+    
     }
     
 

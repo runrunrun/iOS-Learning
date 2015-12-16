@@ -13,6 +13,7 @@
 		1E20F3BA1C20C31700D1C446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E20F3B81C20C31700D1C446 /* LaunchScreen.storyboard */; };
 		1E20F3C61C20C39E00D1C446 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F3C51C20C39E00D1C446 /* MasterViewController.swift */; };
 		1E20F3C81C20C3AC00D1C446 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F3C71C20C3AC00D1C446 /* DetailViewController.swift */; };
+		1E20F3CA1C20D7B500D1C446 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20F3C91C20D7B500D1C446 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1E20F3BB1C20C31700D1C446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E20F3C51C20C39E00D1C446 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		1E20F3C71C20C3AC00D1C446 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1E20F3C91C20D7B500D1C446 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1E20F3AF1C20C31700D1C446 /* AppDelegate.swift */,
 				1E20F3C51C20C39E00D1C446 /* MasterViewController.swift */,
 				1E20F3C71C20C3AC00D1C446 /* DetailViewController.swift */,
+				1E20F3C91C20D7B500D1C446 /* PhotoViewController.swift */,
 				1E20F3B31C20C31700D1C446 /* Main.storyboard */,
 				1E20F3B61C20C31700D1C446 /* Assets.xcassets */,
 				1E20F3B81C20C31700D1C446 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E20F3B01C20C31700D1C446 /* AppDelegate.swift in Sources */,
+				1E20F3CA1C20D7B500D1C446 /* PhotoViewController.swift in Sources */,
 				1E20F3C61C20C39E00D1C446 /* MasterViewController.swift in Sources */,
 				1E20F3C81C20C3AC00D1C446 /* DetailViewController.swift in Sources */,
 			);
