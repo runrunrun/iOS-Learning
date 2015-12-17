@@ -17,10 +17,10 @@
 		1E20322E1C1B4E99002372B1 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322B1C1B4E99002372B1 /* HomeCell.swift */; };
 		1E20322F1C1B4E99002372B1 /* PhunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322C1C1B4E99002372B1 /* PhunModel.swift */; };
 		1E2032301C1B4E99002372B1 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322D1C1B4E99002372B1 /* WebServiceManager.swift */; };
-		1E2032371C1B4F27002372B1 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */; };
-		1E2032391C1B6804002372B1 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032381C1B6804002372B1 /* NSDateExtension.swift */; };
 		1EC2B3001C2336530009A4B7 /* PhunModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B2FE1C2336530009A4B7 /* PhunModel.xcdatamodeld */; };
 		1EC2B3081C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */; };
+		1EC2B30E1C2343A30009A4B7 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B30D1C2343A30009A4B7 /* NSDateExtension.swift */; };
+		1EC2B3101C2343B00009A4B7 /* UIImageView+AFNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B30F1C2343B00009A4B7 /* UIImageView+AFNetworking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +36,10 @@
 		1E20322B1C1B4E99002372B1 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		1E20322C1C1B4E99002372B1 /* PhunModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhunModel.swift; sourceTree = "<group>"; };
 		1E20322D1C1B4E99002372B1 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
-		1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
-		1E2032381C1B6804002372B1 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
 		1EC2B2FF1C2336530009A4B7 /* PhunModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhunModel.xcdatamodel; sourceTree = "<group>"; };
 		1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhunModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1EC2B30D1C2343A30009A4B7 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateExtension.swift; path = PhunHomework/NSDateExtension.swift; sourceTree = SOURCE_ROOT; };
+		1EC2B30F1C2343B00009A4B7 /* UIImageView+AFNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+AFNetworking.swift"; path = "PhunHomework/UIImageView+AFNetworking.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +91,8 @@
 		1E2032321C1B4EC5002372B1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */,
-				1E2032381C1B6804002372B1 /* NSDateExtension.swift */,
+				1EC2B30F1C2343B00009A4B7 /* UIImageView+AFNetworking.swift */,
+				1EC2B30D1C2343A30009A4B7 /* NSDateExtension.swift */,
 			);
 			name = Shared;
 			path = ../../PhunApp/PhunApp;
@@ -200,11 +200,11 @@
 				1E2032161C1B4E77002372B1 /* AppDelegate.swift in Sources */,
 				1E2032281C1B4E8B002372B1 /* HomeViewController.swift in Sources */,
 				1EC2B3001C2336530009A4B7 /* PhunModel.xcdatamodeld in Sources */,
+				1EC2B30E1C2343A30009A4B7 /* NSDateExtension.swift in Sources */,
 				1E20322A1C1B4E92002372B1 /* DetailViewController.swift in Sources */,
 				1E20322F1C1B4E99002372B1 /* PhunModel.swift in Sources */,
-				1E2032391C1B6804002372B1 /* NSDateExtension.swift in Sources */,
+				1EC2B3101C2343B00009A4B7 /* UIImageView+AFNetworking.swift in Sources */,
 				1E20322E1C1B4E99002372B1 /* HomeCell.swift in Sources */,
-				1E2032371C1B4F27002372B1 /* UIImageViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
