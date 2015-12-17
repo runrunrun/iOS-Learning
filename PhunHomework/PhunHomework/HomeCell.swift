@@ -9,7 +9,7 @@
 import UIKit
 
 class HomeCell: UICollectionViewCell {
-    
+
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!

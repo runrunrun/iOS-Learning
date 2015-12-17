@@ -18,16 +18,13 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        
+        // Fetch models from core data
         self.models = PhunModel.fetchModels()
         
         if self.models.count == 0 {
-            
             // Fetch feed content and create model instances
             let url = "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
-            
             WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
-                
                 for object in dataArray {
                     guard let dict = object as? [String: String] else {
                         print("Not a dictionary")
@@ -38,10 +35,7 @@ class HomeViewController: UIViewController {
                 }
                 self.collectionView.reloadData()
             }
-
         }
-        
-        
     }
     
     override func viewWillLayoutSubviews() {
@@ -54,7 +48,6 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
     // MARK: - UICollectionViewDataSource
     
@@ -72,6 +65,7 @@ class HomeViewController: UIViewController {
         cell.titleLabel.text = model.title
         cell.locationLabel.text = model.location1
         cell.summaryLabel.text = model.summary
+        cell.imageView.image = nil
         if let url = NSURL(string: model.imageUrl!) {
             cell.imageView.setImageWithUrl(url)
         }
@@ -82,7 +76,6 @@ class HomeViewController: UIViewController {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
     }
-
     
     // MARK: - UICollectionViewDelegateFlowLayout
     
@@ -105,7 +98,6 @@ class HomeViewController: UIViewController {
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
         return 1
     }
-
     
     // MARK: - UIContentContainer
     

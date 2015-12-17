@@ -9,7 +9,6 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-import Foundation
 import UIKit
 import CoreData
 
@@ -23,7 +22,6 @@ extension PhunModel {
     @NSManaged var date: String?
     @NSManaged var timeStamp: String?
     @NSManaged var imageUrl: String?
-
 
     class func modelWithDictionary(dict: [String: AnyObject]) -> PhunModel {
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate

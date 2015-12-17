@@ -11,7 +11,7 @@ import UIKit
 class WebServiceManager: NSObject {
     
     class func fetchDataFromUrl(urlString: String, completionHandler: ([AnyObject], NSError?) -> Void ) {
-        
+
         guard let url: NSURL = NSURL(string: urlString) else {
             print("Invalid url")
             return

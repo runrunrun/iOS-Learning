@@ -11,7 +11,6 @@ import UIKit
 class DetailViewController: UIViewController {
 
     var model: PhunModel?
-    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
@@ -52,7 +51,6 @@ class DetailViewController: UIViewController {
                 // ...
             }
         }
-
     }
 
     /*
