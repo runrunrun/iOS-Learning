@@ -12,13 +12,15 @@
 		1E20321B1C1B4E77002372B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2032191C1B4E77002372B1 /* Main.storyboard */; };
 		1E20321D1C1B4E77002372B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E20321C1C1B4E77002372B1 /* Assets.xcassets */; };
 		1E2032201C1B4E77002372B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E20321E1C1B4E77002372B1 /* LaunchScreen.storyboard */; };
-		1E2032281C1B4E8B002372B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032271C1B4E8B002372B1 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		1E20322A1C1B4E92002372B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032291C1B4E92002372B1 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		1E20322E1C1B4E99002372B1 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322B1C1B4E99002372B1 /* HomeCell.swift */; settings = {ASSET_TAGS = (); }; };
-		1E20322F1C1B4E99002372B1 /* PhunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322C1C1B4E99002372B1 /* PhunModel.swift */; settings = {ASSET_TAGS = (); }; };
-		1E2032301C1B4E99002372B1 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322D1C1B4E99002372B1 /* WebServiceManager.swift */; settings = {ASSET_TAGS = (); }; };
-		1E2032371C1B4F27002372B1 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */; settings = {ASSET_TAGS = (); }; };
-		1E2032391C1B6804002372B1 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032381C1B6804002372B1 /* NSDateExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		1E2032281C1B4E8B002372B1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032271C1B4E8B002372B1 /* HomeViewController.swift */; };
+		1E20322A1C1B4E92002372B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032291C1B4E92002372B1 /* DetailViewController.swift */; };
+		1E20322E1C1B4E99002372B1 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322B1C1B4E99002372B1 /* HomeCell.swift */; };
+		1E20322F1C1B4E99002372B1 /* PhunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322C1C1B4E99002372B1 /* PhunModel.swift */; };
+		1E2032301C1B4E99002372B1 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E20322D1C1B4E99002372B1 /* WebServiceManager.swift */; };
+		1E2032371C1B4F27002372B1 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */; };
+		1E2032391C1B6804002372B1 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2032381C1B6804002372B1 /* NSDateExtension.swift */; };
+		1EC2B3001C2336530009A4B7 /* PhunModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B2FE1C2336530009A4B7 /* PhunModel.xcdatamodeld */; };
+		1EC2B3081C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		1E20322D1C1B4E99002372B1 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
 		1E2032361C1B4F27002372B1 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		1E2032381C1B6804002372B1 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
+		1EC2B2FF1C2336530009A4B7 /* PhunModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhunModel.xcdatamodel; sourceTree = "<group>"; };
+		1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhunModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,17 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				1E2032321C1B4EC5002372B1 /* Shared */,
+				1EC2B3091C233F0C0009A4B7 /* Model */,
 				1E2032151C1B4E77002372B1 /* AppDelegate.swift */,
 				1E2032271C1B4E8B002372B1 /* HomeViewController.swift */,
 				1E2032291C1B4E92002372B1 /* DetailViewController.swift */,
 				1E2032171C1B4E77002372B1 /* ViewController.swift */,
 				1E20322B1C1B4E99002372B1 /* HomeCell.swift */,
-				1E20322C1C1B4E99002372B1 /* PhunModel.swift */,
 				1E20322D1C1B4E99002372B1 /* WebServiceManager.swift */,
 				1E2032191C1B4E77002372B1 /* Main.storyboard */,
-				1E20321C1C1B4E77002372B1 /* Assets.xcassets */,
 				1E20321E1C1B4E77002372B1 /* LaunchScreen.storyboard */,
-				1E2032211C1B4E77002372B1 /* Info.plist */,
+				1EC2B30C1C233F9F0009A4B7 /* Resources */,
+				1EC2B30B1C233F820009A4B7 /* Supporting Files */,
 			);
 			path = PhunHomework;
 			sourceTree = "<group>";
@@ -92,6 +96,32 @@
 			);
 			name = Shared;
 			path = ../../PhunApp/PhunApp;
+			sourceTree = "<group>";
+		};
+		1EC2B3091C233F0C0009A4B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E20322C1C1B4E99002372B1 /* PhunModel.swift */,
+				1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1EC2B30B1C233F820009A4B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E2032211C1B4E77002372B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EC2B30C1C233F9F0009A4B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EC2B2FE1C2336530009A4B7 /* PhunModel.xcdatamodeld */,
+				1E20321C1C1B4E77002372B1 /* Assets.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +195,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E2032181C1B4E77002372B1 /* ViewController.swift in Sources */,
+				1EC2B3081C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift in Sources */,
 				1E2032301C1B4E99002372B1 /* WebServiceManager.swift in Sources */,
 				1E2032161C1B4E77002372B1 /* AppDelegate.swift in Sources */,
 				1E2032281C1B4E8B002372B1 /* HomeViewController.swift in Sources */,
+				1EC2B3001C2336530009A4B7 /* PhunModel.xcdatamodeld in Sources */,
 				1E20322A1C1B4E92002372B1 /* DetailViewController.swift in Sources */,
 				1E20322F1C1B4E99002372B1 /* PhunModel.swift in Sources */,
 				1E2032391C1B6804002372B1 /* NSDateExtension.swift in Sources */,
@@ -322,8 +354,22 @@
 				1E2032261C1B4E77002372B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EC2B2FE1C2336530009A4B7 /* PhunModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EC2B2FF1C2336530009A4B7 /* PhunModel.xcdatamodel */,
+			);
+			currentVersion = 1EC2B2FF1C2336530009A4B7 /* PhunModel.xcdatamodel */;
+			path = PhunModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1E20320A1C1B4E77002372B1 /* Project object */;
 }

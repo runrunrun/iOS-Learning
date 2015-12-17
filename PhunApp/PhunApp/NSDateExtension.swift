@@ -15,17 +15,23 @@ class DateFormatter {
 
 extension NSDate {
     
-    class func formatDateString(dateString: String) -> String {
+    class func standardDateString(dateString: String) -> String {
         let dateFormatter = DateFormatter.sharedDateFormatter
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
         guard let date = dateFormatter.dateFromString(dateString) else {
             print("Invalid date")
             return ""
         }
-        dateFormatter.dateFormat = "MMM d, yyyy at h:mm a"
+        dateFormatter.dateFormat = "MMM d, yyyy"
+        let mmddyy = dateFormatter.stringFromDate(date)
+        
+        dateFormatter.dateFormat = "h:mm a"
         dateFormatter.AMSymbol = "am"
         dateFormatter.PMSymbol = "pm"
-    
-        return dateFormatter.stringFromDate(date)
+        let time = dateFormatter.stringFromDate(date)
+        
+        let formattedDate = mmddyy + " at " + time
+        
+        return formattedDate
     }
 }

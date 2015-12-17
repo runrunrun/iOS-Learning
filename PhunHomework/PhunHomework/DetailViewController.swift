@@ -22,7 +22,7 @@ class DetailViewController: UIViewController {
         
         if let modelInstance = self.model {
             if let dateString = modelInstance.date {
-                self.dateLabel.text = NSDate.formatDateString(dateString)
+                self.dateLabel.text = NSDate.standardDateString(dateString)
             }
 
             self.titleLabel.text = modelInstance.title

@@ -18,21 +18,29 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        // Fetch feed content and create model instances
-        let url = "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
         
-        WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
+        self.models = PhunModel.fetchModels()
+        
+        if self.models.count == 0 {
             
-            for object in dataArray {
-                guard let dict = object as? [String: String] else {
-                    print("Not a dictionary")
-                    return
+            // Fetch feed content and create model instances
+            let url = "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
+            
+            WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
+                
+                for object in dataArray {
+                    guard let dict = object as? [String: String] else {
+                        print("Not a dictionary")
+                        return
+                    }
+                    let model = PhunModel.modelWithDictionary(dict)
+                    self.models.append(model)
                 }
-                let model = PhunModel.modelWithDictionary(dict)
-                self.models.append(model)
-            }
                 self.collectionView.reloadData()
+            }
+
         }
+        
         
     }
     
@@ -58,7 +66,7 @@ class HomeViewController: UIViewController {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("homeCell", forIndexPath: indexPath) as! HomeCell
         let model = self.models[indexPath.row]
         if let dateString = model.date {
-            cell.dateLabel.text = NSDate.formatDateString(dateString)
+            cell.dateLabel.text = NSDate.standardDateString(dateString)
         }
         
         cell.titleLabel.text = model.title
