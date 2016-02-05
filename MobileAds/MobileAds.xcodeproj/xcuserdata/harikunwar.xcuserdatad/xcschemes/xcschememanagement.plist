@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PhunHomework.xcscheme</key>
+		<key>MobileAds.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E2032111C1B4E77002372B1</key>
+		<key>1E91FF401C6529F200751718</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1E91FEE21C642A7400751718</key>
+		<key>1E91FF4A1C6529F200751718</key>
 		<dict>
 			<key>primary</key>
 			<true/>

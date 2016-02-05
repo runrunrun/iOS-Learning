@@ -24,7 +24,7 @@
         <!--PHUN APP-->
         <scene sceneID="rrp-0J-KC7">
             <objects>
-                <viewController id="jb6-4d-kg9" customClass="HomeViewController" customModule="PhunHomework" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeViewController" id="jb6-4d-kg9" customClass="HomeViewController" customModule="PhunHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MuD-ju-thJ"/>
                         <viewControllerLayoutGuide type="bottom" id="aYB-TJ-aHu"/>
