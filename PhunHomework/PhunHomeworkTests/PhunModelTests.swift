@@ -20,7 +20,6 @@ class PhunModelTests: XCTestCase {
         super.tearDown()
     }
     
-    func test
     
     func testExample() {
         // This is an example of a functional test case.
