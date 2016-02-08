@@ -27,8 +27,6 @@ class InterstitialAdView: UIView, AdViewProtocol {
         }
     }
     
-    func makeAdRe
-    
 }
 
 
