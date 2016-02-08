@@ -10,7 +10,7 @@
 		1E91FF451C6529F200751718 /* MobileAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E91FF441C6529F200751718 /* MobileAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E91FF4C1C6529F200751718 /* MobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91FF411C6529F200751718 /* MobileAds.framework */; };
 		1E91FF511C6529F200751718 /* MobileAdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF501C6529F200751718 /* MobileAdsTests.swift */; };
-		1E91FF5E1C652D9E00751718 /* AdViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF5D1C652D9E00751718 /* AdViewProtocol.swift */; };
+		1E91FF5E1C652D9E00751718 /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF5D1C652D9E00751718 /* AdView.swift */; };
 		1E91FF621C6530F200751718 /* AdProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF611C6530F200751718 /* AdProtocol.swift */; };
 		1E91FF641C6539B100751718 /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF631C6539B100751718 /* BannerAdView.swift */; };
 		1E91FF681C6547B000751718 /* AdRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF671C6547B000751718 /* AdRequestProtocol.swift */; };
@@ -58,7 +58,7 @@
 		1E91FF4B1C6529F200751718 /* MobileAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E91FF501C6529F200751718 /* MobileAdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAdsTests.swift; sourceTree = "<group>"; };
 		1E91FF521C6529F200751718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E91FF5D1C652D9E00751718 /* AdViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdViewProtocol.swift; sourceTree = "<group>"; };
+		1E91FF5D1C652D9E00751718 /* AdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
 		1E91FF611C6530F200751718 /* AdProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdProtocol.swift; sourceTree = "<group>"; };
 		1E91FF631C6539B100751718 /* BannerAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
 		1E91FF671C6547B000751718 /* AdRequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdRequestProtocol.swift; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 				1E91FF461C6529F200751718 /* Info.plist */,
 				1E91FF711C656C8700751718 /* InterstitialAdView.swift */,
 				1E91FF631C6539B100751718 /* BannerAdView.swift */,
-				1E91FF5D1C652D9E00751718 /* AdViewProtocol.swift */,
+				1E91FF5D1C652D9E00751718 /* AdView.swift */,
 				1E91FF6B1C6554B600751718 /* AdRequest.swift */,
 				1E91FF6D1C655F1A00751718 /* AdManager.swift */,
 				1E91FF6F1C655F3A00751718 /* AdManagerProtocol.swift */,
@@ -408,7 +408,7 @@
 				1E91FF681C6547B000751718 /* AdRequestProtocol.swift in Sources */,
 				1E91FF641C6539B100751718 /* BannerAdView.swift in Sources */,
 				1E91FF621C6530F200751718 /* AdProtocol.swift in Sources */,
-				1E91FF5E1C652D9E00751718 /* AdViewProtocol.swift in Sources */,
+				1E91FF5E1C652D9E00751718 /* AdView.swift in Sources */,
 				1E91FF721C656C8700751718 /* InterstitialAdView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

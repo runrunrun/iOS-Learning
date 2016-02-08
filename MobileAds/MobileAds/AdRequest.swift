@@ -10,17 +10,9 @@ import Foundation
 
 public class AdRequest {
     public var adZone = ""
-    public var params: [String: AnyObject]?
-    
-    required public init(adZone: String, params: [String : AnyObject]) {
-        self.adZone = adZone
-        self.params = params
-    }
     
     required public init(adZone: String) {
         self.adZone = adZone
-        self.params = nil
     }
-    
     
 }

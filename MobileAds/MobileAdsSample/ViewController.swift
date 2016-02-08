@@ -14,7 +14,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let _ = BannerAdView(frame: CGRectMake(0, 0, 300, 10))
+        let bannerAdView = BannerAdView(frame: CGRectMake(0, 0, 300, 10))
+        bannerAdView.loadAd("", size: BannerAdSize.Normal) { (success, error) -> Void in
+        }
     }
 
     override func didReceiveMemoryWarning() {

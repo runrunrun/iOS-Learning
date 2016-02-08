@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InterstitialAdView: UIView, AdViewProtocol {
+class InterstitialAdView: UIView, AdView {
     
     var delegate: AdViewDelegate?
     var animated = false
