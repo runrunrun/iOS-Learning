@@ -13,7 +13,8 @@ import XCTest
 class HomeViewControllerTests: XCTestCase {
     
     var viewControllerUnderTest: HomeViewController!
-    
+    let url = "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -40,9 +41,42 @@ class HomeViewControllerTests: XCTestCase {
     }
     
     func testViewControllerConformsToUICollectionViewDataSource() {
-    
+        XCTAssert(self.viewControllerUnderTest.respondsToSelector(Selector("collectionView:numberOfItemsInSection:")), "ViewController under test does not implement collectionView:numberOfItemsInSection protocol method")
+        XCTAssert(self.viewControllerUnderTest.respondsToSelector(Selector("collectionView:cellForItemAtIndexPath:")), "ViewController under test does not implement collectionView:cellForItemAtIndexPath")
     }
     
+    
+    func testApiUrlReturnsData() {
+        let readyExpectation = expectationWithDescription("ready")
+        WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
+            XCTAssertNotNil(dataArray)
+            XCTAssert(dataArray.count > 0, "Empty data array")
+            readyExpectation.fulfill()
+        }
+        
+        waitForExpectationsWithTimeout(5) { (error) -> Void in
+            XCTAssertNil(error)
+        }
+    }
+    
+    
+    func testFetchingStarShipData() {
+        let readyExpectation = expectationWithDescription("ready")
+        WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
+            for object in dataArray {
+                guard let _ = object as? [String: String] else {
+                    XCTAssert(true, "Not correct dictionary format")
+                    readyExpectation.fulfill()
+                    return
+                }
+            }
+            readyExpectation.fulfill()
+        }
+        
+        waitForExpectationsWithTimeout(5) { (error) -> Void in
+            XCTAssertNil(error)
+        }
+    }
     
     func testExample() {
         // This is an example of a functional test case.
