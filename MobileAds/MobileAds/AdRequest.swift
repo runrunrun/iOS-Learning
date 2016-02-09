@@ -9,10 +9,10 @@
 import Foundation
 
 public class AdRequest {
-    public var adZone = ""
+    public var adId = ""
     
-    required public init(adZone: String) {
-        self.adZone = adZone
+    required public init(adId: String) {
+        self.adId = adId
     }
     
 }

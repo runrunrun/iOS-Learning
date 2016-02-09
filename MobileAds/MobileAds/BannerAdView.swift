@@ -28,14 +28,39 @@ public class BannerAdView: UIView, AdView {
     
     /// Banner view fade in animation.
     var animated = false
+
+    /// Ad view inside BannerAdView
+    private var adWebView: UIWebView = UIWebView()
     
+    /// Banner ad content provider that providers content to adView webView
+    private var adManager: AdManagerProtocol?
+    
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setup()
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setup()
+    }
+    
+    private func setup() {
+        adManager = 
+    }
+    
+}
+
+extension BannerAdView : AdManagerProtocol {
+
     /**
      Load a banner ad with given id and size.
      
      - Parameters:
      - adId: Banner ad identifier
-     - size: Banner ad size     
+     - size: Banner ad size
      */
+    
     public func loadAd(adId: String, size: BannerAdSize) {
         self.loadAd(adId, size: size, completion: nil)
     }
@@ -50,7 +75,7 @@ public class BannerAdView: UIView, AdView {
      */
     public func loadAd(adId: String, size: BannerAdSize, completion: ((success: Bool, error: ErrorType) -> Void)!) {
         /// Call loadAdRequest passing an adRequest instance
-        self.loadAdRequest(AdRequest(adZone: adId)) { (success, error) -> Void in
+        self.loadAdRequest(AdRequest(adId: adId)) { (success, error) -> Void in
             completion(success: success, error: error)
         }
     }
@@ -63,8 +88,15 @@ public class BannerAdView: UIView, AdView {
      - completion: Ad load request completion handler
      */
     public func loadAdRequest(request: AdRequest, completion: ((success: Bool, error: ErrorType) -> Void)!) {
-    
+        AdManager.sharedInstance.fetchAd(request) { (success, content) -> Void in
+            // Parse content to get html
+            // Load html in adWebView
+        }
     }
     
+    /// Cancel ad load request
+    func cancelAdRequest() {
     
+    }
+
 }

@@ -9,7 +9,9 @@
 import Foundation
 
 protocol AdManagerProtocol {
-    func sendAdRequest(request: AdRequestProtocol)
+    func loadAd(adId: String, size: BannerAdSize)
+    func loadAd(adId: String, size: BannerAdSize, completion: ((success: Bool, error: ErrorType) -> Void)!)
+    func loadAdRequest(request: AdRequest, completion: ((success: Bool, error: ErrorType) -> Void)!)
     func cancelAdRequest()
 }
 
