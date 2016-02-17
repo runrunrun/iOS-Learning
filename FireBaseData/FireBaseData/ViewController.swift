@@ -19,8 +19,6 @@ class ViewController: UIViewController {
         let myRootRef = Firebase(url:"https://learningfirebasedemo.firebaseio.com")
         // Write data to Firebase
         
-        
-        
         myRootRef.observeEventType(.Value, withBlock: { snapshot in
             if let snapshots = snapshot.children.allObjects as? [FDataSnapshot] {
                 let employees = snapshots[0]
