@@ -10,7 +10,7 @@
 		1E91FF451C6529F200751718 /* MobileAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E91FF441C6529F200751718 /* MobileAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E91FF4C1C6529F200751718 /* MobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E91FF411C6529F200751718 /* MobileAds.framework */; };
 		1E91FF511C6529F200751718 /* MobileAdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF501C6529F200751718 /* MobileAdsTests.swift */; };
-		1E91FF5E1C652D9E00751718 /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF5D1C652D9E00751718 /* AdView.swift */; };
+		1E91FF5E1C652D9E00751718 /* AdViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF5D1C652D9E00751718 /* AdViewProtocol.swift */; };
 		1E91FF641C6539B100751718 /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF631C6539B100751718 /* BannerAdView.swift */; };
 		1E91FF681C6547B000751718 /* AdRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF671C6547B000751718 /* AdRequestProtocol.swift */; };
 		1E91FF6C1C6554B600751718 /* AdRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF6B1C6554B600751718 /* AdRequest.swift */; };
@@ -60,7 +60,7 @@
 		1E91FF4B1C6529F200751718 /* MobileAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E91FF501C6529F200751718 /* MobileAdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAdsTests.swift; sourceTree = "<group>"; };
 		1E91FF521C6529F200751718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E91FF5D1C652D9E00751718 /* AdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
+		1E91FF5D1C652D9E00751718 /* AdViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdViewProtocol.swift; sourceTree = "<group>"; };
 		1E91FF631C6539B100751718 /* BannerAdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
 		1E91FF671C6547B000751718 /* AdRequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdRequestProtocol.swift; sourceTree = "<group>"; };
 		1E91FF6B1C6554B600751718 /* AdRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdRequest.swift; sourceTree = "<group>"; };
@@ -207,8 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				1E91FF6F1C655F3A00751718 /* AdManagerProtocol.swift */,
-				1E91FF6D1C655F1A00751718 /* AdManager.swift */,
 				1E91FFB31C6A79DD00751718 /* BannerAdManager.swift */,
+				1E91FF6D1C655F1A00751718 /* AdManager.swift */,
 			);
 			name = AdManger;
 			sourceTree = "<group>";
@@ -226,7 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				1E91FF631C6539B100751718 /* BannerAdView.swift */,
-				1E91FF5D1C652D9E00751718 /* AdView.swift */,
+				1E91FF5D1C652D9E00751718 /* AdViewProtocol.swift */,
 				1E91FF711C656C8700751718 /* InterstitialAdView.swift */,
 			);
 			name = AdView;
@@ -440,7 +440,7 @@
 				1E91FF681C6547B000751718 /* AdRequestProtocol.swift in Sources */,
 				1E91FF641C6539B100751718 /* BannerAdView.swift in Sources */,
 				1E91FFAF1C69763600751718 /* AdServiceManager.swift in Sources */,
-				1E91FF5E1C652D9E00751718 /* AdView.swift in Sources */,
+				1E91FF5E1C652D9E00751718 /* AdViewProtocol.swift in Sources */,
 				1E91FF721C656C8700751718 /* InterstitialAdView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -779,6 +779,7 @@
 				1E91FFA31C692A9C00751718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E91FFA41C692A9C00751718 /* Build configuration list for PBXNativeTarget "MobileAdsSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -787,6 +788,7 @@
 				1E91FFA61C692A9C00751718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E91FFA71C692A9C00751718 /* Build configuration list for PBXNativeTarget "MobileAdsSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -795,6 +797,7 @@
 				1E91FFA91C692A9C00751718 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -46,7 +46,7 @@ public class BannerAdView: UIView, AdView {
     }
     
     private func setup() {
-        adManager = 
+        adManager = BannerAdManager()
     }
     
 }
