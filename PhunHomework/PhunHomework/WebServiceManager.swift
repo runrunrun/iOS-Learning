@@ -10,6 +10,8 @@ import UIKit
 
 class WebServiceManager: NSObject {
     
+    static let phunwareFeedUrl =  "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
+    
     class func fetchDataFromUrl(urlString: String, completionHandler: ([AnyObject], NSError?) -> Void ) {
 
         guard let url: NSURL = NSURL(string: urlString) else {

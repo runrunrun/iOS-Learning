@@ -12,8 +12,6 @@ import XCTest
 
 class WebServiceManagerTests: XCTestCase {
     
-    let url = "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
-
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -26,7 +24,7 @@ class WebServiceManagerTests: XCTestCase {
     
     func testWebServiceCanFetchData() {
         let readyExpectation = expectationWithDescription("ready")
-        WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
+        WebServiceManager.fetchDataFromUrl(WebServiceManager.phunwareFeedUrl) { (dataArray, error) -> Void in
             readyExpectation.fulfill()
         }
         
@@ -35,11 +33,23 @@ class WebServiceManagerTests: XCTestCase {
         }
     }
     
-
-    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testApiResponsePerformance() {
+        self.measureBlock {
+            // Put the code you want to measure the time of here.
+            let readyExpectation = self.expectationWithDescription("ready")
+            WebServiceManager.fetchDataFromUrl(WebServiceManager.phunwareFeedUrl) { (dataArray, error) -> Void in
+                readyExpectation.fulfill()
+            }
+            
+            self.waitForExpectationsWithTimeout(1000) { (error) -> Void in
+                XCTAssertNil(error)
+            }
+        }
     }
     
     func testPerformanceExample() {

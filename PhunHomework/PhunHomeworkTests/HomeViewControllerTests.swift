@@ -7,13 +7,13 @@
 //
 
 import XCTest
+import UIKit
 
 @testable import PhunHomework
 
 class HomeViewControllerTests: XCTestCase {
     
     var viewControllerUnderTest: HomeViewController!
-    let url = "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
 
     override func setUp() {
         super.setUp()
@@ -45,10 +45,9 @@ class HomeViewControllerTests: XCTestCase {
         XCTAssert(self.viewControllerUnderTest.respondsToSelector(Selector("collectionView:cellForItemAtIndexPath:")), "ViewController under test does not implement collectionView:cellForItemAtIndexPath")
     }
     
-    
     func testApiUrlReturnsData() {
         let readyExpectation = expectationWithDescription("ready")
-        WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
+        WebServiceManager.fetchDataFromUrl(WebServiceManager.phunwareFeedUrl) { (dataArray, error) -> Void in
             XCTAssertNotNil(dataArray)
             XCTAssert(dataArray.count > 0, "Empty data array")
             readyExpectation.fulfill()
@@ -59,10 +58,9 @@ class HomeViewControllerTests: XCTestCase {
         }
     }
     
-    
     func testFetchingStarShipData() {
         let readyExpectation = expectationWithDescription("ready")
-        WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
+        WebServiceManager.fetchDataFromUrl(WebServiceManager.phunwareFeedUrl) { (dataArray, error) -> Void in
             for object in dataArray {
                 guard let _ = object as? [String: String] else {
                     XCTAssert(true, "Not correct dictionary format")
@@ -76,11 +74,6 @@ class HomeViewControllerTests: XCTestCase {
         waitForExpectationsWithTimeout(5) { (error) -> Void in
             XCTAssertNil(error)
         }
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {

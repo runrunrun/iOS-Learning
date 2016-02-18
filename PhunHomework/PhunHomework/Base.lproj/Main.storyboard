@@ -154,7 +154,7 @@
         <!--Detail View Controller-->
         <scene sceneID="dKj-GX-652">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="QYH-D6-fD6" customClass="DetailViewController" customModule="PhunHomework" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailViewController" automaticallyAdjustsScrollViewInsets="NO" id="QYH-D6-fD6" customClass="DetailViewController" customModule="PhunHomework" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HKT-9g-N62"/>
                         <viewControllerLayoutGuide type="bottom" id="EsE-Gz-aEU"/>

@@ -13,7 +13,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     let cellHeight = CGFloat(200)
     var models: [PhunModel] = []
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -23,8 +23,7 @@ class HomeViewController: UIViewController {
         
         if self.models.count == 0 {
             // Fetch feed content and create model instances
-            let url = "https://dl.dropboxusercontent.com/u/733674/PhunwareHomework/feed.json?dl=1"
-            WebServiceManager.fetchDataFromUrl(url) { (dataArray, error) -> Void in
+            WebServiceManager.fetchDataFromUrl(WebServiceManager.phunwareFeedUrl) { (dataArray, error) -> Void in
                 for object in dataArray {
                     guard let dict = object as? [String: String] else {
                         print("Not a dictionary")

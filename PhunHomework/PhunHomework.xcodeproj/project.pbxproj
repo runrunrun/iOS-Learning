@@ -21,6 +21,7 @@
 		1E91FEEE1C642CB000751718 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FEED1C642CB000751718 /* HomeViewControllerTests.swift */; };
 		1E91FF741C691EBA00751718 /* WebServiceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF731C691EBA00751718 /* WebServiceManagerTests.swift */; };
 		1E91FF761C69216B00751718 /* PhunModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF751C69216B00751718 /* PhunModelTests.swift */; };
+		1E9D080D1C7507F200D7258E /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D080C1C7507F200D7258E /* DetailViewControllerTests.swift */; };
 		1EC2B3001C2336530009A4B7 /* PhunModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B2FE1C2336530009A4B7 /* PhunModel.xcdatamodeld */; };
 		1EC2B3081C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */; };
 		1EC2B30E1C2343A30009A4B7 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B30D1C2343A30009A4B7 /* NSDateExtension.swift */; };
@@ -56,6 +57,7 @@
 		1E91FEED1C642CB000751718 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
 		1E91FF731C691EBA00751718 /* WebServiceManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManagerTests.swift; sourceTree = "<group>"; };
 		1E91FF751C69216B00751718 /* PhunModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhunModelTests.swift; sourceTree = "<group>"; };
+		1E9D080C1C7507F200D7258E /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
 		1EC2B2FF1C2336530009A4B7 /* PhunModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhunModel.xcdatamodel; sourceTree = "<group>"; };
 		1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhunModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1EC2B30D1C2343A30009A4B7 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateExtension.swift; path = PhunHomework/NSDateExtension.swift; sourceTree = SOURCE_ROOT; };
@@ -132,6 +134,7 @@
 			children = (
 				1E91FEE51C642A7400751718 /* PhunHomeworkTests.swift */,
 				1E91FEED1C642CB000751718 /* HomeViewControllerTests.swift */,
+				1E9D080C1C7507F200D7258E /* DetailViewControllerTests.swift */,
 				1E91FF731C691EBA00751718 /* WebServiceManagerTests.swift */,
 				1E91FF751C69216B00751718 /* PhunModelTests.swift */,
 				1E91FEE71C642A7400751718 /* Info.plist */,
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E91FF741C691EBA00751718 /* WebServiceManagerTests.swift in Sources */,
+				1E9D080D1C7507F200D7258E /* DetailViewControllerTests.swift in Sources */,
 				1E91FEE61C642A7400751718 /* PhunHomeworkTests.swift in Sources */,
 				1E91FF761C69216B00751718 /* PhunModelTests.swift in Sources */,
 				1E91FEEE1C642CB000751718 /* HomeViewControllerTests.swift in Sources */,
