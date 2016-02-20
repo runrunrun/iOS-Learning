@@ -26,6 +26,12 @@ class CreateAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func cancelButtonPressed(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true) { () -> Void in
+            
+        }
+    }
+    
     @IBAction func registerButtonPressed(sender: AnyObject) {
         let username = userNameField.text
         let email = emailField.text

@@ -10,6 +10,10 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,6 +37,34 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func loginButtonPressed(sender: AnyObject) {
+        
+        let email = emailField.text
+        let password = passwordField.text
+        
+        if email != "" && password != "" {
+            
+            // Login with the Firebase's authUser method
+            
+            DataService.sharedInstance.baseService.authUser(email, password: password, withCompletionBlock: { error, authData in
+                
+                if error != nil {
+                    print(error)
+                } else {
+                    // Be sure the correct uid is stored.
+                    NSUserDefaults.standardUserDefaults().setValue(authData.uid, forKey: "uid")
+                    
+                    // Enter the app!
+                    self.performSegueWithIdentifier("loggedIn", sender: nil)
+                }
+            })
+            
+        } else {
+            
+            // There was a problem            
+        }
+
+    }
     
 
     /*

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirebaseLogin/CreateAccountViewController.swift"
-            timestampString = "477624191.79164"
+            timestampString = "477628647.561644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "registerButtonPressed(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirebaseLogin/CreateAccountViewController.swift"
-            timestampString = "477624193.723276"
+            timestampString = "477628647.561644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "registerButtonPressed(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirebaseLogin/CreateAccountViewController.swift"
-            timestampString = "477624278.23686"
+            timestampString = "477628647.561644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "registerButtonPressed(_:)"
             landmarkType = "5">
             <Locations>
@@ -58,11 +58,11 @@
                   moduleName = "FirebaseLogin"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/harikunwar/Git/iOS-Tutorials/FirebaseLogin/FirebaseLogin/CreateAccountViewController.swift"
-                  timestampString = "477624587.961427"
+                  timestampString = "477629779.714813"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
                   offsetFromSymbolStart = "407">
                </Location>
                <Location
@@ -73,11 +73,11 @@
                   moduleName = "FirebaseLogin"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/harikunwar/Git/iOS-Tutorials/FirebaseLogin/FirebaseLogin/CreateAccountViewController.swift"
-                  timestampString = "477624587.961582"
+                  timestampString = "477629779.715026"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
                   offsetFromSymbolStart = "102">
                </Location>
             </Locations>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirebaseLogin/CreateAccountViewController.swift"
-            timestampString = "477624281.881815"
+            timestampString = "477628647.561644"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "registerButtonPressed(_:)"
             landmarkType = "5">
          </BreakpointContent>
