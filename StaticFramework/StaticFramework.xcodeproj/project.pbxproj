@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E7870E81C7F749500C6F360 /* StaticFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E7870E71C7F749500C6F360 /* StaticFramework.h */; };
+		1E7870EA1C7F749500C6F360 /* StaticFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7870E91C7F749500C6F360 /* StaticFramework.m */; };
+		1E7870F21C7F74C800C6F360 /* SFCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7870F11C7F74C800C6F360 /* SFCustomView.m */; };
+		1E7870F61C7F760600C6F360 /* StaticFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7870E71C7F749500C6F360 /* StaticFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7870F71C7F760600C6F360 /* StaticFramework.m in Headers */ = {isa = PBXBuildFile; fileRef = 1E7870E91C7F749500C6F360 /* StaticFramework.m */; };
+		1E7870F81C7F760600C6F360 /* SFCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7870F01C7F74C800C6F360 /* SFCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7870F91C7F760600C6F360 /* SFCustomView.m in Headers */ = {isa = PBXBuildFile; fileRef = 1E7870F11C7F74C800C6F360 /* SFCustomView.m */; };
+		1E7870FC1C7F7ACA00C6F360 /* SFModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7870FA1C7F7ACA00C6F360 /* SFModel.h */; };
+		1E7870FD1C7F7ACA00C6F360 /* SFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7870FB1C7F7ACA00C6F360 /* SFModel.m */; };
+		1E7870FE1C7F7B2D00C6F360 /* SFCustomView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1E7870F01C7F74C800C6F360 /* SFCustomView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1E7870E21C7F749500C6F360 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1E7870FE1C7F7B2D00C6F360 /* SFCustomView.h in CopyFiles */,
+				1E7870E81C7F749500C6F360 /* StaticFramework.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E7870E41C7F749500C6F360 /* libStaticFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7870E71C7F749500C6F360 /* StaticFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StaticFramework.h; sourceTree = "<group>"; };
+		1E7870E91C7F749500C6F360 /* StaticFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticFramework.m; sourceTree = "<group>"; };
+		1E7870F01C7F74C800C6F360 /* SFCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCustomView.h; sourceTree = "<group>"; };
+		1E7870F11C7F74C800C6F360 /* SFCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCustomView.m; sourceTree = "<group>"; };
+		1E7870FA1C7F7ACA00C6F360 /* SFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFModel.h; sourceTree = "<group>"; };
+		1E7870FB1C7F7ACA00C6F360 /* SFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E7870E11C7F749500C6F360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E7870DB1C7F749500C6F360 = {
+			isa = PBXGroup;
+			children = (
+				1E7870E61C7F749500C6F360 /* StaticFramework */,
+				1E7870E51C7F749500C6F360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E7870E51C7F749500C6F360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E7870E41C7F749500C6F360 /* libStaticFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E7870E61C7F749500C6F360 /* StaticFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1E7870E71C7F749500C6F360 /* StaticFramework.h */,
+				1E7870E91C7F749500C6F360 /* StaticFramework.m */,
+				1E7870F01C7F74C800C6F360 /* SFCustomView.h */,
+				1E7870F11C7F74C800C6F360 /* SFCustomView.m */,
+				1E7870FA1C7F7ACA00C6F360 /* SFModel.h */,
+				1E7870FB1C7F7ACA00C6F360 /* SFModel.m */,
+			);
+			path = StaticFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E7870F51C7F75D200C6F360 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7870F61C7F760600C6F360 /* StaticFramework.h in Headers */,
+				1E7870F81C7F760600C6F360 /* SFCustomView.h in Headers */,
+				1E7870F71C7F760600C6F360 /* StaticFramework.m in Headers */,
+				1E7870FC1C7F7ACA00C6F360 /* SFModel.h in Headers */,
+				1E7870F91C7F760600C6F360 /* SFCustomView.m in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E7870E31C7F749500C6F360 /* StaticFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7870ED1C7F749500C6F360 /* Build configuration list for PBXNativeTarget "StaticFramework" */;
+			buildPhases = (
+				1E7870E01C7F749500C6F360 /* Sources */,
+				1E7870E11C7F749500C6F360 /* Frameworks */,
+				1E7870E21C7F749500C6F360 /* CopyFiles */,
+				1E7870F51C7F75D200C6F360 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaticFramework;
+			productName = StaticFramework;
+			productReference = 1E7870E41C7F749500C6F360 /* libStaticFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E7870DC1C7F749500C6F360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Learning;
+				TargetAttributes = {
+					1E7870E31C7F749500C6F360 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1E7870DF1C7F749500C6F360 /* Build configuration list for PBXProject "StaticFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E7870DB1C7F749500C6F360;
+			productRefGroup = 1E7870E51C7F749500C6F360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E7870E31C7F749500C6F360 /* StaticFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7870E01C7F749500C6F360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7870FD1C7F7ACA00C6F360 /* SFModel.m in Sources */,
+				1E7870F21C7F74C800C6F360 /* SFCustomView.m in Sources */,
+				1E7870EA1C7F749500C6F360 /* StaticFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E7870EB1C7F749500C6F360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E7870EC1C7F749500C6F360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E7870EE1C7F749500C6F360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		1E7870EF1C7F749500C6F360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E7870DF1C7F749500C6F360 /* Build configuration list for PBXProject "StaticFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7870EB1C7F749500C6F360 /* Debug */,
+				1E7870EC1C7F749500C6F360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7870ED1C7F749500C6F360 /* Build configuration list for PBXNativeTarget "StaticFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7870EE1C7F749500C6F360 /* Debug */,
+				1E7870EF1C7F749500C6F360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E7870DC1C7F749500C6F360 /* Project object */;
+}

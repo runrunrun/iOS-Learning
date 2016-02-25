@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PhunHomework.xcscheme</key>
+		<key>SFSample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1E2032111C1B4E77002372B1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1E91FEE21C642A7400751718</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1EA2DFA31C7CF60600FBDBE0</key>
+		<key>1E7871071C7F7C3100C6F360</key>
 		<dict>
 			<key>primary</key>
 			<true/>

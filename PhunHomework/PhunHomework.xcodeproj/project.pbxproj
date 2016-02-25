@@ -22,6 +22,8 @@
 		1E91FF741C691EBA00751718 /* WebServiceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF731C691EBA00751718 /* WebServiceManagerTests.swift */; };
 		1E91FF761C69216B00751718 /* PhunModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91FF751C69216B00751718 /* PhunModelTests.swift */; };
 		1E9D080D1C7507F200D7258E /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9D080C1C7507F200D7258E /* DetailViewControllerTests.swift */; };
+		1EA2DFA71C7CF60600FBDBE0 /* PhunHomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2DFA61C7CF60600FBDBE0 /* PhunHomeworkUITests.swift */; };
+		1EA2DFAF1C7CF6E200FBDBE0 /* HomeViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA2DFAE1C7CF6E200FBDBE0 /* HomeViewControllerUITests.swift */; };
 		1EC2B3001C2336530009A4B7 /* PhunModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B2FE1C2336530009A4B7 /* PhunModel.xcdatamodeld */; };
 		1EC2B3081C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */; };
 		1EC2B30E1C2343A30009A4B7 /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2B30D1C2343A30009A4B7 /* NSDateExtension.swift */; };
@@ -30,6 +32,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		1E91FEE81C642A7400751718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E20320A1C1B4E77002372B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2032111C1B4E77002372B1;
+			remoteInfo = PhunHomework;
+		};
+		1EA2DFA91C7CF60600FBDBE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E20320A1C1B4E77002372B1 /* Project object */;
 			proxyType = 1;
@@ -58,6 +67,10 @@
 		1E91FF731C691EBA00751718 /* WebServiceManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManagerTests.swift; sourceTree = "<group>"; };
 		1E91FF751C69216B00751718 /* PhunModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhunModelTests.swift; sourceTree = "<group>"; };
 		1E9D080C1C7507F200D7258E /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		1EA2DFA41C7CF60600FBDBE0 /* PhunHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA2DFA61C7CF60600FBDBE0 /* PhunHomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhunHomeworkUITests.swift; sourceTree = "<group>"; };
+		1EA2DFA81C7CF60600FBDBE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EA2DFAE1C7CF6E200FBDBE0 /* HomeViewControllerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerUITests.swift; sourceTree = "<group>"; };
 		1EC2B2FF1C2336530009A4B7 /* PhunModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhunModel.xcdatamodel; sourceTree = "<group>"; };
 		1EC2B3071C2339DE0009A4B7 /* PhunModel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PhunModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1EC2B30D1C2343A30009A4B7 /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateExtension.swift; path = PhunHomework/NSDateExtension.swift; sourceTree = SOURCE_ROOT; };
@@ -79,6 +92,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA2DFA11C7CF60600FBDBE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +107,7 @@
 			children = (
 				1E2032141C1B4E77002372B1 /* PhunHomework */,
 				1E91FEE41C642A7400751718 /* PhunHomeworkTests */,
+				1EA2DFA51C7CF60600FBDBE0 /* PhunHomeworkUITests */,
 				1E2032131C1B4E77002372B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +117,7 @@
 			children = (
 				1E2032121C1B4E77002372B1 /* PhunHomework.app */,
 				1E91FEE31C642A7400751718 /* PhunHomeworkTests.xctest */,
+				1EA2DFA41C7CF60600FBDBE0 /* PhunHomeworkUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +162,16 @@
 				1E91FEE71C642A7400751718 /* Info.plist */,
 			);
 			path = PhunHomeworkTests;
+			sourceTree = "<group>";
+		};
+		1EA2DFA51C7CF60600FBDBE0 /* PhunHomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA2DFA61C7CF60600FBDBE0 /* PhunHomeworkUITests.swift */,
+				1EA2DFAE1C7CF6E200FBDBE0 /* HomeViewControllerUITests.swift */,
+				1EA2DFA81C7CF60600FBDBE0 /* Info.plist */,
+			);
+			path = PhunHomeworkUITests;
 			sourceTree = "<group>";
 		};
 		1EC2B3091C233F0C0009A4B7 /* Model */ = {
@@ -206,6 +238,24 @@
 			productReference = 1E91FEE31C642A7400751718 /* PhunHomeworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1EA2DFA31C7CF60600FBDBE0 /* PhunHomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA2DFAD1C7CF60600FBDBE0 /* Build configuration list for PBXNativeTarget "PhunHomeworkUITests" */;
+			buildPhases = (
+				1EA2DFA01C7CF60600FBDBE0 /* Sources */,
+				1EA2DFA11C7CF60600FBDBE0 /* Frameworks */,
+				1EA2DFA21C7CF60600FBDBE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA2DFAA1C7CF60600FBDBE0 /* PBXTargetDependency */,
+			);
+			name = PhunHomeworkUITests;
+			productName = PhunHomeworkUITests;
+			productReference = 1EA2DFA41C7CF60600FBDBE0 /* PhunHomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,6 +270,10 @@
 						CreatedOnToolsVersion = 7.0.1;
 					};
 					1E91FEE21C642A7400751718 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1E2032111C1B4E77002372B1;
+					};
+					1EA2DFA31C7CF60600FBDBE0 = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = 1E2032111C1B4E77002372B1;
 					};
@@ -240,6 +294,7 @@
 			targets = (
 				1E2032111C1B4E77002372B1 /* PhunHomework */,
 				1E91FEE21C642A7400751718 /* PhunHomeworkTests */,
+				1EA2DFA31C7CF60600FBDBE0 /* PhunHomeworkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +311,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1E91FEE11C642A7400751718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA2DFA21C7CF60600FBDBE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,6 +357,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA2DFA01C7CF60600FBDBE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA2DFA71C7CF60600FBDBE0 /* PhunHomeworkUITests.swift in Sources */,
+				1EA2DFAF1C7CF6E200FBDBE0 /* HomeViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -302,6 +373,11 @@
 			isa = PBXTargetDependency;
 			target = 1E2032111C1B4E77002372B1 /* PhunHomework */;
 			targetProxy = 1E91FEE81C642A7400751718 /* PBXContainerItemProxy */;
+		};
+		1EA2DFAA1C7CF60600FBDBE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2032111C1B4E77002372B1 /* PhunHomework */;
+			targetProxy = 1EA2DFA91C7CF60600FBDBE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -456,6 +532,32 @@
 			};
 			name = Release;
 		};
+		1EA2DFAB1C7CF60600FBDBE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhunHomeworkUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhunHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhunHomework;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1EA2DFAC1C7CF60600FBDBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhunHomeworkUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhunHomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhunHomework;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -485,6 +587,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		1EA2DFAD1C7CF60600FBDBE0 /* Build configuration list for PBXNativeTarget "PhunHomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA2DFAB1C7CF60600FBDBE0 /* Debug */,
+				1EA2DFAC1C7CF60600FBDBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
