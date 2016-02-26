@@ -5,7 +5,7 @@
   },
   "summary": "Learning to create pod.",
   "requires_arc": true,
-  "version": "0.1.0",
+  "version": "0.2.1",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +16,7 @@
   "homepage": "https://github.com/runrunrun/PodSampleFramework",
   "source": {
     "git": "https://github.com/runrunrun/PodSampleFramework.git",
-    "tag": "0.1.0"
+    "tag": "0.2.1"
   },
   "frameworks": "UIKit",
   "source_files": "PodSampleFramework/**/*.{h,m}"

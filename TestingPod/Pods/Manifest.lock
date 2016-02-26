@@ -1,5 +1,5 @@
 PODS:
-  - PodSampleFramework (0.1.0)
+  - PodSampleFramework (0.2.1)
 
 DEPENDENCIES:
   - PodSampleFramework (from `https://github.com/runrunrun/PodSampleFramework.git`)
@@ -10,10 +10,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   PodSampleFramework:
-    :commit: ae7cdd0fa2539c84787b7aba101fd9ee114f469a
+    :commit: b92a781f2ff73feec3d1624f43ee45707487aac7
     :git: https://github.com/runrunrun/PodSampleFramework.git
 
 SPEC CHECKSUMS:
-  PodSampleFramework: e91adf174f275736d6782b194d62af31f683ecd1
+  PodSampleFramework: e01cac5c02f1de5f0541b3ee23c2b861718d59bc
 
 COCOAPODS: 0.39.0
