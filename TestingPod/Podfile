@@ -3,9 +3,10 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
+source 'https://github.com/runrunrun/PodSampleFrameworkSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'TestingPod' do
-    pod 'PodSampleFramework', :git =>  'https://github.com/runrunrun/PodSampleFramework.git'
+    pod 'PodSampleFrameworkSpecs'
 end
 

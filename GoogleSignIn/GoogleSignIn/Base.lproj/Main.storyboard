@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GoogleSignIn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FwZ-ca-Rny" customClass="GIDSignInButton">
+                                <rect key="frame" x="235" y="487" width="130" height="73"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="IER-Lu-mWz"/>
+                                    <constraint firstAttribute="height" constant="73" id="oNl-LR-Zcn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FwZ-ca-Rny" secondAttribute="bottom" constant="40" id="KC2-Ym-soN"/>
+                            <constraint firstItem="FwZ-ca-Rny" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dfy-Bl-XxI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="j76-rn-siR" kind="show" identifier="contentSegue" id="qFt-oM-ODR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413" y="387"/>
+        </scene>
+        <!--Content View Controller-->
+        <scene sceneID="zLK-ud-WpA">
+            <objects>
+                <viewController id="j76-rn-siR" customClass="ContentViewController" customModule="GoogleSignIn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZhP-cW-59h"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y8G-yl-g0E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jvc-1P-qPE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logged In Successfully" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnL-mn-slU">
+                                <rect key="frame" x="212" y="290" width="177" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3O-aD-fEP">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="eBM-eJ-6x8"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Sign Out" id="fTU-Y4-M8m">
+                                        <connections>
+                                            <action selector="signOutButtonPressed:" destination="j76-rn-siR" id="NVU-jA-WDF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Y8G-yl-g0E" firstAttribute="top" secondItem="t3O-aD-fEP" secondAttribute="bottom" id="g9q-kO-dfA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="t3O-aD-fEP" secondAttribute="trailing" constant="-20" id="gPm-vy-B3i"/>
+                            <constraint firstItem="t3O-aD-fEP" firstAttribute="leading" secondItem="jvc-1P-qPE" secondAttribute="leadingMargin" constant="-20" id="hpT-po-Soj"/>
+                            <constraint firstItem="bnL-mn-slU" firstAttribute="centerY" secondItem="jvc-1P-qPE" secondAttribute="centerY" id="m9D-kt-GQE"/>
+                            <constraint firstItem="bnL-mn-slU" firstAttribute="centerX" secondItem="jvc-1P-qPE" secondAttribute="centerX" id="u7k-iC-dGI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WYS-cb-TPN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1170" y="387"/>
+        </scene>
+    </scenes>
+</document>
