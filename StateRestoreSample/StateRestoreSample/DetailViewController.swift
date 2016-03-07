@@ -11,6 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
 
     var model: PhunModel?
+    let modelEncodeKey = "phunModelKey"
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
@@ -19,18 +20,36 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         if let modelInstance = self.model {
             if let dateString = modelInstance.date {
                 self.dateLabel.text = NSDate.standardDateString(dateString)
             }
-
+            
             self.titleLabel.text = modelInstance.title
             self.descriptionLabel.text = modelInstance.summary
             if let url = NSURL(string: modelInstance.imageUrl!) {
                 self.imageView.setImageWithUrl(url)
             }
         }
-        
+    }
+    
+    override func encodeRestorableStateWithCoder(coder: NSCoder) {
+        // Encode model title
+        coder.encodeObject(self.model?.title, forKey: modelEncodeKey)
+        super.encodeRestorableStateWithCoder(coder)
+    }
+    
+    override func decodeRestorableStateWithCoder(coder: NSCoder) {
+        // Decode model title and use it to restore model instance
+        if let title = coder.decodeObjectForKey(modelEncodeKey) as? String {
+            self.model = PhunModel.fetchModel(title)
+        }
+        super.decodeRestorableStateWithCoder(coder)
     }
 
     override func didReceiveMemoryWarning() {

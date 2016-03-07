@@ -13,7 +13,7 @@ import UIKit
 import CoreData
 
 extension PhunModel {
-
+    
     @NSManaged var title: String?
     @NSManaged var summary: String?
     @NSManaged var location1: String?
@@ -69,6 +69,35 @@ extension PhunModel {
         }
      
         return models
+    }
+    
+    class func fetchModel(title: String) -> PhunModel? {
+        var models: [PhunModel] = []
+        
+        // Initialize Fetch Request
+        let fetchRequest = NSFetchRequest()
+        
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        
+        // Create Entity Description
+        let entityDescription = NSEntityDescription.entityForName("PhunModel", inManagedObjectContext: appDelegate.managedObjectContext)
+        
+        // Configure Fetch Request
+        fetchRequest.entity = entityDescription
+        
+        fetchRequest.predicate = NSPredicate(format: "title == %@", title)
+        
+        do {
+            if let result = try appDelegate.managedObjectContext.executeFetchRequest(fetchRequest) as? [PhunModel] {
+                models = result
+            }
+            
+        } catch {
+            let fetchError = error as NSError
+            print(fetchError)
+        }
+        
+        return models.first
     }
 
 }
