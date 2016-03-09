@@ -354,6 +354,7 @@
 				1E7871211C7F7C3100C6F360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
