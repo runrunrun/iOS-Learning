@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1EDEB7101C90EB5800D604CD /* UniversalStaticLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1EDEB7131C90EB5900D604CD /* Build configuration list for PBXAggregateTarget "UniversalStaticLib" */;
+			buildPhases = (
+				1EDEB7141C90EB6C00D604CD /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalStaticLib;
+			productName = UniversalStaticLib;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1EDEB5DC1C90C9A400D604CD /* StaticLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDEB5DB1C90C9A400D604CD /* StaticLib.m */; };
 		1EDEB5E41C90C9B400D604CD /* SLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDEB5E31C90C9B400D604CD /* SLBannerView.m */; };
@@ -304,6 +318,9 @@
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = 1EDEB5F71C90CC1000D604CD;
 					};
+					1EDEB7101C90EB5800D604CD = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 1EDEB5D11C90C9A400D604CD /* Build configuration list for PBXProject "StaticLib" */;
@@ -323,6 +340,7 @@
 				1EDEB5F71C90CC1000D604CD /* StaticLibSample */,
 				1EDEB60F1C90CC1100D604CD /* StaticLibSampleTests */,
 				1EDEB61A1C90CC1100D604CD /* StaticLibSampleUITests */,
+				1EDEB7101C90EB5800D604CD /* UniversalStaticLib */,
 			);
 		};
 /* End PBXProject section */
@@ -353,6 +371,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EDEB7141C90EB6C00D604CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target StaticLib ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\"\nBUILD_ROOT=\"${BUILD_ROOT}\" xcodebuild -target StaticLib -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1EDEB5D21C90C9A400D604CD /* Sources */ = {
@@ -510,6 +544,7 @@
 		1EDEB5E01C90C9A400D604CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -519,6 +554,7 @@
 		1EDEB5E11C90C9A400D604CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -597,6 +633,22 @@
 			};
 			name = Release;
 		};
+		1EDEB7111C90EB5900D604CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EDEB7121C90EB5900D604CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -616,6 +668,7 @@
 				1EDEB5E11C90C9A400D604CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EDEB6221C90CC1100D604CD /* Build configuration list for PBXNativeTarget "StaticLibSample" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +677,7 @@
 				1EDEB6241C90CC1100D604CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EDEB6251C90CC1100D604CD /* Build configuration list for PBXNativeTarget "StaticLibSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -632,12 +686,22 @@
 				1EDEB6271C90CC1100D604CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EDEB6281C90CC1100D604CD /* Build configuration list for PBXNativeTarget "StaticLibSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EDEB6291C90CC1100D604CD /* Debug */,
 				1EDEB62A1C90CC1100D604CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EDEB7131C90EB5900D604CD /* Build configuration list for PBXAggregateTarget "UniversalStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EDEB7111C90EB5900D604CD /* Debug */,
+				1EDEB7121C90EB5900D604CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
