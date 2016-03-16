@@ -29,7 +29,7 @@ class MasterViewControllerTest: XCTestCase {
         super.tearDown()
     }
     
-    func testCanAddingItems() {
+    func testAddingItemsInTableView() {
         let numberOfItems = Int(arc4random_uniform(20))
         let addButton = XCUIApplication().navigationBars["Master"].buttons["Add"]
         for _ in 1...numberOfItems {
@@ -52,5 +52,34 @@ class MasterViewControllerTest: XCTestCase {
         XCTAssertEqual(numberOfCell, numberOfItems)
     }
     
+    func testEditingItemsInTableView() {
+        
+        let app = XCUIApplication()
+        let masterNavigationBar = app.navigationBars["Master"]
+        let addButton = masterNavigationBar.buttons["Add"]
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        addButton.tap()
+        masterNavigationBar.buttons["Edit"].tap()
+        
+        let tablesQuery2 = app.tables
+        let cell = tablesQuery2.childrenMatchingType(.Cell).elementBoundByIndex(0)
+        var buttonTitle = "Delete " + cell.title
+        cell.buttons[buttonTitle].tap()
+        
+        
+        let deleteButton = tablesQuery2.buttons["Delete"]
+        deleteButton.tap()
+        
+//        let tablesQuery = tablesQuery2
+//        tablesQuery.buttons["Delete 2016-02-14 20:49:36 +0000"].tap()
+//        deleteButton.tap()
+//        cell.buttons["Delete 2016-02-14 20:49:35 +0000"].tap()
+//        deleteButton.tap()
+//        tablesQuery.buttons["Delete 2016-02-14 20:49:35 +0000"].tap()
+//        deleteButton.tap()
+        
+    }
     
 }
