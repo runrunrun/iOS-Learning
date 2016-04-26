@@ -1,0 +1,19 @@
+PODS:
+  - HKBlueLabel (1.0.0)
+
+DEPENDENCIES:
+  - HKBlueLabel (from `https://github.com/runrunrun/PodSample.git`)
+
+EXTERNAL SOURCES:
+  HKBlueLabel:
+    :git: https://github.com/runrunrun/PodSample.git
+
+CHECKOUT OPTIONS:
+  HKBlueLabel:
+    :commit: dd1b7a05ef2e43690c1930657ebba935698fcb26
+    :git: https://github.com/runrunrun/PodSample.git
+
+SPEC CHECKSUMS:
+  HKBlueLabel: cc94a71c1d073c83b3664450136899b38bd01b93
+
+COCOAPODS: 0.39.0

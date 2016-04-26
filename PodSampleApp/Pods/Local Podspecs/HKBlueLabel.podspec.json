@@ -1,0 +1,21 @@
+{
+  "name": "HKBlueLabel",
+  "version": "1.0.0",
+  "summary": "HKBlueLabel create a blue label.",
+  "homepage": "https://github.com/runrunrun/PodSample",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
+  "authors": "kunwar",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/runrunrun/PodSample.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "HKBlueLabel/*.{h,m}",
+  "public_header_files": "HKBlueLabel/HKBlueColorLabel.h",
+  "requires_arc": true
+}
