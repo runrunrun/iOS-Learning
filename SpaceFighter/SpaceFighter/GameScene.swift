@@ -74,7 +74,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
-    
     private func handleTouches(touches: Set<UITouch>) {
         for touch in touches {
             let touchLocation = touch.locationInNode(self)
@@ -112,7 +111,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     
     private func addAsteroid() {
-    
         let postfixIndex = Int(random(min: CGFloat(1), max: CGFloat(4)))
 
         // Create asteroid sprite
@@ -156,11 +154,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     private func spaceshipDidCollideWithAsteroid(spaceship: SKSpriteNode, asteroid: SKSpriteNode) {
         print("Game over")
         
+        // Prevent multiple collisions
+        spaceship.physicsBody?.categoryBitMask = 0
+        spaceship.physicsBody?.collisionBitMask = 0
+        spaceship.physicsBody?.contactTestBitMask = 0
+        
         // Create the actions
         let actionExplosion = SKAction.animateWithTextures([SKTexture(imageNamed: "explosion")], timePerFrame: 0.5)
         let actionExplosionDone = SKAction.removeFromParent()
-
-        spaceship.runAction(SKAction.sequence([actionExplosion, actionExplosionDone])) { 
+        spaceship.runAction(SKAction.sequence([actionExplosion, actionExplosionDone])) {
             // Show gameover screen
             let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(2 * Double(NSEC_PER_SEC)))
             dispatch_after(delayTime, dispatch_get_main_queue()) {
@@ -206,10 +208,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 projectileDidCollideWithAsteroid(contact.bodyA.node as! SKSpriteNode, asteroid: contact.bodyB.node as! SKSpriteNode)
             }
         default:
-            
+            print("Unknown collision")
             // Nobody expects this, so satisfy the compiler and catch
             // ourselves if we do something we didn't plan to
-            fatalError("other collision: \(contactMask)")
         }
         
     }
