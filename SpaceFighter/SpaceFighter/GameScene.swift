@@ -11,9 +11,9 @@ import SpriteKit
 struct PhysicsCategory {
     static let None         : UInt32 = 0
     static let All          : UInt32 = UInt32.max
-    static let Asteroid     : UInt32 = 0x1 << 1       // 1
-    static let Projectile   : UInt32 = 0x1 << 2      // 2
-    static let Spaceship    : UInt32 = 0x1 << 3      // 3
+    static let Asteroid     : UInt32 = 0b001
+    static let Projectile   : UInt32 = 0b010
+    static let Spaceship    : UInt32 = 0b100
 }
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
@@ -22,7 +22,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var asteroids: [SKSpriteNode] = []
 
     var lastTouch: CGPoint? = nil
-
     let playerSpeed: CGFloat = 150.0
 
     override func didMoveToView(view: SKView) {
@@ -31,9 +30,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         physicsWorld.contactDelegate = self
         
         // Setup spaceship
-        spaceship = self.childNodeWithName("spaceship") as? SKSpriteNode
-   
-    
+        if let spaceship = self.childNodeWithName("spaceship") as? SKSpriteNode {
+            self.spaceship = spaceship
+            spaceship.physicsBody?.dynamic = true // 2
+            spaceship.physicsBody?.categoryBitMask = PhysicsCategory.Spaceship
+            spaceship.physicsBody?.contactTestBitMask = PhysicsCategory.Asteroid 
+            spaceship.physicsBody?.collisionBitMask = PhysicsCategory.Asteroid
+        }
+        
         // Setup asteroids
         runAction(SKAction.repeatActionForever(
             SKAction.sequence([
@@ -117,38 +121,58 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         asteroid.physicsBody = SKPhysicsBody(rectangleOfSize: asteroid.size)
         asteroid.physicsBody?.dynamic = true // 2
         asteroid.physicsBody?.categoryBitMask = PhysicsCategory.Asteroid
-        asteroid.physicsBody?.contactTestBitMask = PhysicsCategory.Projectile | PhysicsCategory.Spaceship
-        asteroid.physicsBody?.collisionBitMask = PhysicsCategory.None
+        asteroid.physicsBody?.contactTestBitMask = PhysicsCategory.Spaceship | PhysicsCategory.Projectile
+        asteroid.physicsBody?.collisionBitMask = PhysicsCategory.Spaceship | PhysicsCategory.Projectile
         
-        // Determine where to spawn the monster along the Y axis
+        // Determine where to spawn the asteroid along the Y axis
         let actualY = random(min: asteroid.size.height/2, max: size.height - asteroid.size.height/2)
         
-        // Position the monster slightly off-screen along the right edge,
+        // Position the asteroid slightly off-screen along the right edge,
         // and along a random position along the Y axis as calculated above
         asteroid.position = CGPoint(x: size.width + asteroid.size.width/2, y: actualY)
         
-        // Add the monster to the scene
+        // Add asteroid to array
+        self.asteroids.append(asteroid)
+        
+        // Add the asteroid to the scene
         addChild(asteroid)
         
-        // Determine speed of the monster
+        // Determine speed of the asteroid
         let actualDuration = random(min: CGFloat(5.0), max: CGFloat(10.0))
         
         // Create the actions
         let actionMove = SKAction.moveTo(CGPoint(x: -asteroid.size.width/2, y: actualY), duration: NSTimeInterval(actualDuration))
         let actionMoveDone = SKAction.removeFromParent()
         asteroid.runAction(SKAction.sequence([actionMove, actionMoveDone]))
-        
-//        let loseAction = SKAction.runBlock() {
-//            let reveal = SKTransition.flipHorizontalWithDuration(0.5)
-//            let gameOverScene = GameOverScene(size: self.size, won: false)
-//            self.view?.presentScene(gameOverScene, transition: reveal)
-//        }
-        
-        asteroid.runAction(SKAction.sequence([actionMove, actionMoveDone]))
     }
     
-    // MARK :- Util
+    // MARK :- Collision handling
+    private func projectileDidCollideWithAsteroid(projectile: SKSpriteNode, asteroid: SKSpriteNode) {
+        print("Hit")
+        projectile.removeFromParent()
+        asteroid.removeFromParent()
+    }
     
+    private func spaceshipDidCollideWithAsteroid(spaceship: SKSpriteNode, asteroid: SKSpriteNode) {
+        print("Game over")
+        
+        // Create the actions
+        let actionExplosion = SKAction.animateWithTextures([SKTexture(imageNamed: "explosion")], timePerFrame: 0.5)
+        let actionExplosionDone = SKAction.removeFromParent()
+
+        spaceship.runAction(SKAction.sequence([actionExplosion, actionExplosionDone])) { 
+            // Show gameover screen
+            let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(2 * Double(NSEC_PER_SEC)))
+            dispatch_after(delayTime, dispatch_get_main_queue()) {
+                let reveal = SKTransition.flipHorizontalWithDuration(2.0)
+                let gameOverScene = GameOverScene(size: self.size, won: false)
+                self.view?.presentScene(gameOverScene, transition: reveal)
+            }
+        }
+    }
+    
+    
+    // MARK :- Util
     func random() -> CGFloat {
         return CGFloat(Float(arc4random()) / 0xFFFFFFFF)
     }
@@ -160,32 +184,34 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     // MARK : - SKPhysicsContactDelegate
     func didBeginContact(contact: SKPhysicsContact) {
         
-        var asteroidBody: SKPhysicsBody
-        var spaceshipBody: SKPhysicsBody
+        // Step 1. Bitwise OR the bodies' categories to find out what kind of contact we have
+        let contactMask = contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask
+        switch contactMask {
+        case PhysicsCategory.Asteroid | PhysicsCategory.Spaceship:
+            // Destroy asteroid and spaceship
+            
+            // Step 2. Disambiguate the bodies in the contact
+            if contact.bodyA.categoryBitMask == PhysicsCategory.Asteroid {
+                spaceshipDidCollideWithAsteroid(contact.bodyB.node as! SKSpriteNode, asteroid: contact.bodyA.node as! SKSpriteNode)
+            } else {
+                spaceshipDidCollideWithAsteroid(contact.bodyA.node as! SKSpriteNode, asteroid: contact.bodyB.node as! SKSpriteNode)
+            }
+            
+        case PhysicsCategory.Asteroid | PhysicsCategory.Projectile:
+            // Destroy asteroid and projectile
+            // Here we don't care which body is which, the scene is ending
+            if contact.bodyA.categoryBitMask == PhysicsCategory.Asteroid {
+                projectileDidCollideWithAsteroid(contact.bodyB.node as! SKSpriteNode, asteroid: contact.bodyA.node as! SKSpriteNode)
+            } else {
+                projectileDidCollideWithAsteroid(contact.bodyA.node as! SKSpriteNode, asteroid: contact.bodyB.node as! SKSpriteNode)
+            }
+        default:
+            
+            // Nobody expects this, so satisfy the compiler and catch
+            // ourselves if we do something we didn't plan to
+            fatalError("other collision: \(contactMask)")
+        }
         
-//        if ((contact.bodyA.node?.name?.containsString("asteroid")) != nil) {
-//            asteroidBody = contact.bodyA
-//        }
-//        
-//        
-//        var firstBody: SKPhysicsBody
-//        var secondBody: SKPhysicsBody
-//        if contact.bodyA.categoryBitMask < contact.bodyB.categoryBitMask {
-//            firstBody = contact.bodyA
-//            secondBody = contact.bodyB
-//        } else {
-//            firstBody = contact.bodyB
-//            secondBody = contact.bodyA
-//        }
-//        
-//        if ((firstBody.categoryBitMask & PhysicsCategory.Asteroid != 0) &&
-//            (secondBody.categoryBitMask & PhysicsCategory.Projectile != 0)) {
-//            projectileDidCollideWithMonster(firstBody.node as! SKSpriteNode, monster: secondBody.node as! SKSpriteNode)
-//        }
-    }
-    
-    func didEndContact(contact: SKPhysicsContact) {
-    
     }
 
 }
