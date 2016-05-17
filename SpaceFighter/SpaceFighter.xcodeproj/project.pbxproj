@@ -14,6 +14,7 @@
 		1E2F01921CEA450B008B599C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F01901CEA450B008B599C /* Main.storyboard */; };
 		1E2F01941CEA450B008B599C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F01931CEA450B008B599C /* Assets.xcassets */; };
 		1E2F01971CEA450B008B599C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F01951CEA450B008B599C /* LaunchScreen.storyboard */; };
+		1E581DE71CEAA30500D82AF1 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E581DE61CEAA30500D82AF1 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1E2F01931CEA450B008B599C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E2F01961CEA450B008B599C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E2F01981CEA450B008B599C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E581DE61CEAA30500D82AF1 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				1E2F01881CEA450B008B599C /* AppDelegate.swift */,
 				1E2F018A1CEA450B008B599C /* GameScene.sks */,
 				1E2F018C1CEA450B008B599C /* GameScene.swift */,
+				1E581DE61CEAA30500D82AF1 /* GameOverScene.swift */,
 				1E2F018E1CEA450B008B599C /* GameViewController.swift */,
 				1E2F01901CEA450B008B599C /* Main.storyboard */,
 				1E2F01931CEA450B008B599C /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			files = (
 				1E2F018D1CEA450B008B599C /* GameScene.swift in Sources */,
 				1E2F018F1CEA450B008B599C /* GameViewController.swift in Sources */,
+				1E581DE71CEAA30500D82AF1 /* GameOverScene.swift in Sources */,
 				1E2F01891CEA450B008B599C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +300,7 @@
 				1E2F019D1CEA450B008B599C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
