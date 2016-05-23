@@ -1,22 +1,37 @@
 [
-  {
-  "date": "05-01-2016",
-  "weather": "sunny",
-  "temp": "100",
-  },
-  {
-  "date": "05-01-2016",
-  "weather": "cloudy",
-  "temp": "80",
-  },
-  {
-  "date": "05-01-2016",
-  "weather": "raining",
-  "temp": "70",
-  },
-  {
-  "date": "05-01-2016",
-  "weather": "freezing",
-  "temp": "40",
-  }
+ {
+ "date": "05-01-2016",
+ "weather": "cloudy",
+ "temperature": "80",
+ },
+ {
+ "date": "05-02-2016",
+ "weather": "raining",
+ "temperature": "70",
+ },
+ {
+ "date": "05-03-2016",
+ "weather": "freezing",
+ "temperature": "40",
+ },
+ {
+ "date": "05-04-2016",
+ "weather": "cloudy",
+ "temperature": "80",
+ },
+ {
+ "date": "05-05-2016",
+ "weather": "raining",
+ "temperature": "70",
+ },
+ {
+ "date": "05-06-2016",
+ "weather": "freezing",
+ "temperature": "40",
+ },
+ {
+ "date": "05-07-2016",
+ "weather": "freezing",
+ "temperature": "40",
+ }
 ]

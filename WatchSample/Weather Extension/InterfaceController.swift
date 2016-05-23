@@ -1,8 +1,8 @@
 //
 //  InterfaceController.swift
-//  Weather Extension
+//  WatchSample
 //
-//  Created by Hari Kunwar on 5/18/16.
+//  Created by Hari Kunwar on 5/23/16.
 //  Copyright © 2016 Learning. All rights reserved.
 //
 
@@ -21,6 +21,14 @@ class InterfaceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        self.presentController([(name: "WeatherInterfaceController", context: 0),
+                                (name: "WeatherInterfaceController", context: 1),
+                                (name: "WeatherInterfaceController", context: 2),
+                                (name: "WeatherInterfaceController", context: 3),
+                                (name: "WeatherInterfaceController", context: 4),
+                                (name: "WeatherInterfaceController", context: 5),
+                                (name: "WeatherInterfaceController", context: 6)])
     }
 
     override func didDeactivate() {
