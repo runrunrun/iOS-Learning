@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EFAB6361D26939B00BF8DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAB6351D26939B00BF8DD1 /* AppDelegate.swift */; };
+		1EFAB6381D26939B00BF8DD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAB6371D26939B00BF8DD1 /* ViewController.swift */; };
+		1EFAB63B1D26939B00BF8DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAB6391D26939B00BF8DD1 /* Main.storyboard */; };
+		1EFAB63D1D26939B00BF8DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAB63C1D26939B00BF8DD1 /* Assets.xcassets */; };
+		1EFAB6401D26939B00BF8DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAB63E1D26939B00BF8DD1 /* LaunchScreen.storyboard */; };
+		1EFAB64E1D2693B600BF8DD1 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAB64D1D2693B600BF8DD1 /* IntentHandler.swift */; };
+		1EFAB6571D2693B600BF8DD1 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFAB6561D2693B600BF8DD1 /* IntentsUI.framework */; };
+		1EFAB65A1D2693B600BF8DD1 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAB6591D2693B600BF8DD1 /* IntentViewController.swift */; };
+		1EFAB65D1D2693B600BF8DD1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAB65B1D2693B600BF8DD1 /* MainInterface.storyboard */; };
+		1EFAB6611D2693B600BF8DD1 /* HiSirIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1EFAB6541D2693B600BF8DD1 /* HiSirIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1EFAB6641D2693B600BF8DD1 /* HiSirIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1EFAB64B1D2693B500BF8DD1 /* HiSirIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EFAB65F1D2693B600BF8DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EFAB62A1D26939B00BF8DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFAB6531D2693B600BF8DD1;
+			remoteInfo = HiSirIntentUI;
+		};
+		1EFAB6621D2693B600BF8DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EFAB62A1D26939B00BF8DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFAB64A1D2693B500BF8DD1;
+			remoteInfo = HiSirIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EFAB66B1D2693B600BF8DD1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1EFAB6641D2693B600BF8DD1 /* HiSirIntent.appex in Embed App Extensions */,
+				1EFAB6611D2693B600BF8DD1 /* HiSirIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EFAB6321D26939B00BF8DD1 /* HiSir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiSir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFAB6351D26939B00BF8DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EFAB6371D26939B00BF8DD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EFAB63A1D26939B00BF8DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EFAB63C1D26939B00BF8DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EFAB63F1D26939B00BF8DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EFAB6411D26939B00BF8DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFAB64B1D2693B500BF8DD1 /* HiSirIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HiSirIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFAB64D1D2693B600BF8DD1 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1EFAB64F1D2693B600BF8DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFAB6541D2693B600BF8DD1 /* HiSirIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HiSirIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFAB6561D2693B600BF8DD1 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		1EFAB6591D2693B600BF8DD1 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		1EFAB65C1D2693B600BF8DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1EFAB65E1D2693B600BF8DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EFAB62F1D26939B00BF8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFAB6481D2693B500BF8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFAB6511D2693B600BF8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFAB6571D2693B600BF8DD1 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EFAB6291D26939B00BF8DD1 = {
+			isa = PBXGroup;
+			children = (
+				1EFAB6341D26939B00BF8DD1 /* HiSir */,
+				1EFAB64C1D2693B600BF8DD1 /* HiSirIntent */,
+				1EFAB6581D2693B600BF8DD1 /* HiSirIntentUI */,
+				1EFAB6551D2693B600BF8DD1 /* Frameworks */,
+				1EFAB6331D26939B00BF8DD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EFAB6331D26939B00BF8DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EFAB6321D26939B00BF8DD1 /* HiSir.app */,
+				1EFAB64B1D2693B500BF8DD1 /* HiSirIntent.appex */,
+				1EFAB6541D2693B600BF8DD1 /* HiSirIntentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EFAB6341D26939B00BF8DD1 /* HiSir */ = {
+			isa = PBXGroup;
+			children = (
+				1EFAB6351D26939B00BF8DD1 /* AppDelegate.swift */,
+				1EFAB6371D26939B00BF8DD1 /* ViewController.swift */,
+				1EFAB6391D26939B00BF8DD1 /* Main.storyboard */,
+				1EFAB63C1D26939B00BF8DD1 /* Assets.xcassets */,
+				1EFAB63E1D26939B00BF8DD1 /* LaunchScreen.storyboard */,
+				1EFAB6411D26939B00BF8DD1 /* Info.plist */,
+			);
+			path = HiSir;
+			sourceTree = "<group>";
+		};
+		1EFAB64C1D2693B600BF8DD1 /* HiSirIntent */ = {
+			isa = PBXGroup;
+			children = (
+				1EFAB64D1D2693B600BF8DD1 /* IntentHandler.swift */,
+				1EFAB64F1D2693B600BF8DD1 /* Info.plist */,
+			);
+			path = HiSirIntent;
+			sourceTree = "<group>";
+		};
+		1EFAB6551D2693B600BF8DD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EFAB6561D2693B600BF8DD1 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EFAB6581D2693B600BF8DD1 /* HiSirIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				1EFAB6591D2693B600BF8DD1 /* IntentViewController.swift */,
+				1EFAB65B1D2693B600BF8DD1 /* MainInterface.storyboard */,
+				1EFAB65E1D2693B600BF8DD1 /* Info.plist */,
+			);
+			path = HiSirIntentUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EFAB6311D26939B00BF8DD1 /* HiSir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFAB6441D26939B00BF8DD1 /* Build configuration list for PBXNativeTarget "HiSir" */;
+			buildPhases = (
+				1EFAB62E1D26939B00BF8DD1 /* Sources */,
+				1EFAB62F1D26939B00BF8DD1 /* Frameworks */,
+				1EFAB6301D26939B00BF8DD1 /* Resources */,
+				1EFAB66B1D2693B600BF8DD1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EFAB6601D2693B600BF8DD1 /* PBXTargetDependency */,
+				1EFAB6631D2693B600BF8DD1 /* PBXTargetDependency */,
+			);
+			name = HiSir;
+			productName = HiSir;
+			productReference = 1EFAB6321D26939B00BF8DD1 /* HiSir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EFAB64A1D2693B500BF8DD1 /* HiSirIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFAB6681D2693B600BF8DD1 /* Build configuration list for PBXNativeTarget "HiSirIntent" */;
+			buildPhases = (
+				1EFAB6471D2693B500BF8DD1 /* Sources */,
+				1EFAB6481D2693B500BF8DD1 /* Frameworks */,
+				1EFAB6491D2693B500BF8DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiSirIntent;
+			productName = HiSirIntent;
+			productReference = 1EFAB64B1D2693B500BF8DD1 /* HiSirIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1EFAB6531D2693B600BF8DD1 /* HiSirIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFAB6651D2693B600BF8DD1 /* Build configuration list for PBXNativeTarget "HiSirIntentUI" */;
+			buildPhases = (
+				1EFAB6501D2693B600BF8DD1 /* Sources */,
+				1EFAB6511D2693B600BF8DD1 /* Frameworks */,
+				1EFAB6521D2693B600BF8DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiSirIntentUI;
+			productName = HiSirIntentUI;
+			productReference = 1EFAB6541D2693B600BF8DD1 /* HiSirIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EFAB62A1D26939B00BF8DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Learning;
+				TargetAttributes = {
+					1EFAB6311D26939B00BF8DD1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z99T2HWAJ6;
+						DevelopmentTeamName = "Hari Kunwar";
+						ProvisioningStyle = Automatic;
+					};
+					1EFAB64A1D2693B500BF8DD1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z99T2HWAJ6;
+						DevelopmentTeamName = "Hari Kunwar";
+						ProvisioningStyle = Automatic;
+					};
+					1EFAB6531D2693B600BF8DD1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z99T2HWAJ6;
+						DevelopmentTeamName = "Hari Kunwar";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1EFAB62D1D26939B00BF8DD1 /* Build configuration list for PBXProject "HiSir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EFAB6291D26939B00BF8DD1;
+			productRefGroup = 1EFAB6331D26939B00BF8DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFAB6311D26939B00BF8DD1 /* HiSir */,
+				1EFAB64A1D2693B500BF8DD1 /* HiSirIntent */,
+				1EFAB6531D2693B600BF8DD1 /* HiSirIntentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EFAB6301D26939B00BF8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFAB6401D26939B00BF8DD1 /* LaunchScreen.storyboard in Resources */,
+				1EFAB63D1D26939B00BF8DD1 /* Assets.xcassets in Resources */,
+				1EFAB63B1D26939B00BF8DD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFAB6491D2693B500BF8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFAB6521D2693B600BF8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFAB65D1D2693B600BF8DD1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EFAB62E1D26939B00BF8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFAB6381D26939B00BF8DD1 /* ViewController.swift in Sources */,
+				1EFAB6361D26939B00BF8DD1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFAB6471D2693B500BF8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFAB64E1D2693B600BF8DD1 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFAB6501D2693B600BF8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFAB65A1D2693B600BF8DD1 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EFAB6601D2693B600BF8DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EFAB6531D2693B600BF8DD1 /* HiSirIntentUI */;
+			targetProxy = 1EFAB65F1D2693B600BF8DD1 /* PBXContainerItemProxy */;
+		};
+		1EFAB6631D2693B600BF8DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EFAB64A1D2693B500BF8DD1 /* HiSirIntent */;
+			targetProxy = 1EFAB6621D2693B600BF8DD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EFAB6391D26939B00BF8DD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFAB63A1D26939B00BF8DD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFAB63E1D26939B00BF8DD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFAB63F1D26939B00BF8DD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFAB65B1D2693B600BF8DD1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFAB65C1D2693B600BF8DD1 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EFAB6421D26939B00BF8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EFAB6431D26939B00BF8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EFAB6451D26939B00BF8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HiSir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learned.HiSir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1EFAB6461D26939B00BF8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HiSir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learned.HiSir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1EFAB6661D2693B600BF8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiSirIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learned.HiSir.HiSirIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1EFAB6671D2693B600BF8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiSirIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learned.HiSir.HiSirIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1EFAB6691D2693B600BF8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiSirIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learned.HiSir.HiSirIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1EFAB66A1D2693B600BF8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HiSirIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Learned.HiSir.HiSirIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EFAB62D1D26939B00BF8DD1 /* Build configuration list for PBXProject "HiSir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFAB6421D26939B00BF8DD1 /* Debug */,
+				1EFAB6431D26939B00BF8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFAB6441D26939B00BF8DD1 /* Build configuration list for PBXNativeTarget "HiSir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFAB6451D26939B00BF8DD1 /* Debug */,
+				1EFAB6461D26939B00BF8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EFAB6651D2693B600BF8DD1 /* Build configuration list for PBXNativeTarget "HiSirIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFAB6661D2693B600BF8DD1 /* Debug */,
+				1EFAB6671D2693B600BF8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EFAB6681D2693B600BF8DD1 /* Build configuration list for PBXNativeTarget "HiSirIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFAB6691D2693B600BF8DD1 /* Debug */,
+				1EFAB66A1D2693B600BF8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EFAB62A1D26939B00BF8DD1 /* Project object */;
+}
