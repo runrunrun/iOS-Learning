@@ -46,6 +46,7 @@ class ViewController: UIViewController {
             }
             else {
                 // User did not give authorization
+                print("User rejected authorization");
             }
         }
         
