@@ -49,6 +49,45 @@ class ViewController: UIViewController {
             }
         }
         
+        // Get App Notification settings info
+        UNUserNotificationCenter.current().getNotificationSettings { (settings) in
+            
+            // Notification Access
+            if (settings.authorizationStatus == .authorized) {
+                print("Notifications authorized access")
+            }
+            else if (settings.authorizationStatus == .denied) {
+                print("Notifications denied access")
+            }
+            else if (settings.authorizationStatus == .notDetermined) {
+                print("Notifications access not determined")
+            }
+            
+            // Sound access
+            if (settings.soundSetting == .enabled) {
+                print("Notification can play sounds")
+            }
+            
+            // Badge access
+            if (settings.badgeSetting == .enabled) {
+                print("Notification will show badges")
+            }
+            
+            // Notification styles
+            if (settings.alertStyle == .banner) {
+                print("Notification will show as banner")
+            }
+            else if (settings.alertStyle == .alert) {
+                print("Notification will show as an alert")
+            }
+            
+            // Lock screen access
+            if (settings.lockScreenSetting == .enabled) {
+                print("Notification will show in lock screne")
+            }
+            
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
