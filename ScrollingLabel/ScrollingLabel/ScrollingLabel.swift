@@ -36,12 +36,12 @@ class ScrollingLabel: UILabel {
     override var textColor: UIColor! {
         didSet {
             // Not allowed to change text color while animating.
-            if isAnimating {
-                // Hide label text
-                label.text = ""
-                // Stop animation
-                self.animateText(animate: false, duration: 0.0)
-            }
+//            if isAnimating {
+//                // Hide label text
+//                label.text = ""
+//                // Stop animation
+//                self.animateText(animate: false, duration: 0.0)
+//            }
             
             // Prevent assigning clear text color
             if textColor != UIColor.clear {
@@ -66,7 +66,6 @@ class ScrollingLabel: UILabel {
     public func animateText(animate: Bool) {
         let defaultDuration = animate ? 10.0 : 0.4
         self.animateText(animate: animate, duration: defaultDuration, repeated: false)
-
     }
 
     /**
@@ -113,12 +112,6 @@ class ScrollingLabel: UILabel {
                     animationOptions.insert(.repeat)
                 }
                 
-                // Stop animation and animate back from current state.
-                if animate == false {
-                    animationOptions.insert(.beginFromCurrentState)
-                    animationOptions.remove(.autoreverse)
-                }
-                
                 animating = true
                 // Get animation options.
                 UIView.animate(withDuration: duration, delay: 0.0,
@@ -132,8 +125,9 @@ class ScrollingLabel: UILabel {
         }
         else { // Stop animation
             if self.animating {
+                self.label.layer.removeAllAnimations()
                 UIView.animate(withDuration: duration, delay: 0.0,
-                               options: [.curveEaseInOut, .beginFromCurrentState], animations: {
+                               options: [], animations: {
                                 self.label.frame.origin.x = 0
                     }, completion: { (complete) in
                         self.animating = false
