@@ -35,24 +35,10 @@ class ScrollingLabel: UILabel {
 
     override var textColor: UIColor! {
         didSet {
-            // Not allowed to change text color while animating.
-//            if isAnimating {
-//                // Hide label text
-//                label.text = ""
-//                // Stop animation
-//                self.animateText(animate: false, duration: 0.0)
-//            }
-            
             // Prevent assigning clear text color
             if textColor != UIColor.clear {
                 label.textColor = textColor
             }
-        }
-    }
-    
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if context == &textColorContext {
-            
         }
     }
     
