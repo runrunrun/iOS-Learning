@@ -35,6 +35,14 @@ class ScrollingLabel: UILabel {
 
     override var textColor: UIColor! {
         didSet {
+            // Not allowed to change text color while animating.
+            if isAnimating {
+                // Hide label text
+                label.text = ""
+                // Stop animation
+                self.animateText(animate: false, duration: 0.0)
+            }
+            
             // Prevent assigning clear text color
             if textColor != UIColor.clear {
                 label.textColor = textColor
@@ -52,14 +60,28 @@ class ScrollingLabel: UILabel {
     
     /**
      Start text scroll animation.
+     Label properties should not be updated during animation.
      - parameter animate: Whether to animate.
      */
     public func animateText(animate: Bool) {
-        self.animateText(animate: animate, duration: 10.0, repeated: false)
+        let defaultDuration = animate ? 10.0 : 0.4
+        self.animateText(animate: animate, duration: defaultDuration, repeated: false)
+
     }
 
     /**
      Start text scroll animation.
+     Label properties should not be updated during animation.
+     - parameter animate: Whether to animate.
+     - parameter duration: Animation duration.
+     */
+    public func animateText(animate: Bool, duration: Double) {
+        self.animateText(animate: animate, duration: duration, repeated: false)
+    }
+    
+    /**
+     Start text scroll animation.
+     Label properties should not be updated during animation.
      - parameter animate: Whether to animate.
      - parameter duration: Animation duration.
      - parameter repeated: Whether scroll animation is repeated indefinitely.
@@ -110,7 +132,7 @@ class ScrollingLabel: UILabel {
         }
         else { // Stop animation
             if self.animating {
-                UIView.animate(withDuration: 0.4, delay: 0.0,
+                UIView.animate(withDuration: duration, delay: 0.0,
                                options: [.curveEaseInOut, .beginFromCurrentState], animations: {
                                 self.label.frame.origin.x = 0
                     }, completion: { (complete) in

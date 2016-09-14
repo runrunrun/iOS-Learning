@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     @IBAction func animateText(_ sender: AnyObject) {
         if !label.isAnimating {
-            label.animateText(animate: true, duration: 5.0, repeated: true)
+            label.animateText(animate: true, duration: 5.0, repeated: false)
         }
         else {
             label.animateText(animate: false)
