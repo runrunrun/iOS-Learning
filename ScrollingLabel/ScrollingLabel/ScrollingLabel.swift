@@ -133,10 +133,9 @@ class ScrollingLabel: UILabel {
     private func setup() {
         self.numberOfLines = 1
         self.clipsToBounds = true
+        // Clip tail word
+        self.lineBreakMode = .byClipping
         self.addSubview(label)
-        
-        // Observer text color changes
-        self.addObserver(self, forKeyPath: "textColor", options: [.new], context: &textColorContext)
     }
     
     private func copyLabelProperties(fromLabel: UILabel, toLabel: UILabel) {
