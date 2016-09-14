@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FavoritesViewController.swift
 //  CloudKitSample
 //
 //  Created by Hari Kunwar on 8/22/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class FavoritesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
