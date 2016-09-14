@@ -30,20 +30,44 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhL-qh-x5B">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ShE-mR-zz0"/>
-                                    <constraint firstAttribute="width" constant="46" id="dGd-qG-o2d"/>
+                                    <constraint firstAttribute="width" constant="100" id="dGd-qG-o2d"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Animate"/>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gOp-mA-YlE"/>
+                                    <action selector="animateText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="217-Tr-8g5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-nw-j3o">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="EmN-Z9-vfX"/>
+                                    <constraint firstAttribute="height" constant="30" id="UcE-SL-qvV"/>
+                                </constraints>
+                                <state key="normal" title="Change Text"/>
+                                <connections>
+                                    <action selector="changeText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hud-fE-3Yc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmE-UL-phv">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="FxF-wI-neD"/>
+                                    <constraint firstAttribute="height" constant="30" id="Yo9-m6-e4Y"/>
+                                </constraints>
+                                <state key="normal" title="Change Color"/>
+                                <connections>
+                                    <action selector="changeTextColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDd-cn-5aO"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="kmE-UL-phv" firstAttribute="top" secondItem="gdn-nw-j3o" secondAttribute="bottom" constant="16" id="248-0r-hfx"/>
                             <constraint firstItem="wq8-Ie-ujf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="5nX-UW-NZe"/>
+                            <constraint firstItem="gdn-nw-j3o" firstAttribute="centerX" secondItem="VhL-qh-x5B" secondAttribute="centerX" id="Xzp-30-8PB"/>
                             <constraint firstItem="wq8-Ie-ujf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cHh-Hs-8S0"/>
                             <constraint firstItem="VhL-qh-x5B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="huN-lR-sWb"/>
                             <constraint firstItem="VhL-qh-x5B" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="n4K-5i-1mr"/>
+                            <constraint firstItem="gdn-nw-j3o" firstAttribute="top" secondItem="VhL-qh-x5B" secondAttribute="bottom" constant="16" id="t4k-eL-FSg"/>
+                            <constraint firstItem="kmE-UL-phv" firstAttribute="centerX" secondItem="gdn-nw-j3o" secondAttribute="centerX" id="yIg-f5-Lho"/>
                         </constraints>
                     </view>
                     <connections>
