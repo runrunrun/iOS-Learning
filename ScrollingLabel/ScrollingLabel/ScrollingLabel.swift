@@ -51,16 +51,6 @@ class ScrollingLabel: UILabel {
     }
     
     // MARK: - Public functions
-    
-    /**
-     Start text scroll animation.
-     Label properties should not be updated during animation.
-     - parameter animate: Whether to animate.
-     */
-    public func animateText(animate: Bool) {
-        let defaultDuration = animate ? 10.0 : 0.4
-        self.animateText(animate: animate, duration: defaultDuration, repeated: false)
-    }
 
     /**
      Start text scroll animation.
@@ -79,7 +69,7 @@ class ScrollingLabel: UILabel {
      - parameter duration: Animation duration.
      - parameter repeated: Whether scroll animation is repeated indefinitely.
      */
-    public func animateText(animate: Bool, duration: Double, repeated: Bool) {
+    public func animateText(animate: Bool, duration: Double = 10.0, repeated: Bool = false) {
         if animate {
             // Copy main label properties
             self.copyLabelProperties(fromLabel: self, toLabel: label)
@@ -169,7 +159,7 @@ class ScrollingLabel: UILabel {
     private func labelGradient() -> CAGradientLayer {
         let gl = CAGradientLayer()
         gl.colors = [UIColor(white: 1.0, alpha: 1.0).cgColor, UIColor(white: 1.0, alpha: 0.0).cgColor]
-        gl.startPoint = CGPoint(x: 0.9, y: 1.0)
+        gl.startPoint = CGPoint(x: 0.6, y: 1.0)
         gl.endPoint = CGPoint(x: 1.0, y: 1.0)
         return gl
     }
