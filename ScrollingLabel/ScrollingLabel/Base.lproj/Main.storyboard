@@ -18,13 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movieposter" translatesAutoresizingMaskIntoConstraints="NO" id="2Ri-Jo-piU"/>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zRu-CA-tfx">
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I saw some material on the web, but still can't quite get to where I want" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wq8-Ie-ujf" customClass="ScrollingLabel" customModule="ScrollingLabel" customModuleProvider="target">
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="8kO-yg-0Cc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhL-qh-x5B">
@@ -60,14 +64,22 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="2Ri-Jo-piU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0Yf-bw-ab6"/>
                             <constraint firstItem="kmE-UL-phv" firstAttribute="top" secondItem="gdn-nw-j3o" secondAttribute="bottom" constant="16" id="248-0r-hfx"/>
                             <constraint firstItem="wq8-Ie-ujf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="5nX-UW-NZe"/>
+                            <constraint firstItem="2Ri-Jo-piU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CEC-9a-Q1j"/>
+                            <constraint firstAttribute="trailing" secondItem="zRu-CA-tfx" secondAttribute="trailing" id="DxF-zm-KD5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2Ri-Jo-piU" secondAttribute="bottom" id="QRJ-yf-TTl"/>
+                            <constraint firstItem="zRu-CA-tfx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WKC-wZ-LRW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zRu-CA-tfx" secondAttribute="bottom" id="Wqr-fs-80s"/>
                             <constraint firstItem="gdn-nw-j3o" firstAttribute="centerX" secondItem="VhL-qh-x5B" secondAttribute="centerX" id="Xzp-30-8PB"/>
                             <constraint firstItem="wq8-Ie-ujf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cHh-Hs-8S0"/>
+                            <constraint firstItem="zRu-CA-tfx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dyW-cr-BeF"/>
                             <constraint firstItem="VhL-qh-x5B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="huN-lR-sWb"/>
                             <constraint firstItem="VhL-qh-x5B" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="n4K-5i-1mr"/>
                             <constraint firstItem="gdn-nw-j3o" firstAttribute="top" secondItem="VhL-qh-x5B" secondAttribute="bottom" constant="16" id="t4k-eL-FSg"/>
                             <constraint firstItem="kmE-UL-phv" firstAttribute="centerX" secondItem="gdn-nw-j3o" secondAttribute="centerX" id="yIg-f5-Lho"/>
+                            <constraint firstAttribute="trailing" secondItem="2Ri-Jo-piU" secondAttribute="trailing" id="yVx-H6-79q"/>
                         </constraints>
                     </view>
                     <connections>
@@ -79,4 +91,7 @@
             <point key="canvasLocation" x="36" y="37.331334332833585"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="movieposter" width="279" height="402"/>
+    </resources>
 </document>

@@ -13,7 +13,7 @@ private var textColorContext = 0
 class ScrollingLabel: UILabel {
     
     private var label = UILabel()
-
+    private var gradientOverlay = UIView()
     private var animating = false
     
     public var isAnimating: Bool {
@@ -40,6 +40,11 @@ class ScrollingLabel: UILabel {
                 label.textColor = textColor
             }
         }
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.layer.mask = labelGradient()
     }
     
     // MARK: - Public functions
@@ -90,7 +95,7 @@ class ScrollingLabel: UILabel {
                 self.label.frame = CGRect.init(x: 0, y: 0, width: size.width, height: self.frame.size.height)
                 let x = self.frame.size.width - self.label.bounds.size.width
                 
-                
+                // Set animation options
                 var animationOptions: UIViewAnimationOptions = [.autoreverse, .curveEaseInOut]
                 
                 // Repeate animation.
@@ -102,7 +107,7 @@ class ScrollingLabel: UILabel {
                 // Get animation options.
                 UIView.animate(withDuration: duration, delay: 0.0,
                                options: animationOptions, animations: {
-                                self.label.frame.origin.x = x
+                                self.label.frame.origin.x = x - 10
                     }, completion: { (complete) in
                         self.label.frame.origin.x = 0
                         self.animating = false
@@ -136,6 +141,7 @@ class ScrollingLabel: UILabel {
         // Clip tail word
         self.lineBreakMode = .byClipping
         self.addSubview(label)
+        
     }
     
     private func copyLabelProperties(fromLabel: UILabel, toLabel: UILabel) {
@@ -152,4 +158,15 @@ class ScrollingLabel: UILabel {
         toLabel.backgroundColor = fromLabel.backgroundColor
     }
     
+    
+    private func labelGradient() -> CAGradientLayer {
+        let gl = CAGradientLayer()
+        gl.frame = self.bounds
+        
+        gl.colors = [UIColor(white: 1.0, alpha: 1.0).cgColor, UIColor(white: 1.0, alpha: 0.0).cgColor]
+        gl.startPoint = CGPoint(x: 0.9, y: 1.0)
+        gl.endPoint = CGPoint(x: 1.0, y: 1.0)
+        
+        return gl
+    }
 }
