@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScrollingLabel/ScrollingLabel.swift"
-            timestampString = "495589686.821398"
+            timestampString = "495594864.721838"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
             landmarkName = "animateText(animate:duration:repeated:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScrollingLabel/ScrollingLabel.swift"
-            timestampString = "495589686.821398"
+            timestampString = "495594864.721838"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
             landmarkName = "animateText(animate:duration:repeated:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScrollingLabel/ScrollingLabel.swift"
-            timestampString = "495589686.821398"
+            timestampString = "495594864.721838"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "animateText(animate:duration:repeated:)"
             landmarkType = "7">
          </BreakpointContent>

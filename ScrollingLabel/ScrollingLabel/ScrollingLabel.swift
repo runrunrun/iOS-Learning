@@ -13,9 +13,9 @@ private var textColorContext = 0
 class ScrollingLabel: UILabel {
     
     private var label = UILabel()
-    private var gradientOverlay = UIView()
     private var animating = false
-    
+    private var gradient: CAGradientLayer?
+
     public var isAnimating: Bool {
         set {}
         get {
@@ -44,7 +44,10 @@ class ScrollingLabel: UILabel {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.layer.mask = labelGradient()
+        if let gl = gradient {
+            gl.frame = self.bounds
+            self.layer.mask = gl
+        }
     }
     
     // MARK: - Public functions
@@ -109,8 +112,18 @@ class ScrollingLabel: UILabel {
                                options: animationOptions, animations: {
                                 self.label.frame.origin.x = x - 10
                     }, completion: { (complete) in
-                        self.label.frame.origin.x = 0
-                        self.animating = false
+                        if complete { // Animation complete
+                            self.animating = false
+                            self.label.frame.origin.x = 0
+                            // Show main label
+                            self.textColor = self.label.textColor
+                            // Hide label text
+                            self.label.text = ""
+                        }
+                        else {
+                            // Animation cancelled
+                        }
+                        
                 })
             }
         }
@@ -122,7 +135,6 @@ class ScrollingLabel: UILabel {
                                 self.label.frame.origin.x = 0
                     }, completion: { (complete) in
                         self.animating = false
-                        
                         // Show main label text
                         self.textColor = self.label.textColor
                         // Hide label text
@@ -138,14 +150,12 @@ class ScrollingLabel: UILabel {
     private func setup() {
         self.numberOfLines = 1
         self.clipsToBounds = true
-        // Clip tail word
-        self.lineBreakMode = .byClipping
+        self.lineBreakMode = .byClipping  // Clip tail word
+        gradient = labelGradient()
         self.addSubview(label)
-        
     }
     
     private func copyLabelProperties(fromLabel: UILabel, toLabel: UILabel) {
-        // UILabel properties
         toLabel.text = fromLabel.text
         toLabel.textColor = fromLabel.textColor
         toLabel.font = fromLabel.font
@@ -153,20 +163,14 @@ class ScrollingLabel: UILabel {
         toLabel.shadowOffset = fromLabel.shadowOffset
         toLabel.textAlignment = fromLabel.textAlignment
         toLabel.attributedText = fromLabel.attributedText
-        
-        // UIView properties 
         toLabel.backgroundColor = fromLabel.backgroundColor
     }
     
-    
     private func labelGradient() -> CAGradientLayer {
         let gl = CAGradientLayer()
-        gl.frame = self.bounds
-        
         gl.colors = [UIColor(white: 1.0, alpha: 1.0).cgColor, UIColor(white: 1.0, alpha: 0.0).cgColor]
         gl.startPoint = CGPoint(x: 0.9, y: 1.0)
         gl.endPoint = CGPoint(x: 1.0, y: 1.0)
-        
         return gl
     }
 }
