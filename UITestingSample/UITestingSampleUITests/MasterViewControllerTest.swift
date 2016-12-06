@@ -47,7 +47,7 @@ class MasterViewControllerTest: XCTestCase {
         }
         
         // Test added items show in master view controller.
-        let table = XCUIApplication().tables.elementBoundByIndex(0)
+        let table = XCUIApplication().tables.element(boundBy: 0)
         let numberOfCell = Int(table.cells.count)
         XCTAssertEqual(numberOfCell, numberOfItems)
     }
@@ -64,8 +64,8 @@ class MasterViewControllerTest: XCTestCase {
         masterNavigationBar.buttons["Edit"].tap()
         
         let tablesQuery2 = app.tables
-        let cell = tablesQuery2.childrenMatchingType(.Cell).elementBoundByIndex(0)
-        var buttonTitle = "Delete " + cell.title
+        let cell = tablesQuery2.children(matching: .cell).element(boundBy: 0)
+        let buttonTitle = "Delete " + cell.title
         cell.buttons[buttonTitle].tap()
         
         
