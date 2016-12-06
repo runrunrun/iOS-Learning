@@ -26,7 +26,7 @@ class ViewController: UIViewController {
 
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         var performSegue = false
-        
+
         var errorMessage = ""
 
         // Check username

@@ -28,9 +28,118 @@ class UITestingLoginUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testTapLoginButtonWithEmptyFieldsOpensAlert() {
+        let userNameTextField = XCUIApplication().textFields["User Name"]
+        userNameTextField.tap()
+        userNameTextField.typeText("")
+        
+        let passwordTextField = XCUIApplication().textFields["Password"]
+        passwordTextField.tap()
+        passwordTextField.typeText("")
+        
+        let app = XCUIApplication()
+        app.buttons["Submit"].tap()
+        
+        let loginFailedAlert = app.alerts["Login Failed"]
+
+        XCTAssert(loginFailedAlert.staticTexts["Login Failed"].exists)
+        XCTAssert(loginFailedAlert.staticTexts["Invalid user name."].exists)
+
+        loginFailedAlert.buttons["OK"].tap()
     }
     
+    func testTapLoginButtonWithEmptyUserNameOpensAlert() {
+        let userNameTextField = XCUIApplication().textFields["User Name"]
+        userNameTextField.tap()
+        userNameTextField.typeText("")
+        
+        let passwordTextField = XCUIApplication().textFields["Password"]
+        passwordTextField.tap()
+        passwordTextField.typeText("PASSWORDAPP")
+        
+        let app = XCUIApplication()
+        app.buttons["Submit"].tap()
+        
+        let loginFailedAlert = app.alerts["Login Failed"]
+        
+        XCTAssert(loginFailedAlert.staticTexts["Login Failed"].exists)
+        XCTAssert(loginFailedAlert.staticTexts["Invalid user name."].exists)
+        
+        loginFailedAlert.buttons["OK"].tap()
+    }
+    
+    func testTapLoginButtonWithShortUserNameOpensAlert() {
+        let userNameTextField = XCUIApplication().textFields["User Name"]
+        userNameTextField.tap()
+        userNameTextField.typeText("USER")
+        
+        let passwordTextField = XCUIApplication().textFields["Password"]
+        passwordTextField.tap()
+        passwordTextField.typeText("PASSWORDAPP")
+        
+        let app = XCUIApplication()
+        app.buttons["Submit"].tap()
+        
+        let loginFailedAlert = app.alerts["Login Failed"]
+        
+        XCTAssert(loginFailedAlert.staticTexts["Login Failed"].exists)
+        XCTAssert(loginFailedAlert.staticTexts["Invalid user name."].exists)
+        
+        loginFailedAlert.buttons["OK"].tap()
+    }
+    
+    func testTapLoginButtonWithEmptyPasswordOpensAlert() {
+        let userNameTextField = XCUIApplication().textFields["User Name"]
+        userNameTextField.tap()
+        userNameTextField.typeText("APPLESEED")
+        
+        let passwordTextField = XCUIApplication().textFields["Password"]
+        passwordTextField.tap()
+        passwordTextField.typeText("")
+        
+        let app = XCUIApplication()
+        app.buttons["Submit"].tap()
+        
+        let loginFailedAlert = app.alerts["Login Failed"]
+        
+        XCTAssert(loginFailedAlert.staticTexts["Login Failed"].exists)
+        XCTAssert(loginFailedAlert.staticTexts["Invalid password."].exists)
+        
+        loginFailedAlert.buttons["OK"].tap()
+    }
+    
+    func testTapLoginButtonWithShortPasswordOpensAlert() {
+        let userNameTextField = XCUIApplication().textFields["User Name"]
+        userNameTextField.tap()
+        userNameTextField.typeText("APPLESEED")
+        
+        let passwordTextField = XCUIApplication().textFields["Password"]
+        passwordTextField.tap()
+        passwordTextField.typeText("PASS")
+        
+        let app = XCUIApplication()
+        app.buttons["Submit"].tap()
+        
+        let loginFailedAlert = app.alerts["Login Failed"]
+        
+        XCTAssert(loginFailedAlert.staticTexts["Login Failed"].exists)
+        XCTAssert(loginFailedAlert.staticTexts["Invalid password."].exists)
+        
+        loginFailedAlert.buttons["OK"].tap()
+    }
+    
+    func testTapLoginButtonWithValidInputsOpensSuccessScreen() {
+        let userNameTextField = XCUIApplication().textFields["User Name"]
+        userNameTextField.tap()
+        userNameTextField.typeText("APPLESEED")
+        
+        let passwordTextField = XCUIApplication().textFields["Password"]
+        passwordTextField.tap()
+        passwordTextField.typeText("PASSWORDAPP")
+        
+        let app = XCUIApplication()
+        app.buttons["Submit"].tap()
+        
+        XCTAssert(app.navigationBars["Success"].staticTexts["Success"].exists)
+    }
 }
