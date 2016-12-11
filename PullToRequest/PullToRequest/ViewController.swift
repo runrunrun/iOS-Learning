@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tableView.addSubview(refreshControl)
         
+        let refreshView = Bundle.main.loadNibNamed("RefreshView", owner: self, options: nil)?[0] as! UIView
+        refreshView.frame = refreshControl.bounds
+        refreshControl.addSubview(refreshView)
+        
         refreshControl.addTarget(self, action: #selector(ViewController.refreshData), for: UIControlEvents.valueChanged)
     }
 
