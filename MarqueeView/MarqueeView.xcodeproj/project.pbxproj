@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E6224111DFC4002003674D4 /* MarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6224101DFC4002003674D4 /* MarqueeView.swift */; };
 		1E9BDE5A1DF8ADAD00D381F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9BDE591DF8ADAD00D381F2 /* AppDelegate.swift */; };
 		1E9BDE5C1DF8ADAD00D381F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9BDE5B1DF8ADAD00D381F2 /* ViewController.swift */; };
 		1E9BDE5F1DF8ADAD00D381F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9BDE5D1DF8ADAD00D381F2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E6224101DFC4002003674D4 /* MarqueeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeView.swift; sourceTree = "<group>"; };
 		1E9BDE561DF8ADAD00D381F2 /* MarqueeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarqueeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9BDE591DF8ADAD00D381F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E9BDE5B1DF8ADAD00D381F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				1E9BDE591DF8ADAD00D381F2 /* AppDelegate.swift */,
 				1E9BDE5B1DF8ADAD00D381F2 /* ViewController.swift */,
+				1E6224101DFC4002003674D4 /* MarqueeView.swift */,
 				1E9BDE5D1DF8ADAD00D381F2 /* Main.storyboard */,
 				1E9BDE601DF8ADAD00D381F2 /* Assets.xcassets */,
 				1E9BDE621DF8ADAD00D381F2 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				1E9BDE5C1DF8ADAD00D381F2 /* ViewController.swift in Sources */,
 				1E9BDE5A1DF8ADAD00D381F2 /* AppDelegate.swift in Sources */,
+				1E6224111DFC4002003674D4 /* MarqueeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 				1E9BDE6A1DF8ADAD00D381F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
