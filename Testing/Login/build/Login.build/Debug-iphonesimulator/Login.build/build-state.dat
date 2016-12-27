@@ -1,0 +1,337 @@
+TLogin
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Info.plist Login/Login-Info.plist
+cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch.pth Login/Login-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginViewController.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login normal i386
+cGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app.dSYM /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login
+cCpResource Login/Default.png build/Debug-iphonesimulator/Login.app/Default.png
+cCpResource Login/Default-568h@2x.png build/Debug-iphonesimulator/Login.app/Default-568h@2x.png
+cCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/en.lproj/InfoPlist.strings Login/en.lproj/InfoPlist.strings
+cCpResource Login/Default@2x.png build/Debug-iphonesimulator/Login.app/Default@2x.png
+cTouch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app
+
+N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000512FB99A0000000000228FE0
+t1362082202
+s2265056
+
+N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000512FB99B00000000003DDFA0
+t1362082203
+s4054944
+
+N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000512FB99B00000000000015F7
+t1362082203
+s5623
+
+N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000512FB99E0000000000000E8D
+t1362082206
+s3725
+
+N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000512FB99F0000000000AB6230
+t1362082207
+s11231792
+
+N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000512FB9AE0000000000001B73
+t1362082222
+s7027
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.h
+c0000000051DE1C510000000000000174
+t1373510737
+s372
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.m
+c0000000051DE1C88000000000000091E
+t1373510792
+s2334
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Login-Prefix.pch
+c0000000051DE1B9C0000000000000139
+t1373510556
+s313
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginView.h
+c0000000051DE1CC300000000000000BD
+t1373510851
+s189
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginView.m
+c0000000051DE1DCA000000000000021B
+t1373511114
+s539
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.h
+c0000000051DE23490000000000000138
+t1373512521
+s312
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.m
+c0000000051DE29A0000000000000061A
+t1373514144
+s1562
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/en.lproj/InfoPlist.strings
+c0000000051DE1B9C000000000000002D
+t1373510556
+s45
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/main.m
+c0000000051DE1B9C000000000000014A
+t1373510556
+s330
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app
+t1373514203
+s306
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app.dSYM
+t1373514203
+s102
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Default-568h@2x.png
+t1373513477
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Default.png
+t1373513477
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Default@2x.png
+t1373513477
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Info.plist
+t1373513475
+s879
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login
+t1373514203
+s23336
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/PkgInfo
+t1373513475
+s8
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/en.lproj/InfoPlist.strings
+t1373513477
+s42
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/AppDelegate.o
+t1373513476
+s90072
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/Login.LinkFileList
+c0000000051DE2A0500000000000001C3
+t1373514245
+s451
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginView.o
+t1373513476
+s67276
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginViewController.o
+t1373514203
+s72036
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/main.o
+t1373513476
+s3352
+
+N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch.pth
+t1373513476
+s4683812
+
+NLogin/Login-Info.plist
+c0000000051DE1B9C00000000000005AE
+t1373510556
+s1454
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginView.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies923b3485618eb741^6d3cd885618eb741^---0#1#0#--18"Check dependencies36"0BDB533B-E73B-493A-A77C-86CB59536D4D-
+
+CCompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395206276.214702
+e395206276.374264
+r1
+xCompileC
+xbuild/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/AppDelegate.o
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.m271737845e8eb741^c8ce5f845e8eb741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.m0000000000000000^3740"CompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/AppDelegate.o Login/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/AppDelegate.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/AppDelegate.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/AppDelegate.o36"AECBFA01-C2E8-4664-B83F-BD80796E5F52-
+
+CCompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginView.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395206276.214686
+e395206276.372675
+r1
+xCompileC
+xbuild/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginView.o
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginView.m481737845e8eb741^f29a5f845e8eb741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginView.m0000000000000000^3728"CompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginView.o Login/LoginView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginView.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginView.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginView.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginView.o36"4E829E9E-C518-4CDE-B165-9D4949B96B8A-
+
+CCompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginViewController.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395207003.070690
+e395207003.235866
+r1
+xCompileC
+xbuild/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.m5933125b618eb741^a6613c5b618eb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.m0000000000000000^3788"CompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginViewController.o Login/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/LoginViewController.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/LoginViewController.o36"D74749B0-36AD-4F41-8151-325DB931470E-
+
+CCompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395206276.214829
+e395206276.364212
+r1
+xCompileC
+xbuild/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/main.o
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/main.mb82037845e8eb741^bc3c5d845e8eb741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/main.m0000000000000000^3698"CompileC build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/main.o Login/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/main.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/main.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/main.o36"DCDFB535-2E73-48C5-BFAC-E93398F32364-
+
+CCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/en.lproj/InfoPlist.strings Login/en.lproj/InfoPlist.strings
+s395206277.025883
+e395206277.040878
+r1
+xCopyStringsFile
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/en.lproj/InfoPlist.strings
+xLogin/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy Login/en.lproj/InfoPlist.strings56b706855e8eb741^60770a855e8eb741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/en.lproj/InfoPlist.strings0000000000000000^625"CopyStringsFile build/Debug-iphonesimulator/Login.app/en.lproj/InfoPlist.strings Login/en.lproj/InfoPlist.strings    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/en.lproj -- Login/en.lproj/InfoPlist.strings36"A9DC7580-19CD-437C-9E90-BDE5D9B5C036-
+
+CCpResource Login/Default-568h@2x.png build/Debug-iphonesimulator/Login.app/Default-568h@2x.png
+s395206277.025905
+e395206277.031948
+r1
+xCpResource
+xLogin/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/Login.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/Login.app/Default-568h@2x.png99bb06855e8eb741^f12d08855e8eb741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Default-568h@2x.png000000000080d041^679"CpResource "Login/Default-568h@2x.png" "build/Debug-iphonesimulator/Login.app/Default-568h@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Default-568h@2x.png" /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app36"523C2B64-4A7C-4FB8-81F3-58C7D9DB2CC2-
+
+CCpResource Login/Default.png build/Debug-iphonesimulator/Login.app/Default.png
+s395206277.025888
+e395206277.029502
+r1
+xCpResource
+xLogin/Default.png
+xbuild/Debug-iphonesimulator/Login.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/Login.app/Default.pngbfb606855e8eb741^b58d07855e8eb741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Default.png000000000080d041^649"CpResource Login/Default.png build/Debug-iphonesimulator/Login.app/Default.png    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Default.png /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app36"76CE399F-4F14-48E7-8EEC-4641804DDBB8-
+
+CCpResource Login/Default@2x.png build/Debug-iphonesimulator/Login.app/Default@2x.png
+s395206277.025903
+e395206277.030720
+r1
+xCpResource
+xLogin/Default@2x.png
+xbuild/Debug-iphonesimulator/Login.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/Login.app/Default@2x.pngd8b806855e8eb741^b5de07855e8eb741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Default@2x.png000000000080d041^664"CpResource "Login/Default@2x.png" "build/Debug-iphonesimulator/Login.app/Default@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Default@2x.png" /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app36"1F02D41D-1925-4C35-BF06-3E23653C9C99-
+
+CGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app.dSYM /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login
+s395207045.905201
+e395207045.923638
+r1
+xGenerateDSYMFile
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app.dSYM
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Generate /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app.dSYMeed1e785618eb741^9b73ec85618eb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app.dSYM/0000000000000000^702"GenerateDSYMFile build/Debug-iphonesimulator/Login.app.dSYM build/Debug-iphonesimulator/Login.app/Login    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app.dSYM36"68F26C11-9D07-4D9E-AAD9-EE8FE036CED0-
+
+CLd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login normal i386
+s395207045.873160
+e395207045.898240
+r1
+xLd
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Logine998df85618eb741^910fe685618eb741^---0#0#0#--1278"Ld build/Debug-iphonesimulator/Login.app/Login normal i386    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -arch i386 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -L/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator -filelist /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Objects-normal/i386/Login.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Login36"DDEC4E46-C1D2-46B3-9D61-7B5444482F72-
+
+CProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Info.plist Login/Login-Info.plist
+s395206275.379989
+e395206275.383115
+r1
+xProcessInfoPlistFile
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Info.plist
+xLogin/Login-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Login/Login-Info.plist776761835e8eb741^5e1362835e8eb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Login-Info.plist0000000000000000^719"ProcessInfoPlistFile build/Debug-iphonesimulator/Login.app/Info.plist Login/Login-Info.plist    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Login/Login-Info.plist -genpkginfo /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app/Info.plist36"1D6ADD81-583F-416F-BAA9-668D38B0FFDF-
+
+CProcessPCH /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/DerivedData/Login/Index/PrecompiledHeaders/Login-Prefix-bvfhfdhojgqrxucomvqrlpnnxknf_ast/Login-Prefix.pch.pth Login/Login-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch.pth Login/Login-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395206275.391012
+e395206276.207566
+r1
+xProcessPCH
+x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch.pth
+xLogin/Login-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Login/Login-Prefix.pch3f3b64835e8eb741^422235845e8eb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Login-Prefix.pch0000000000000000^3681"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch.pth Login/Login-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/Login-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Login.build/Debug-iphonesimulator/Login.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/Login/Login-Prefix.pch -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Login-Prefix-bssyzokvpvgvrzehebwxkqogsaqc/Login-Prefix.pch.d36"85404494-30CC-4E67-8151-44775C02D016-
+
+CTouch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app
+s395207045.940333
+e395207045.946150
+r1
+xTouch
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app10c9f085618eb741^d236f285618eb741^---0#0#0#--442"Touch build/Debug-iphonesimulator/Login.app    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/Testing/Login/build/Debug-iphonesimulator/Login.app36"08003023-E197-4759-A9F9-68EC5647743E-
+

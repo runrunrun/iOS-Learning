@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="44V-58-G57">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="TME-su-r0M">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="44V-58-G57" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Ga8-2O-TWH">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9wL-Cx-T7I" kind="relationship" relationship="viewControllers" id="4pI-EA-EbB"/>
+                        <segue destination="m98-2s-ZrP" kind="relationship" relationship="viewControllers" id="l21-pR-h7c"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3wl-RH-E99" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-74" y="10"/>
+        </scene>
+        <!--Cars Table View Controller - Cheap Cars-->
+        <scene sceneID="cPI-hV-PMo">
+            <objects>
+                <tableViewController id="DMk-7V-RHM" customClass="CarsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BI0-Ee-kl1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="carsCell" id="XiY-gM-xmW">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XiY-gM-xmW" id="dYG-df-3qV">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="k5G-oa-c00" kind="push" identifier="cheapCarDetailSegue" id="rSB-je-TGI"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DMk-7V-RHM" id="Jm5-lV-wmV"/>
+                            <outlet property="delegate" destination="DMk-7V-RHM" id="Pw2-ic-bbf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Cheap Cars" id="a6s-WY-aKe"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8YK-rG-MNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1271" y="-396"/>
+        </scene>
+        <!--Car Detail View Controller - Car Detail-->
+        <scene sceneID="hvL-n6-FKP">
+            <objects>
+                <viewController id="k5G-oa-c00" customClass="CarDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J9q-UN-m44"/>
+                        <viewControllerLayoutGuide type="bottom" id="2SW-ul-q8H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J9j-Ti-82u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Car Detail" id="qEx-yS-4gB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpM-p8-5pG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1875" y="10"/>
+        </scene>
+        <!--Cars Table View Controller - Expensive Cars-->
+        <scene sceneID="vyS-IC-7oe">
+            <objects>
+                <tableViewController id="6xS-r6-GGf" customClass="CarsTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="UHw-I2-jMy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="carsCell" id="Grx-Uh-EED">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Grx-Uh-EED" id="D0V-lC-cRp">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="k5G-oa-c00" kind="push" identifier="expensiveCarDetailSegue" id="jFk-Fs-23q"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="6xS-r6-GGf" id="T1z-yv-K6C"/>
+                            <outlet property="delegate" destination="6xS-r6-GGf" id="09s-LF-N5p"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Expensive Cars" id="qmh-pa-PxS"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXK-IH-TD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1271" y="363"/>
+        </scene>
+        <!--Navigation Controller - Expensive-->
+        <scene sceneID="vKP-0u-gzn">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="m98-2s-ZrP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Expensive" id="sW4-9n-aYK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c9K-3I-szV">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6xS-r6-GGf" kind="relationship" relationship="rootViewController" id="ffv-WC-CBN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCX-d7-MKw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="363"/>
+        </scene>
+        <!--Navigation Controller - Cheap-->
+        <scene sceneID="hd3-dr-K7P">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="9wL-Cx-T7I" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Cheap" id="57H-Tp-lqD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="URR-v3-s3A">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DMk-7V-RHM" kind="relationship" relationship="rootViewController" id="1qW-Fm-wqe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A1x-Wo-wFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="-396"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="rSB-je-TGI"/>
+    </inferredMetricsTieBreakers>
+</document>

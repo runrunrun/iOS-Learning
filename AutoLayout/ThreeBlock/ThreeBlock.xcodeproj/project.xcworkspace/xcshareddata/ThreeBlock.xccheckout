@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6DBB3495-E938-4E48-A425-373F110F077C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ThreeBlock</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>41B72B65-8CBE-4F20-BE5A-1D21A124713A</key>
+		<string>https://github.com/runrunrun/iOSTopicalCode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AutoLayout/ThreeBlock/ThreeBlock.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>41B72B65-8CBE-4F20-BE5A-1D21A124713A</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/runrunrun/iOSTopicalCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>41B72B65-8CBE-4F20-BE5A-1D21A124713A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>41B72B65-8CBE-4F20-BE5A-1D21A124713A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSTopicalCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

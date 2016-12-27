@@ -15,7 +15,7 @@ class GameOverScene: SKScene {
         super.init(size: size)
         
         // 1
-        backgroundColor = SKColor.whiteColor()
+        backgroundColor = SKColor.white
         
         // 2
         let message = won ? "You Won!" : "You Lose :["
@@ -24,16 +24,16 @@ class GameOverScene: SKScene {
         let label = SKLabelNode(fontNamed: "Chalkduster")
         label.text = message
         label.fontSize = 40
-        label.fontColor = SKColor.blackColor()
+        label.fontColor = SKColor.black
         label.position = CGPoint(x: size.width/2, y: size.height/2)
         addChild(label)
         
         // 4
-        runAction(SKAction.sequence([
-            SKAction.waitForDuration(3.0),
-            SKAction.runBlock() {
+        run(SKAction.sequence([
+            SKAction.wait(forDuration: 3.0),
+            SKAction.run() {
                 // 5
-                let reveal = SKTransition.flipHorizontalWithDuration(0.5)
+                let reveal = SKTransition.flipHorizontal(withDuration: 0.5)
                 let scene = GameScene(size: size)
                 self.view?.presentScene(scene, transition:reveal)
             }

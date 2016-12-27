@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8D330D19A2742F007089CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D330C19A2742F007089CB /* Foundation.framework */; };
+		1E8D330F19A2742F007089CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D330E19A2742F007089CB /* CoreGraphics.framework */; };
+		1E8D331119A2742F007089CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D331019A2742F007089CB /* UIKit.framework */; };
+		1E8D331719A2742F007089CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D331519A2742F007089CB /* InfoPlist.strings */; };
+		1E8D331919A2742F007089CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D331819A2742F007089CB /* main.m */; };
+		1E8D331D19A2742F007089CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D331C19A2742F007089CB /* AppDelegate.m */; };
+		1E8D332019A2742F007089CB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D331E19A2742F007089CB /* Main_iPhone.storyboard */; };
+		1E8D332319A2742F007089CB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D332119A2742F007089CB /* Main_iPad.storyboard */; };
+		1E8D332619A2742F007089CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D332519A2742F007089CB /* ViewController.m */; };
+		1E8D332819A2742F007089CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D332719A2742F007089CB /* Images.xcassets */; };
+		1E8D332F19A2742F007089CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D332E19A2742F007089CB /* XCTest.framework */; };
+		1E8D333019A2742F007089CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D330C19A2742F007089CB /* Foundation.framework */; };
+		1E8D333119A2742F007089CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8D331019A2742F007089CB /* UIKit.framework */; };
+		1E8D333919A2742F007089CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E8D333719A2742F007089CB /* InfoPlist.strings */; };
+		1E8D333B19A2742F007089CB /* ThreeBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8D333A19A2742F007089CB /* ThreeBlockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E8D333219A2742F007089CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E8D330119A2742F007089CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E8D330819A2742F007089CB;
+			remoteInfo = ThreeBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8D330919A2742F007089CB /* ThreeBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8D330C19A2742F007089CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E8D330E19A2742F007089CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E8D331019A2742F007089CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E8D331419A2742F007089CB /* ThreeBlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeBlock-Info.plist"; sourceTree = "<group>"; };
+		1E8D331619A2742F007089CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E8D331819A2742F007089CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E8D331A19A2742F007089CB /* ThreeBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeBlock-Prefix.pch"; sourceTree = "<group>"; };
+		1E8D331B19A2742F007089CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E8D331C19A2742F007089CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E8D331F19A2742F007089CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1E8D332219A2742F007089CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1E8D332419A2742F007089CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E8D332519A2742F007089CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E8D332719A2742F007089CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E8D332D19A2742F007089CB /* ThreeBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8D332E19A2742F007089CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1E8D333619A2742F007089CB /* ThreeBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeBlockTests-Info.plist"; sourceTree = "<group>"; };
+		1E8D333819A2742F007089CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E8D333A19A2742F007089CB /* ThreeBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeBlockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E8D330619A2742F007089CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D330F19A2742F007089CB /* CoreGraphics.framework in Frameworks */,
+				1E8D331119A2742F007089CB /* UIKit.framework in Frameworks */,
+				1E8D330D19A2742F007089CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8D332A19A2742F007089CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D332F19A2742F007089CB /* XCTest.framework in Frameworks */,
+				1E8D333119A2742F007089CB /* UIKit.framework in Frameworks */,
+				1E8D333019A2742F007089CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8D330019A2742F007089CB = {
+			isa = PBXGroup;
+			children = (
+				1E8D331219A2742F007089CB /* ThreeBlock */,
+				1E8D333419A2742F007089CB /* ThreeBlockTests */,
+				1E8D330B19A2742F007089CB /* Frameworks */,
+				1E8D330A19A2742F007089CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E8D330A19A2742F007089CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D330919A2742F007089CB /* ThreeBlock.app */,
+				1E8D332D19A2742F007089CB /* ThreeBlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8D330B19A2742F007089CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D330C19A2742F007089CB /* Foundation.framework */,
+				1E8D330E19A2742F007089CB /* CoreGraphics.framework */,
+				1E8D331019A2742F007089CB /* UIKit.framework */,
+				1E8D332E19A2742F007089CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E8D331219A2742F007089CB /* ThreeBlock */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D331B19A2742F007089CB /* AppDelegate.h */,
+				1E8D331C19A2742F007089CB /* AppDelegate.m */,
+				1E8D331E19A2742F007089CB /* Main_iPhone.storyboard */,
+				1E8D332119A2742F007089CB /* Main_iPad.storyboard */,
+				1E8D332419A2742F007089CB /* ViewController.h */,
+				1E8D332519A2742F007089CB /* ViewController.m */,
+				1E8D332719A2742F007089CB /* Images.xcassets */,
+				1E8D331319A2742F007089CB /* Supporting Files */,
+			);
+			path = ThreeBlock;
+			sourceTree = "<group>";
+		};
+		1E8D331319A2742F007089CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D331419A2742F007089CB /* ThreeBlock-Info.plist */,
+				1E8D331519A2742F007089CB /* InfoPlist.strings */,
+				1E8D331819A2742F007089CB /* main.m */,
+				1E8D331A19A2742F007089CB /* ThreeBlock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E8D333419A2742F007089CB /* ThreeBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D333A19A2742F007089CB /* ThreeBlockTests.m */,
+				1E8D333519A2742F007089CB /* Supporting Files */,
+			);
+			path = ThreeBlockTests;
+			sourceTree = "<group>";
+		};
+		1E8D333519A2742F007089CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8D333619A2742F007089CB /* ThreeBlockTests-Info.plist */,
+				1E8D333719A2742F007089CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E8D330819A2742F007089CB /* ThreeBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8D333E19A2742F007089CB /* Build configuration list for PBXNativeTarget "ThreeBlock" */;
+			buildPhases = (
+				1E8D330519A2742F007089CB /* Sources */,
+				1E8D330619A2742F007089CB /* Frameworks */,
+				1E8D330719A2742F007089CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeBlock;
+			productName = ThreeBlock;
+			productReference = 1E8D330919A2742F007089CB /* ThreeBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E8D332C19A2742F007089CB /* ThreeBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8D334119A2742F007089CB /* Build configuration list for PBXNativeTarget "ThreeBlockTests" */;
+			buildPhases = (
+				1E8D332919A2742F007089CB /* Sources */,
+				1E8D332A19A2742F007089CB /* Frameworks */,
+				1E8D332B19A2742F007089CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E8D333319A2742F007089CB /* PBXTargetDependency */,
+			);
+			name = ThreeBlockTests;
+			productName = ThreeBlockTests;
+			productReference = 1E8D332D19A2742F007089CB /* ThreeBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E8D330119A2742F007089CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hari Kunwar";
+				TargetAttributes = {
+					1E8D332C19A2742F007089CB = {
+						TestTargetID = 1E8D330819A2742F007089CB;
+					};
+				};
+			};
+			buildConfigurationList = 1E8D330419A2742F007089CB /* Build configuration list for PBXProject "ThreeBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E8D330019A2742F007089CB;
+			productRefGroup = 1E8D330A19A2742F007089CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E8D330819A2742F007089CB /* ThreeBlock */,
+				1E8D332C19A2742F007089CB /* ThreeBlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8D330719A2742F007089CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D332319A2742F007089CB /* Main_iPad.storyboard in Resources */,
+				1E8D332819A2742F007089CB /* Images.xcassets in Resources */,
+				1E8D332019A2742F007089CB /* Main_iPhone.storyboard in Resources */,
+				1E8D331719A2742F007089CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8D332B19A2742F007089CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D333919A2742F007089CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E8D330519A2742F007089CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D332619A2742F007089CB /* ViewController.m in Sources */,
+				1E8D331D19A2742F007089CB /* AppDelegate.m in Sources */,
+				1E8D331919A2742F007089CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E8D332919A2742F007089CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D333B19A2742F007089CB /* ThreeBlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E8D333319A2742F007089CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E8D330819A2742F007089CB /* ThreeBlock */;
+			targetProxy = 1E8D333219A2742F007089CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E8D331519A2742F007089CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8D331619A2742F007089CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E8D331E19A2742F007089CB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8D331F19A2742F007089CB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1E8D332119A2742F007089CB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8D332219A2742F007089CB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1E8D333719A2742F007089CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E8D333819A2742F007089CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E8D333C19A2742F007089CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E8D333D19A2742F007089CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E8D333F19A2742F007089CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeBlock/ThreeBlock-Prefix.pch";
+				INFOPLIST_FILE = "ThreeBlock/ThreeBlock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E8D334019A2742F007089CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeBlock/ThreeBlock-Prefix.pch";
+				INFOPLIST_FILE = "ThreeBlock/ThreeBlock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1E8D334219A2742F007089CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeBlock.app/ThreeBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeBlock/ThreeBlock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThreeBlockTests/ThreeBlockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1E8D334319A2742F007089CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeBlock.app/ThreeBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeBlock/ThreeBlock-Prefix.pch";
+				INFOPLIST_FILE = "ThreeBlockTests/ThreeBlockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E8D330419A2742F007089CB /* Build configuration list for PBXProject "ThreeBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8D333C19A2742F007089CB /* Debug */,
+				1E8D333D19A2742F007089CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8D333E19A2742F007089CB /* Build configuration list for PBXNativeTarget "ThreeBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8D333F19A2742F007089CB /* Debug */,
+				1E8D334019A2742F007089CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E8D334119A2742F007089CB /* Build configuration list for PBXNativeTarget "ThreeBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E8D334219A2742F007089CB /* Debug */,
+				1E8D334319A2742F007089CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E8D330119A2742F007089CB /* Project object */;
+}

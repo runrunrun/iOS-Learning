@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6D30A01A439EC500BB158C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D309F1A439EC500BB158C /* AppDelegate.swift */; };
+		1E6D30A21A439EC500BB158C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D30A11A439EC500BB158C /* ViewController.swift */; };
+		1E6D30A51A439EC500BB158C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6D30A31A439EC500BB158C /* Main.storyboard */; };
+		1E6D30A71A439EC500BB158C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6D30A61A439EC500BB158C /* Images.xcassets */; };
+		1E6D30AA1A439EC500BB158C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E6D30A81A439EC500BB158C /* LaunchScreen.xib */; };
+		1E6D30B61A439EC500BB158C /* CloudKeyValueStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6D30B51A439EC500BB158C /* CloudKeyValueStorageTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E6D30B01A439EC500BB158C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E6D30921A439EC500BB158C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E6D30991A439EC500BB158C;
+			remoteInfo = CloudKeyValueStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E6D309A1A439EC500BB158C /* CloudKeyValueStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKeyValueStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6D309E1A439EC500BB158C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6D309F1A439EC500BB158C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E6D30A11A439EC500BB158C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E6D30A41A439EC500BB158C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E6D30A61A439EC500BB158C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E6D30A91A439EC500BB158C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E6D30AF1A439EC500BB158C /* CloudKeyValueStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudKeyValueStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6D30B41A439EC500BB158C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6D30B51A439EC500BB158C /* CloudKeyValueStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKeyValueStorageTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E6D30971A439EC500BB158C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6D30AC1A439EC500BB158C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6D30911A439EC500BB158C = {
+			isa = PBXGroup;
+			children = (
+				1E6D309C1A439EC500BB158C /* CloudKeyValueStorage */,
+				1E6D30B21A439EC500BB158C /* CloudKeyValueStorageTests */,
+				1E6D309B1A439EC500BB158C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E6D309B1A439EC500BB158C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E6D309A1A439EC500BB158C /* CloudKeyValueStorage.app */,
+				1E6D30AF1A439EC500BB158C /* CloudKeyValueStorageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E6D309C1A439EC500BB158C /* CloudKeyValueStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1E6D309F1A439EC500BB158C /* AppDelegate.swift */,
+				1E6D30A11A439EC500BB158C /* ViewController.swift */,
+				1E6D30A31A439EC500BB158C /* Main.storyboard */,
+				1E6D30A61A439EC500BB158C /* Images.xcassets */,
+				1E6D30A81A439EC500BB158C /* LaunchScreen.xib */,
+				1E6D309D1A439EC500BB158C /* Supporting Files */,
+			);
+			path = CloudKeyValueStorage;
+			sourceTree = "<group>";
+		};
+		1E6D309D1A439EC500BB158C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6D309E1A439EC500BB158C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E6D30B21A439EC500BB158C /* CloudKeyValueStorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E6D30B51A439EC500BB158C /* CloudKeyValueStorageTests.swift */,
+				1E6D30B31A439EC500BB158C /* Supporting Files */,
+			);
+			path = CloudKeyValueStorageTests;
+			sourceTree = "<group>";
+		};
+		1E6D30B31A439EC500BB158C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E6D30B41A439EC500BB158C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E6D30991A439EC500BB158C /* CloudKeyValueStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6D30B91A439EC500BB158C /* Build configuration list for PBXNativeTarget "CloudKeyValueStorage" */;
+			buildPhases = (
+				1E6D30961A439EC500BB158C /* Sources */,
+				1E6D30971A439EC500BB158C /* Frameworks */,
+				1E6D30981A439EC500BB158C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudKeyValueStorage;
+			productName = CloudKeyValueStorage;
+			productReference = 1E6D309A1A439EC500BB158C /* CloudKeyValueStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E6D30AE1A439EC500BB158C /* CloudKeyValueStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E6D30BC1A439EC500BB158C /* Build configuration list for PBXNativeTarget "CloudKeyValueStorageTests" */;
+			buildPhases = (
+				1E6D30AB1A439EC500BB158C /* Sources */,
+				1E6D30AC1A439EC500BB158C /* Frameworks */,
+				1E6D30AD1A439EC500BB158C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E6D30B11A439EC500BB158C /* PBXTargetDependency */,
+			);
+			name = CloudKeyValueStorageTests;
+			productName = CloudKeyValueStorageTests;
+			productReference = 1E6D30AF1A439EC500BB158C /* CloudKeyValueStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E6D30921A439EC500BB158C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hari Kunwar";
+				TargetAttributes = {
+					1E6D30991A439EC500BB158C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1E6D30AE1A439EC500BB158C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1E6D30991A439EC500BB158C;
+					};
+				};
+			};
+			buildConfigurationList = 1E6D30951A439EC500BB158C /* Build configuration list for PBXProject "CloudKeyValueStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E6D30911A439EC500BB158C;
+			productRefGroup = 1E6D309B1A439EC500BB158C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E6D30991A439EC500BB158C /* CloudKeyValueStorage */,
+				1E6D30AE1A439EC500BB158C /* CloudKeyValueStorageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E6D30981A439EC500BB158C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6D30A51A439EC500BB158C /* Main.storyboard in Resources */,
+				1E6D30AA1A439EC500BB158C /* LaunchScreen.xib in Resources */,
+				1E6D30A71A439EC500BB158C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6D30AD1A439EC500BB158C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E6D30961A439EC500BB158C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6D30A21A439EC500BB158C /* ViewController.swift in Sources */,
+				1E6D30A01A439EC500BB158C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E6D30AB1A439EC500BB158C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6D30B61A439EC500BB158C /* CloudKeyValueStorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E6D30B11A439EC500BB158C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E6D30991A439EC500BB158C /* CloudKeyValueStorage */;
+			targetProxy = 1E6D30B01A439EC500BB158C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E6D30A31A439EC500BB158C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6D30A41A439EC500BB158C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E6D30A81A439EC500BB158C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6D30A91A439EC500BB158C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E6D30B71A439EC500BB158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E6D30B81A439EC500BB158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E6D30BA1A439EC500BB158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CloudKeyValueStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E6D30BB1A439EC500BB158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CloudKeyValueStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E6D30BD1A439EC500BB158C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudKeyValueStorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKeyValueStorage.app/CloudKeyValueStorage";
+			};
+			name = Debug;
+		};
+		1E6D30BE1A439EC500BB158C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CloudKeyValueStorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudKeyValueStorage.app/CloudKeyValueStorage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E6D30951A439EC500BB158C /* Build configuration list for PBXProject "CloudKeyValueStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6D30B71A439EC500BB158C /* Debug */,
+				1E6D30B81A439EC500BB158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6D30B91A439EC500BB158C /* Build configuration list for PBXNativeTarget "CloudKeyValueStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6D30BA1A439EC500BB158C /* Debug */,
+				1E6D30BB1A439EC500BB158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E6D30BC1A439EC500BB158C /* Build configuration list for PBXNativeTarget "CloudKeyValueStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6D30BD1A439EC500BB158C /* Debug */,
+				1E6D30BE1A439EC500BB158C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E6D30921A439EC500BB158C /* Project object */;
+}

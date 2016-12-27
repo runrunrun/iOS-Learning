@@ -15,65 +15,65 @@ class SpaceshipScene: SKScene, SKSceneDelegate {
     var movingRight = true
     var movingUp = true
     
-    override func didMoveToView(view: SKView) {
-        self.backgroundColor = UIColor.whiteColor()
+    override func didMove(to view: SKView) {
+        self.backgroundColor = UIColor.white
         
         fixedShip = self.newSpaceship()
-        fixedShip.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame) - 150)
+        fixedShip.position = CGPoint(x: self.frame.midX, y: self.frame.midY - 150)
         
         // Move hull in a sequence
         let hover = SKAction.sequence([
-            SKAction.waitForDuration(1.0),
-            SKAction.moveByX(100, y: 50.0, duration: 1.0),
-            SKAction.waitForDuration(1.0),
-            SKAction.moveByX(-100, y: -50, duration: 1.0)
+            SKAction.wait(forDuration: 1.0),
+            SKAction.moveBy(x: 100, y: 50.0, duration: 1.0),
+            SKAction.wait(forDuration: 1.0),
+            SKAction.moveBy(x: -100, y: -50, duration: 1.0)
             ])
         
-        fixedShip.runAction(SKAction.repeatActionForever(hover)) {
-        }
+        fixedShip.run(SKAction.repeatForever(hover), completion: {
+        }) 
         
         self.addChild(fixedShip)
         
         
         freeShip = self.newSpaceship()
-        freeShip.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))
+        freeShip.position = CGPoint(x: self.frame.midX, y: self.frame.midY)
         
         self.addChild(freeShip)
     }
     
     func newSpaceship() -> SKSpriteNode {
-        let hull = SKSpriteNode(color: SKColor.grayColor(), size: CGSizeMake(64, 32))
+        let hull = SKSpriteNode(color: SKColor.gray, size: CGSize(width: 64, height: 32))
         
         // Add lights
         let light1 = self.newLight()
-        light1.position = CGPointMake(-28.0, 6.0)
+        light1.position = CGPoint(x: -28.0, y: 6.0)
         hull.addChild(light1)
         
         let light2 = self.newLight()
-        light2.position = CGPointMake(28.0, 6.0)
+        light2.position = CGPoint(x: 28.0, y: 6.0)
         hull.addChild(light2)
         
         return hull
     }
     
     func newLight() -> SKSpriteNode {
-        let light = SKSpriteNode(color: SKColor.yellowColor(), size: CGSizeMake(8,8))
+        let light = SKSpriteNode(color: SKColor.yellow, size: CGSize(width: 8,height: 8))
         
         let blink = SKAction.sequence([
-            SKAction.fadeOutWithDuration(0.25),
-            SKAction.fadeInWithDuration(0.25)
+            SKAction.fadeOut(withDuration: 0.25),
+            SKAction.fadeIn(withDuration: 0.25)
             ])
         
-        let blinkForever = SKAction.repeatActionForever(blink)
+        let blinkForever = SKAction.repeatForever(blink)
         
-        light.runAction(blinkForever) { 
+        light.run(blinkForever, completion: { 
             
-        }
+        }) 
         
         return light
     }
     
-    override func update(currentTime: CFTimeInterval) {
+    override func update(_ currentTime: TimeInterval) {
         /* Called before each frame is rendered */
         
         let currentPosition = freeShip.position
@@ -96,14 +96,14 @@ class SpaceshipScene: SKScene, SKSceneDelegate {
         }
         let yIncrement =  movingUp ? 1 : -1
         
-        freeShip.position = CGPointMake(currentPosition.x + CGFloat(xIncrement), currentPosition.y + CGFloat(yIncrement))
+        freeShip.position = CGPoint(x: currentPosition.x + CGFloat(xIncrement), y: currentPosition.y + CGFloat(yIncrement))
     }
     
     override func didFinishUpdate() {
     
     }
     
-    func didFinishUpdateForScene(scene: SKScene) {
+    func didFinishUpdate(for scene: SKScene) {
     
     }
 

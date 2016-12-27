@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BallDrop.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>BallDropOSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1EAEBDBE1794F8B300B069CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1EAEBDDE1794F8B300B069CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1EAEBE1E17978BCC00B069CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1EAEBE3C17978BCD00B069CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1EAEBE5417978C8D00B069CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1EAEBE6D17978C8E00B069CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EAA62841919AACA0059A23F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA62831919AACA0059A23F /* Foundation.framework */; };
+		1EAA62861919AACA0059A23F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA62851919AACA0059A23F /* CoreGraphics.framework */; };
+		1EAA62881919AACA0059A23F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA62871919AACA0059A23F /* UIKit.framework */; };
+		1EAA628E1919AACA0059A23F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA628C1919AACA0059A23F /* InfoPlist.strings */; };
+		1EAA62901919AACA0059A23F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA628F1919AACA0059A23F /* main.m */; };
+		1EAA62941919AACA0059A23F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA62931919AACA0059A23F /* AppDelegate.m */; };
+		1EAA62961919AACA0059A23F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62951919AACA0059A23F /* Images.xcassets */; };
+		1EAA629D1919AACA0059A23F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA629C1919AACA0059A23F /* XCTest.framework */; };
+		1EAA629E1919AACA0059A23F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA62831919AACA0059A23F /* Foundation.framework */; };
+		1EAA629F1919AACA0059A23F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAA62871919AACA0059A23F /* UIKit.framework */; };
+		1EAA62A71919AACA0059A23F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62A51919AACA0059A23F /* InfoPlist.strings */; };
+		1EAA62A91919AACA0059A23F /* StaggeredGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA62A81919AACA0059A23F /* StaggeredGridTests.m */; };
+		1EAA62B41919AB150059A23F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA62B31919AB150059A23F /* RootViewController.m */; };
+		1EAA62B71919AB590059A23F /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA62B61919AB590059A23F /* Cell.m */; };
+		1EAA62BA1919ACF30059A23F /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAA62B91919ACF30059A23F /* Robot.m */; };
+		1EAA62C41919AD060059A23F /* CasinoRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62BC1919AD060059A23F /* CasinoRobot.png */; };
+		1EAA62C51919AD060059A23F /* FightingRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62BD1919AD060059A23F /* FightingRobot.png */; };
+		1EAA62C61919AD060059A23F /* GunRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62BE1919AD060059A23F /* GunRobot.png */; };
+		1EAA62C71919AD060059A23F /* HaloRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62BF1919AD060059A23F /* HaloRobot.png */; };
+		1EAA62C81919AD060059A23F /* McdonaldRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62C01919AD060059A23F /* McdonaldRobot.png */; };
+		1EAA62C91919AD060059A23F /* OldRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62C11919AD060059A23F /* OldRobot.png */; };
+		1EAA62CA1919AD060059A23F /* StandingRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62C21919AD060059A23F /* StandingRobot.png */; };
+		1EAA62CB1919AD060059A23F /* ThinkingRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA62C31919AD060059A23F /* ThinkingRobot.png */; };
+		1EFD3303191E93FD00C891D3 /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD3302191E93FD00C891D3 /* RFQuiltLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EAA62A01919AACA0059A23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EAA62781919AACA0059A23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EAA627F1919AACA0059A23F;
+			remoteInfo = StaggeredGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EAA62801919AACA0059A23F /* StaggeredGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaggeredGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAA62831919AACA0059A23F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1EAA62851919AACA0059A23F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1EAA62871919AACA0059A23F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1EAA628B1919AACA0059A23F /* StaggeredGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaggeredGrid-Info.plist"; sourceTree = "<group>"; };
+		1EAA628D1919AACA0059A23F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1EAA628F1919AACA0059A23F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EAA62911919AACA0059A23F /* StaggeredGrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaggeredGrid-Prefix.pch"; sourceTree = "<group>"; };
+		1EAA62921919AACA0059A23F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EAA62931919AACA0059A23F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EAA62951919AACA0059A23F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EAA629B1919AACA0059A23F /* StaggeredGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaggeredGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EAA629C1919AACA0059A23F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1EAA62A41919AACA0059A23F /* StaggeredGridTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaggeredGridTests-Info.plist"; sourceTree = "<group>"; };
+		1EAA62A61919AACA0059A23F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1EAA62A81919AACA0059A23F /* StaggeredGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaggeredGridTests.m; sourceTree = "<group>"; };
+		1EAA62B21919AB150059A23F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1EAA62B31919AB150059A23F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1EAA62B51919AB590059A23F /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		1EAA62B61919AB590059A23F /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		1EAA62B81919ACF30059A23F /* Robot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		1EAA62B91919ACF30059A23F /* Robot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		1EAA62BC1919AD060059A23F /* CasinoRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CasinoRobot.png; sourceTree = "<group>"; };
+		1EAA62BD1919AD060059A23F /* FightingRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FightingRobot.png; sourceTree = "<group>"; };
+		1EAA62BE1919AD060059A23F /* GunRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GunRobot.png; sourceTree = "<group>"; };
+		1EAA62BF1919AD060059A23F /* HaloRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HaloRobot.png; sourceTree = "<group>"; };
+		1EAA62C01919AD060059A23F /* McdonaldRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = McdonaldRobot.png; sourceTree = "<group>"; };
+		1EAA62C11919AD060059A23F /* OldRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OldRobot.png; sourceTree = "<group>"; };
+		1EAA62C21919AD060059A23F /* StandingRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StandingRobot.png; sourceTree = "<group>"; };
+		1EAA62C31919AD060059A23F /* ThinkingRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThinkingRobot.png; sourceTree = "<group>"; };
+		1EFD32FE191DBB1500C891D3 /* WaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallLayout.h; sourceTree = "<group>"; };
+		1EFD32FF191DBB1500C891D3 /* WaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallLayout.m; sourceTree = "<group>"; };
+		1EFD3301191E93FD00C891D3 /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFQuiltLayout.h; sourceTree = "<group>"; };
+		1EFD3302191E93FD00C891D3 /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFQuiltLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EAA627D1919AACA0059A23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA62861919AACA0059A23F /* CoreGraphics.framework in Frameworks */,
+				1EAA62881919AACA0059A23F /* UIKit.framework in Frameworks */,
+				1EAA62841919AACA0059A23F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAA62981919AACA0059A23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA629D1919AACA0059A23F /* XCTest.framework in Frameworks */,
+				1EAA629F1919AACA0059A23F /* UIKit.framework in Frameworks */,
+				1EAA629E1919AACA0059A23F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EAA62771919AACA0059A23F = {
+			isa = PBXGroup;
+			children = (
+				1EAA62891919AACA0059A23F /* StaggeredGrid */,
+				1EAA62A21919AACA0059A23F /* StaggeredGridTests */,
+				1EAA62821919AACA0059A23F /* Frameworks */,
+				1EAA62811919AACA0059A23F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EAA62811919AACA0059A23F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA62801919AACA0059A23F /* StaggeredGrid.app */,
+				1EAA629B1919AACA0059A23F /* StaggeredGridTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EAA62821919AACA0059A23F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA62831919AACA0059A23F /* Foundation.framework */,
+				1EAA62851919AACA0059A23F /* CoreGraphics.framework */,
+				1EAA62871919AACA0059A23F /* UIKit.framework */,
+				1EAA629C1919AACA0059A23F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EAA62891919AACA0059A23F /* StaggeredGrid */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA62921919AACA0059A23F /* AppDelegate.h */,
+				1EAA62931919AACA0059A23F /* AppDelegate.m */,
+				1EAA62B21919AB150059A23F /* RootViewController.h */,
+				1EAA62B31919AB150059A23F /* RootViewController.m */,
+				1EFD32FE191DBB1500C891D3 /* WaterFallLayout.h */,
+				1EFD32FF191DBB1500C891D3 /* WaterFallLayout.m */,
+				1EFD3301191E93FD00C891D3 /* RFQuiltLayout.h */,
+				1EFD3302191E93FD00C891D3 /* RFQuiltLayout.m */,
+				1EAA62B51919AB590059A23F /* Cell.h */,
+				1EAA62B61919AB590059A23F /* Cell.m */,
+				1EAA62B81919ACF30059A23F /* Robot.h */,
+				1EAA62B91919ACF30059A23F /* Robot.m */,
+				1EAA62951919AACA0059A23F /* Images.xcassets */,
+				1EAA62BB1919AD060059A23F /* assets */,
+				1EAA628A1919AACA0059A23F /* Supporting Files */,
+			);
+			path = StaggeredGrid;
+			sourceTree = "<group>";
+		};
+		1EAA628A1919AACA0059A23F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA628B1919AACA0059A23F /* StaggeredGrid-Info.plist */,
+				1EAA628C1919AACA0059A23F /* InfoPlist.strings */,
+				1EAA628F1919AACA0059A23F /* main.m */,
+				1EAA62911919AACA0059A23F /* StaggeredGrid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EAA62A21919AACA0059A23F /* StaggeredGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA62A81919AACA0059A23F /* StaggeredGridTests.m */,
+				1EAA62A31919AACA0059A23F /* Supporting Files */,
+			);
+			path = StaggeredGridTests;
+			sourceTree = "<group>";
+		};
+		1EAA62A31919AACA0059A23F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA62A41919AACA0059A23F /* StaggeredGridTests-Info.plist */,
+				1EAA62A51919AACA0059A23F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EAA62BB1919AD060059A23F /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				1EAA62BC1919AD060059A23F /* CasinoRobot.png */,
+				1EAA62BD1919AD060059A23F /* FightingRobot.png */,
+				1EAA62BE1919AD060059A23F /* GunRobot.png */,
+				1EAA62BF1919AD060059A23F /* HaloRobot.png */,
+				1EAA62C01919AD060059A23F /* McdonaldRobot.png */,
+				1EAA62C11919AD060059A23F /* OldRobot.png */,
+				1EAA62C21919AD060059A23F /* StandingRobot.png */,
+				1EAA62C31919AD060059A23F /* ThinkingRobot.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EAA627F1919AACA0059A23F /* StaggeredGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAA62AC1919AACA0059A23F /* Build configuration list for PBXNativeTarget "StaggeredGrid" */;
+			buildPhases = (
+				1EAA627C1919AACA0059A23F /* Sources */,
+				1EAA627D1919AACA0059A23F /* Frameworks */,
+				1EAA627E1919AACA0059A23F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaggeredGrid;
+			productName = StaggeredGrid;
+			productReference = 1EAA62801919AACA0059A23F /* StaggeredGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EAA629A1919AACA0059A23F /* StaggeredGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EAA62AF1919AACA0059A23F /* Build configuration list for PBXNativeTarget "StaggeredGridTests" */;
+			buildPhases = (
+				1EAA62971919AACA0059A23F /* Sources */,
+				1EAA62981919AACA0059A23F /* Frameworks */,
+				1EAA62991919AACA0059A23F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EAA62A11919AACA0059A23F /* PBXTargetDependency */,
+			);
+			name = StaggeredGridTests;
+			productName = StaggeredGridTests;
+			productReference = 1EAA629B1919AACA0059A23F /* StaggeredGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EAA62781919AACA0059A23F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hari Kunwar";
+				TargetAttributes = {
+					1EAA629A1919AACA0059A23F = {
+						TestTargetID = 1EAA627F1919AACA0059A23F;
+					};
+				};
+			};
+			buildConfigurationList = 1EAA627B1919AACA0059A23F /* Build configuration list for PBXProject "StaggeredGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EAA62771919AACA0059A23F;
+			productRefGroup = 1EAA62811919AACA0059A23F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EAA627F1919AACA0059A23F /* StaggeredGrid */,
+				1EAA629A1919AACA0059A23F /* StaggeredGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EAA627E1919AACA0059A23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA62CB1919AD060059A23F /* ThinkingRobot.png in Resources */,
+				1EAA628E1919AACA0059A23F /* InfoPlist.strings in Resources */,
+				1EAA62961919AACA0059A23F /* Images.xcassets in Resources */,
+				1EAA62C71919AD060059A23F /* HaloRobot.png in Resources */,
+				1EAA62CA1919AD060059A23F /* StandingRobot.png in Resources */,
+				1EAA62C61919AD060059A23F /* GunRobot.png in Resources */,
+				1EAA62C91919AD060059A23F /* OldRobot.png in Resources */,
+				1EAA62C81919AD060059A23F /* McdonaldRobot.png in Resources */,
+				1EAA62C51919AD060059A23F /* FightingRobot.png in Resources */,
+				1EAA62C41919AD060059A23F /* CasinoRobot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAA62991919AACA0059A23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA62A71919AACA0059A23F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EAA627C1919AACA0059A23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFD3303191E93FD00C891D3 /* RFQuiltLayout.m in Sources */,
+				1EAA62941919AACA0059A23F /* AppDelegate.m in Sources */,
+				1EAA62B71919AB590059A23F /* Cell.m in Sources */,
+				1EAA62901919AACA0059A23F /* main.m in Sources */,
+				1EAA62B41919AB150059A23F /* RootViewController.m in Sources */,
+				1EAA62BA1919ACF30059A23F /* Robot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAA62971919AACA0059A23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAA62A91919AACA0059A23F /* StaggeredGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EAA62A11919AACA0059A23F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EAA627F1919AACA0059A23F /* StaggeredGrid */;
+			targetProxy = 1EAA62A01919AACA0059A23F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EAA628C1919AACA0059A23F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAA628D1919AACA0059A23F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1EAA62A51919AACA0059A23F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EAA62A61919AACA0059A23F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EAA62AA1919AACA0059A23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EAA62AB1919AACA0059A23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EAA62AD1919AACA0059A23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaggeredGrid/StaggeredGrid-Prefix.pch";
+				INFOPLIST_FILE = "StaggeredGrid/StaggeredGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1EAA62AE1919AACA0059A23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaggeredGrid/StaggeredGrid-Prefix.pch";
+				INFOPLIST_FILE = "StaggeredGrid/StaggeredGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1EAA62B01919AACA0059A23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StaggeredGrid.app/StaggeredGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaggeredGrid/StaggeredGrid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StaggeredGridTests/StaggeredGridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1EAA62B11919AACA0059A23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StaggeredGrid.app/StaggeredGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StaggeredGrid/StaggeredGrid-Prefix.pch";
+				INFOPLIST_FILE = "StaggeredGridTests/StaggeredGridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EAA627B1919AACA0059A23F /* Build configuration list for PBXProject "StaggeredGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAA62AA1919AACA0059A23F /* Debug */,
+				1EAA62AB1919AACA0059A23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAA62AC1919AACA0059A23F /* Build configuration list for PBXNativeTarget "StaggeredGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAA62AD1919AACA0059A23F /* Debug */,
+				1EAA62AE1919AACA0059A23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EAA62AF1919AACA0059A23F /* Build configuration list for PBXNativeTarget "StaggeredGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EAA62B01919AACA0059A23F /* Debug */,
+				1EAA62B11919AACA0059A23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EAA62781919AACA0059A23F /* Project object */;
+}

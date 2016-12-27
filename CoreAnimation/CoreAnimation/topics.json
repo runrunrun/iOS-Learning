@@ -1,0 +1,1 @@
+attempt to dismiss modal view controller whose view does not currently appear. self = <MovieViewController_iPhone: 0x1f55db20> modalViewController = <MPMoviePlayerViewController: 0x1f557ae0>

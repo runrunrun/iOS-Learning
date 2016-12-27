@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/harikunwar/Documents/GitHub/iOSTopicalCode</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2013-09-03T17:35:08Z</date>
+	<key>MissingFilePaths</key>
+	<array>
+		<string>/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/Searching/GlobalSearch/build/Debug-iphoneos/GlobalSearch.app</string>
+		<string>/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/Searching/GlobalSearch/build/Debug-iphoneos/GlobalSearchTests.octest</string>
+	</array>
+	<key>Version</key>
+	<integer>4</integer>
+</dict>
+</plist>

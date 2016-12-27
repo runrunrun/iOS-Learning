@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F1BA8DDD-5DC6-4FBF-A4EC-077B0538709B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RobotCollection</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E8D0E290-ABDF-40B9-8AE8-8FAA242CDBC2</key>
+		<string>https://github.com/runrunrun/iOSTopicalCode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UICollectionView/RobotCollection/RobotCollection.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E8D0E290-ABDF-40B9-8AE8-8FAA242CDBC2</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/runrunrun/iOSTopicalCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8D0E290-ABDF-40B9-8AE8-8FAA242CDBC2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8D0E290-ABDF-40B9-8AE8-8FAA242CDBC2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSTopicalCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

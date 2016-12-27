@@ -1,0 +1,36 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "apple.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "widthClass" : "regular"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "widthClass" : "regular"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "widthClass" : "regular"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

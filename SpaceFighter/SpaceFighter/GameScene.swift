@@ -24,47 +24,47 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var lastTouch: CGPoint? = nil
     let playerSpeed: CGFloat = 150.0
 
-    override func didMoveToView(view: SKView) {
+    override func didMove(to view: SKView) {
         
         // Setup physics words contact delegate
         physicsWorld.contactDelegate = self
         
         // Setup spaceship
-        if let spaceship = self.childNodeWithName("spaceship") as? SKSpriteNode {
+        if let spaceship = self.childNode(withName: "spaceship") as? SKSpriteNode {
             self.spaceship = spaceship
-            spaceship.physicsBody?.dynamic = true // 2
+            spaceship.physicsBody?.isDynamic = true // 2
             spaceship.physicsBody?.categoryBitMask = PhysicsCategory.Spaceship
             spaceship.physicsBody?.contactTestBitMask = PhysicsCategory.Asteroid 
             spaceship.physicsBody?.collisionBitMask = PhysicsCategory.Asteroid
         }
         
         // Setup asteroids
-        runAction(SKAction.repeatActionForever(
+        run(SKAction.repeatForever(
             SKAction.sequence([
-                SKAction.runBlock(addAsteroid),
-                SKAction.waitForDuration(1.0)
+                SKAction.run(addAsteroid),
+                SKAction.wait(forDuration: 1.0)
                 ])
             ))
         
-        physicsWorld.gravity = CGVectorMake(0, 0)
+        physicsWorld.gravity = CGVector(dx: 0, dy: 0)
         physicsWorld.contactDelegate = self
         
     }
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
        /* Called when a touch begins */
         handleTouches(touches)
     }
     
-    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         handleTouches(touches)
     }
     
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         handleTouches(touches)
     }
    
-    override func update(currentTime: CFTimeInterval) {
+    override func update(_ currentTime: TimeInterval) {
         /* Called before each frame is rendered */
     }
     
@@ -74,22 +74,22 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
-    private func handleTouches(touches: Set<UITouch>) {
+    fileprivate func handleTouches(_ touches: Set<UITouch>) {
         for touch in touches {
-            let touchLocation = touch.locationInNode(self)
+            let touchLocation = touch.location(in: self)
             lastTouch = touchLocation
         }
     }
     
-    private func updateSpaceship() {
+    fileprivate func updateSpaceship() {
         if let touch = lastTouch {
             let currentPosition = spaceship!.position
             if shouldMove(currentPosition: currentPosition, touchPosition: touch) {
                 
                 let angle = atan2(currentPosition.y - touch.y, currentPosition.x - touch.x) + CGFloat(M_PI)
-                let rotateAction = SKAction.rotateToAngle(angle + CGFloat(M_PI*1.5), duration: 0)
+                let rotateAction = SKAction.rotate(toAngle: angle + CGFloat(M_PI*1.5), duration: 0)
                 
-                spaceship!.runAction(rotateAction)
+                spaceship!.run(rotateAction)
                 
                 let velocotyX = playerSpeed * cos(angle)
                 let velocityY = playerSpeed * sin(angle)
@@ -97,27 +97,27 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 let newVelocity = CGVector(dx: velocotyX, dy: velocityY)
                 spaceship!.physicsBody!.velocity = newVelocity;
             } else {
-                spaceship!.physicsBody!.resting = true
+                spaceship!.physicsBody!.isResting = true
             }
         }
         
     }
 
     // Determines if the player's position should be updated
-    private func shouldMove(currentPosition currentPosition: CGPoint, touchPosition: CGPoint) -> Bool {
+    fileprivate func shouldMove(currentPosition: CGPoint, touchPosition: CGPoint) -> Bool {
         return abs(currentPosition.x - touchPosition.x) > spaceship!.frame.width / 2 ||
             abs(currentPosition.y - touchPosition.y) > spaceship!.frame.height/2
     }
     
     
-    private func addAsteroid() {
+    fileprivate func addAsteroid() {
         let postfixIndex = Int(random(min: CGFloat(1), max: CGFloat(4)))
 
         // Create asteroid sprite
         let asteroid = SKSpriteNode(imageNamed: "asteroid" + String(postfixIndex))
         
-        asteroid.physicsBody = SKPhysicsBody(rectangleOfSize: asteroid.size)
-        asteroid.physicsBody?.dynamic = true // 2
+        asteroid.physicsBody = SKPhysicsBody(rectangleOf: asteroid.size)
+        asteroid.physicsBody?.isDynamic = true // 2
         asteroid.physicsBody?.categoryBitMask = PhysicsCategory.Asteroid
         asteroid.physicsBody?.contactTestBitMask = PhysicsCategory.Spaceship | PhysicsCategory.Projectile
         asteroid.physicsBody?.collisionBitMask = PhysicsCategory.Spaceship | PhysicsCategory.Projectile
@@ -139,19 +139,19 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let actualDuration = random(min: CGFloat(5.0), max: CGFloat(10.0))
         
         // Create the actions
-        let actionMove = SKAction.moveTo(CGPoint(x: -asteroid.size.width/2, y: actualY), duration: NSTimeInterval(actualDuration))
+        let actionMove = SKAction.move(to: CGPoint(x: -asteroid.size.width/2, y: actualY), duration: TimeInterval(actualDuration))
         let actionMoveDone = SKAction.removeFromParent()
-        asteroid.runAction(SKAction.sequence([actionMove, actionMoveDone]))
+        asteroid.run(SKAction.sequence([actionMove, actionMoveDone]))
     }
     
     // MARK :- Collision handling
-    private func projectileDidCollideWithAsteroid(projectile: SKSpriteNode, asteroid: SKSpriteNode) {
+    fileprivate func projectileDidCollideWithAsteroid(_ projectile: SKSpriteNode, asteroid: SKSpriteNode) {
         print("Hit")
         projectile.removeFromParent()
         asteroid.removeFromParent()
     }
     
-    private func spaceshipDidCollideWithAsteroid(spaceship: SKSpriteNode, asteroid: SKSpriteNode) {
+    fileprivate func spaceshipDidCollideWithAsteroid(_ spaceship: SKSpriteNode, asteroid: SKSpriteNode) {
         print("Game over")
         
         // Prevent multiple collisions
@@ -160,17 +160,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         spaceship.physicsBody?.contactTestBitMask = 0
         
         // Create the actions
-        let actionExplosion = SKAction.animateWithTextures([SKTexture(imageNamed: "explosion")], timePerFrame: 0.5)
+        let actionExplosion = SKAction.animate(with: [SKTexture(imageNamed: "explosion")], timePerFrame: 0.5)
         let actionExplosionDone = SKAction.removeFromParent()
-        spaceship.runAction(SKAction.sequence([actionExplosion, actionExplosionDone])) {
+        spaceship.run(SKAction.sequence([actionExplosion, actionExplosionDone]), completion: {
             // Show gameover screen
-            let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(2 * Double(NSEC_PER_SEC)))
-            dispatch_after(delayTime, dispatch_get_main_queue()) {
-                let reveal = SKTransition.flipHorizontalWithDuration(2.0)
+            let delayTime = DispatchTime.now() + Double(Int64(2 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
+            DispatchQueue.main.asyncAfter(deadline: delayTime) {
+                let reveal = SKTransition.flipHorizontal(withDuration: 2.0)
                 let gameOverScene = GameOverScene(size: self.size, won: false)
                 self.view?.presentScene(gameOverScene, transition: reveal)
             }
-        }
+        }) 
     }
     
     
@@ -179,12 +179,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         return CGFloat(Float(arc4random()) / 0xFFFFFFFF)
     }
     
-    func random(min min: CGFloat, max: CGFloat) -> CGFloat {
+    func random(min: CGFloat, max: CGFloat) -> CGFloat {
         return random() * (max - min) + min
     }
     
     // MARK : - SKPhysicsContactDelegate
-    func didBeginContact(contact: SKPhysicsContact) {
+    func didBegin(_ contact: SKPhysicsContact) {
         
         // Step 1. Bitwise OR the bodies' categories to find out what kind of contact we have
         let contactMask = contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask

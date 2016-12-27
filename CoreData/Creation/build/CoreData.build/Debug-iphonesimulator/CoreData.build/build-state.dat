@@ -1,0 +1,371 @@
+TCoreData
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Info.plist CoreData/CoreData-Info.plist
+cDataModelVersionCompile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData.momd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData.xcdatamodeld
+cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch.pth CoreData/CoreData-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/RootViewController.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/Contact.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData normal i386
+cGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app.dSYM /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData
+cCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/en.lproj/InfoPlist.strings CoreData/en.lproj/InfoPlist.strings
+cCpResource CoreData/Default.png build/Debug-iphonesimulator/CoreData.app/Default.png
+cCpResource CoreData/Default@2x.png build/Debug-iphonesimulator/CoreData.app/Default@2x.png
+cCpResource CoreData/Default-568h@2x.png build/Debug-iphonesimulator/CoreData.app/Default-568h@2x.png
+cTouch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c00000000512FB99A000000000030F580
+t1362082202
+s3208576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c00000000512FB999000000000000053B
+t1362082201
+s1339
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000512FB99A0000000000228FE0
+t1362082202
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000512FB99B00000000003DDFA0
+t1362082203
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000512FB99B00000000000015F7
+t1362082203
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000512FB99E0000000000000E8D
+t1362082206
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000512FB99F0000000000AB6230
+t1362082207
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000512FB9AE0000000000001B73
+t1362082222
+s7027
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.h
+c0000000051ACF1B900000000000002AA
+t1370288569
+s682
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.m
+c0000000051ACF1C30000000000001C5F
+t1370288579
+s7263
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.h
+c0000000051902ECD00000000000001B6
+t1368403661
+s438
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.m
+c0000000051902ECD00000000000000FD
+t1368403661
+s253
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData-Prefix.pch
+c00000000518DBD1A0000000000000161
+t1368243482
+s353
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData.xcdatamodeld
+c00000000519030C50000000000000088
+t1368404165
+s136
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.h
+c0000000051ACF0D50000000000000158
+t1370288341
+s344
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.m
+c0000000051A919C60000000000001F85
+t1370036678
+s8069
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/en.lproj/InfoPlist.strings
+c00000000518DBD1A000000000000002D
+t1368243482
+s45
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/main.m
+c00000000518DBD1A000000000000014D
+t1368243482
+s333
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/AppDelegate.o
+t1368408080
+s105688
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/Contact.o
+t1368406005
+s8352
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/CoreData.LinkFileList
+c00000000519037F50000000000000258
+t1368406005
+s600
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/RootViewController.o
+t1368655259
+s123640
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/main.o
+t1368406005
+s3340
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app
+t1368655259
+s340
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app.dSYM
+t1368655259
+s102
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData
+t1368655259
+s65676
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData.momd
+t1368406005
+s170
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Default-568h@2x.png
+t1368406006
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Default.png
+t1368406006
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Default@2x.png
+t1368406006
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Info.plist
+t1368406005
+s893
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/PkgInfo
+t1368406005
+s8
+
+N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/en.lproj/InfoPlist.strings
+t1368406006
+s42
+
+N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch.pth
+t1368406005
+s4901028
+
+NCoreData/CoreData-Info.plist
+c00000000518DBD1A00000000000005AE
+t1368243482
+s1454
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese5d41690bf60b741^2aa74590bf60b741^---0#1#0#--18"Check dependencies36"AC79E786-DCB3-4522-AFFA-188F11B0612B-
+
+CCompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392216464.296873
+e392216465.266472
+r1
+xCompileC
+xbuild/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/AppDelegate.o
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.m452e4c90bf60b741^a4374491bf60b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.m0000000000000000^3721"CompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/AppDelegate.o CoreData/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/AppDelegate.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/AppDelegate.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/AppDelegate.o36"B94FD22A-0494-44DC-A664-91C20C30EA11-
+
+CCompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/Contact.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390098805.953140
+e390098805.981969
+r1
+xCompileC
+xbuild/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/Contact.o
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.m1c24f4756f40b741^0b63fb756f40b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.m0000000000000000^3697"CompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/Contact.o CoreData/Contact.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/Contact.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/Contact.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Contact.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/Contact.o36"48D3A838-1FFD-41D6-BF43-0D4B314830B9-
+
+CCompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/RootViewController.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392216464.296902
+e392216465.270326
+r1
+xCompileC
+xbuild/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/RootViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.me3344c90bf60b741^16344591bf60b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.m0000000000000000^3763"CompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/RootViewController.o CoreData/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/RootViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/RootViewController.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/RootViewController.o36"249BA51D-E8C9-4F24-BF18-4AAF9AB10531-
+
+CCompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392216464.296640
+e392216465.241053
+r1
+xCompileC
+xbuild/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/main.o
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/main.m552e4c90bf60b741^1cb63d91bf60b741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/main.m0000000000000000^3679"CompileC build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/main.o CoreData/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/main.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/main.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/main.o36"C3221E76-2D03-48BC-80C7-3E6E4657C0AC-
+
+CCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/en.lproj/InfoPlist.strings CoreData/en.lproj/InfoPlist.strings
+s390098806.100812
+e390098806.117986
+r1
+xCopyStringsFile
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/en.lproj/InfoPlist.strings
+xCoreData/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy CoreData/en.lproj/InfoPlist.strings7ae219766f40b741^97381e766f40b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/en.lproj/InfoPlist.strings0000000000000000^619"CopyStringsFile build/Debug-iphonesimulator/CoreData.app/en.lproj/InfoPlist.strings CoreData/en.lproj/InfoPlist.strings    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/en.lproj -- CoreData/en.lproj/InfoPlist.strings36"7E3C1170-4AFD-4096-A17F-AE78B31D1857-
+
+CCpResource CoreData/Default-568h@2x.png build/Debug-iphonesimulator/CoreData.app/Default-568h@2x.png
+s390098806.102472
+e390098806.106871
+r1
+xCpResource
+xCoreData/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/CoreData.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/CoreData.app/Default-568h@2x.pngcf4a1a766f40b741^5b5c1b766f40b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Default-568h@2x.png000000000080d041^668"CpResource "CoreData/Default-568h@2x.png" "build/Debug-iphonesimulator/CoreData.app/Default-568h@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Default-568h@2x.png" /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app36"1F3C30C6-7CAE-4330-8C93-A7130440B6A1-
+
+CCpResource CoreData/Default.png build/Debug-iphonesimulator/CoreData.app/Default.png
+s390098806.101298
+e390098806.104989
+r1
+xCpResource
+xCoreData/Default.png
+xbuild/Debug-iphonesimulator/CoreData.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/CoreData.app/Default.pnga0fc19766f40b741^05e11a766f40b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Default.png000000000080d041^638"CpResource CoreData/Default.png build/Debug-iphonesimulator/CoreData.app/Default.png    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Default.png /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app36"E2EC0ED7-1D72-4C4C-9D5F-EC4F14FFD333-
+
+CCpResource CoreData/Default@2x.png build/Debug-iphonesimulator/CoreData.app/Default@2x.png
+s390098806.101316
+e390098806.106250
+r1
+xCpResource
+xCoreData/Default@2x.png
+xbuild/Debug-iphonesimulator/CoreData.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/CoreData.app/Default@2x.png3b001a766f40b741^48361b766f40b741^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Default@2x.png000000000080d041^653"CpResource "CoreData/Default@2x.png" "build/Debug-iphonesimulator/CoreData.app/Default@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/Default@2x.png" /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app36"7A22306B-FA2C-4096-A621-CC46FCF1135F-
+
+CDataModelVersionCompile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData.momd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData.xcdatamodeld
+s390098805.282512
+e390098805.953288
+r1
+xDataModelVersionCompile
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData.momd
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData.xcdatamodeld
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"DataModelVersionCompile build/Debug-iphonesimulator/CoreData.app/CoreData.momd CoreData/CoreData.xcdatamodeldc76548756f40b741^aa0bf4756f40b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData.xcdatamodeld/0000000000000000^931"DataModelVersionCompile build/Debug-iphonesimulator/CoreData.app/CoreData.momd CoreData/CoreData.xcdatamodeld    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -XD_MOMC_IOS_TARGET_VERSION=5.0 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData.xcdatamodeld /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData.momd36"9C0A9D65-9EA1-4AA7-8303-D5C2A77EB078-
+
+CGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app.dSYM /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData
+s392216466.524556
+e392216466.590486
+r1
+xGenerateDSYMFile
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app.dSYM
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Generate /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app.dSYM855b8692bf60b741^f6299792bf60b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app.dSYM/0000000000000000^691"GenerateDSYMFile build/Debug-iphonesimulator/CoreData.app.dSYM build/Debug-iphonesimulator/CoreData.app/CoreData    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app.dSYM36"083F27F4-7B36-4175-9EA6-5C73C328D1E5-
+
+CLd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData normal i386
+s392216465.278019
+e392216466.517316
+r1
+xLd
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Link /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData31434791bf60b741^f46e8492bf60b741^---0#0#0#--1274"Ld build/Debug-iphonesimulator/CoreData.app/CoreData normal i386    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator -filelist /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/Objects-normal/i386/CoreData.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework UIKit -framework Foundation -framework CoreGraphics -framework CoreData -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/CoreData36"E3BF8C05-618C-4C59-9FD5-9ACCEC08ECA0-
+
+CProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Info.plist CoreData/CoreData-Info.plist
+s390098805.271407
+e390098805.274436
+r1
+xProcessInfoPlistFile
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Info.plist
+xCoreData/CoreData-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process CoreData/CoreData-Info.plistce8d45756f40b741^524446756f40b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData-Info.plist0000000000000000^717"ProcessInfoPlistFile build/Debug-iphonesimulator/CoreData.app/Info.plist CoreData/CoreData-Info.plist    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CoreData/CoreData-Info.plist -genpkginfo /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app/Info.plist36"068E8A10-AA9C-4FE1-8B48-E4E27088E1B9-
+
+CProcessPCH /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/DerivedData/CoreData/Index/PrecompiledHeaders/CoreData-Prefix-arcvgvreisgkpqcdyrrlyfvzvwix_ast/CoreData-Prefix.pch.pth CoreData/CoreData-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/harikunwar/Library/Developer/Xcode/DerivedData/CoreData-axvgoylkvvipijfrasmjcoivjkdp/Index/PrecompiledHeaders/CoreData-Prefix-arcvgvreisgkpqcdyrrlyfvzvwix_ast/CoreData-Prefix.pch.pth CoreData/CoreData-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch.pth CoreData/CoreData-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390098805.282509
+e390098805.945807
+r1
+xProcessPCH
+x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch.pth
+xCoreData/CoreData-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile CoreData/CoreData-Prefix.pch056f48756f40b741^0420f2756f40b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData-Prefix.pch0000000000000000^3677"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch.pth CoreData/CoreData-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/CoreData-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/CoreData.build/Debug-iphonesimulator/CoreData.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/CoreData/CoreData-Prefix.pch -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreData-Prefix-dhdeqwlzuezlzmfrricdsayufgpp/CoreData-Prefix.pch.d36"A28EDD26-9F65-45BE-BEBD-13DE357F37D2-
+
+CTouch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app
+s392216466.607599
+e392216466.630521
+r1
+xTouch
+x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Touch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app419c9b92bf60b741^e469a192bf60b741^---0#0#0#--430"Touch build/Debug-iphonesimulator/CoreData.app    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/CoreData/build/Debug-iphonesimulator/CoreData.app36"D7E75FF8-B3CB-49CC-B037-466C7EB2B0A3-
+

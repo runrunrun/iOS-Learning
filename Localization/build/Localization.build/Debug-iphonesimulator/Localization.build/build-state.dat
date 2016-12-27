@@ -1,0 +1,363 @@
+TLocalization
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Info.plist" Localization/Localization-Info.plist
+cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch.pth Localization/Localization-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/main.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/RootViewController.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/AppDelegate.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization" normal i386
+cGenerateDSYMFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app.dSYM" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization"
+cCpResource Localization/Default.png build/Debug-iphonesimulator/Localization.app/Default.png
+cCpResource Localization/Default@2x.png build/Debug-iphonesimulator/Localization.app/Default@2x.png
+cCpResource Localization/Default-568h@2x.png build/Debug-iphonesimulator/Localization.app/Default-568h@2x.png
+cCompileXIB "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.xib"
+cCpResource Localization/en.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/en.lproj/Localizable.strings
+cCpResource Localization/de.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/de.lproj/Localizable.strings
+cCpResource Localization/fr.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/fr.lproj/Localizable.strings
+cTouch "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000512FB99A0000000000228FE0
+t1362082202
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000512FB99B00000000003DDFA0
+t1362082203
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000512FB99B00000000000015F7
+t1362082203
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000512FB99E0000000000000E8D
+t1362082206
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000512FB99F0000000000AB6230
+t1362082207
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000512FB9AE0000000000001B73
+t1362082222
+s7027
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/AppDelegate.h
+c00000000517F3BD30000000000000116
+t1367292883
+s278
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/AppDelegate.m
+c00000000517F3E310000000000000964
+t1367293489
+s2404
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/Localization-Prefix.pch
+c00000000517F3BD30000000000000147
+t1367292883
+s327
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.h
+c00000000517F3C8100000000000000E0
+t1367293057
+s224
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.m
+c00000000517F3FA8000000000000042C
+t1367293864
+s1068
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.xib
+c00000000517F3DCC00000000000050E9
+t1367293388
+s20713
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/de.lproj/Localizable.strings
+c00000000517F43DD0000000000000180
+t1367294941
+s384
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/en.lproj/Localizable.strings
+c00000000517F415E000000000000017E
+t1367294302
+s382
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/fr.lproj/Localizable.strings
+c00000000517F458000000000000001A0
+t1367295360
+s416
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/main.m
+c00000000517F3BD30000000000000151
+t1367292883
+s337
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app
+t1367295156
+s408
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app.dSYM
+t1367295149
+s102
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Default-568h@2x.png
+t1367295149
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Default.png
+t1367295149
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Default@2x.png
+t1367295149
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Info.plist
+t1367295147
+s909
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization
+t1367295149
+s22960
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/PkgInfo
+t1367295147
+s8
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/RootViewController.nib
+t1367295156
+s2616
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/de.lproj/Localizable.strings
+t1367295149
+s384
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/en.lproj/Localizable.strings
+t1367295149
+s382
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/fr.lproj/Localizable.strings
+t1367295149
+s414
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/AppDelegate.o
+t1367295149
+s88996
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/Localization.LinkFileList
+c00000000517F44AB00000000000001F2
+t1367295147
+s498
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/RootViewController.o
+t1367295149
+s73984
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/main.o
+t1367295149
+s3372
+
+N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch.pth
+t1367295148
+s4678552
+
+NLocalization/Localization-Info.plist
+c00000000517F3FE600000000000005AE
+t1367293926
+s1454
+
+CBuild AST from "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.m"
+r0
+
+CBuild AST from "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6ec20d2b7d2fb741^4f030e2b7d2fb741^---0#1#0#--18"Check dependencies36"FB1C0F66-2737-4FA4-8999-018886F075F3-
+
+CCompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/AppDelegate.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388987948.699207
+e388987949.196863
+r1
+xCompileC
+xbuild/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/AppDelegate.o
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/AppDelegate.mee3eb32c7c2fb741^2865322d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/Localization/AppDelegate.m0000000000000000^3950"CompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/AppDelegate.o Localization/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-generated-files.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-own-target-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-all-target-headers.hmap" -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-project-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/DerivedSources/i386" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/DerivedSources" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch -MMD -MT dependencies -MF "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/AppDelegate.d" --serialize-diagnostics "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/AppDelegate.dia" -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/AppDelegate.m" -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/AppDelegate.o"36"9D0F9027-2913-4EB9-8089-81CB7B16038C-
+
+CCompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/RootViewController.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388987948.699230
+e388987949.196078
+r1
+xCompileC
+xbuild/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/RootViewController.o
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.m2a39b32c7c2fb741^fc34322d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/Localization/RootViewController.m0000000000000000^3992"CompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/RootViewController.o Localization/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-generated-files.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-own-target-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-all-target-headers.hmap" -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-project-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/DerivedSources/i386" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/DerivedSources" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch -MMD -MT dependencies -MF "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/RootViewController.d" --serialize-diagnostics "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/RootViewController.dia" -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.m" -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/RootViewController.o"36"4CA9507D-9992-4F6D-BA6A-EBF37FEC781D-
+
+CCompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/main.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388987948.699215
+e388987949.187900
+r1
+xCompileC
+xbuild/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/main.o
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/main.m9f39b32c7c2fb741^da1b302d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/Localization/main.m0000000000000000^3908"CompileC build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/main.o Localization/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-generated-files.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-own-target-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-all-target-headers.hmap" -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-project-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/DerivedSources/i386" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/DerivedSources" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch -MMD -MT dependencies -MF "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/main.dia" -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/main.m" -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/main.o"36"973443E4-3B3B-4925-8476-7B9CFB1638DA-
+
+CCompileXIB "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.xib"
+s388987949.950329
+e388987956.089830
+r1
+xCompileXIB
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compiling /Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.xib698ff32d7c2fb741^b0ff16347c2fb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/Localization/RootViewController.xib0000000000000000^1001"CompileXIB Localization/RootViewController.xib    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/RootViewController.nib" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/RootViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"0770AD6B-5B4A-4A9C-94EC-1D8654281C63-
+
+CCpResource Localization/Default-568h@2x.png build/Debug-iphonesimulator/Localization.app/Default-568h@2x.png
+s388987949.950268
+e388987949.969214
+r1
+xCpResource
+xLocalization/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/Localization.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphonesimulator/Localization.app/Default-568h@2x.pnge789f32d7c2fb741^5036f92d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/build/Debug-iphonesimulator/Localization.app/Default-568h@2x.png000000000080d041^709"CpResource "Localization/Default-568h@2x.png" "build/Debug-iphonesimulator/Localization.app/Default-568h@2x.png"    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/Default-568h@2x.png" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app"36"30CA6B49-8AD0-4D71-A0E5-CE5805FCFC7F-
+
+CCpResource Localization/Default.png build/Debug-iphonesimulator/Localization.app/Default.png
+s388987949.949960
+e388987949.968710
+r1
+xCpResource
+xLocalization/Default.png
+xbuild/Debug-iphonesimulator/Localization.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/Localization.app/Default.png836ef32d7c2fb741^c632f92d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/build/Debug-iphonesimulator/Localization.app/Default.png000000000080d041^681"CpResource Localization/Default.png build/Debug-iphonesimulator/Localization.app/Default.png    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/Default.png" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app"36"8B69E0C2-8084-4AE0-BCA7-BF60BB54FB76-
+
+CCpResource Localization/Default@2x.png build/Debug-iphonesimulator/Localization.app/Default@2x.png
+s388987949.949979
+e388987949.968937
+r1
+xCpResource
+xLocalization/Default@2x.png
+xbuild/Debug-iphonesimulator/Localization.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/Localization.app/Default@2x.png986df32d7c2fb741^3335f92d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/build/Debug-iphonesimulator/Localization.app/Default@2x.png000000000080d041^694"CpResource "Localization/Default@2x.png" "build/Debug-iphonesimulator/Localization.app/Default@2x.png"    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/Default@2x.png" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app"36"A54F9665-6290-4290-955D-9413EBB1585F-
+
+CCpResource Localization/de.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/de.lproj/Localizable.strings
+s388987949.950334
+e388987949.961136
+r1
+xCpResource
+xLocalization/de.lproj/Localizable.strings
+xbuild/Debug-iphonesimulator/Localization.app/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/Localization.app/de.lproj/Localizable.strings5490f32d7c2fb741^ed0df62d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/build/Debug-iphonesimulator/Localization.app/de.lproj/Localizable.strings000000000080d041^741"CpResource Localization/de.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/de.lproj/Localizable.strings    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/de.lproj/Localizable.strings" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/de.lproj"36"908F5133-0A7E-45AB-9D02-E54DBE986A03-
+
+CCpResource Localization/en.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/en.lproj/Localizable.strings
+s388987949.950307
+e388987949.956296
+r1
+xCpResource
+xLocalization/en.lproj/Localizable.strings
+xbuild/Debug-iphonesimulator/Localization.app/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/Localization.app/en.lproj/Localizable.strings8d7ff32d7c2fb741^35d0f42d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/build/Debug-iphonesimulator/Localization.app/en.lproj/Localizable.strings000000000080d041^741"CpResource Localization/en.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/en.lproj/Localizable.strings    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/en.lproj/Localizable.strings" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/en.lproj"36"0E28AB24-0A91-49F0-ADA7-368383F5780E-
+
+CCpResource Localization/fr.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/fr.lproj/Localizable.strings
+s388988203.120850
+e388988203.142298
+r1
+xCpResource
+xLocalization/fr.lproj/Localizable.strings
+xbuild/Debug-iphonesimulator/Localization.app/fr.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy build/Debug-iphonesimulator/Localization.app/fr.lproj/Localizable.strings0f091f2b7d2fb741^8f6e242b7d2fb741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/build/Debug-iphonesimulator/Localization.app/fr.lproj/Localizable.strings0000000000000000^741"CpResource Localization/fr.lproj/Localizable.strings build/Debug-iphonesimulator/Localization.app/fr.lproj/Localizable.strings    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/fr.lproj/Localizable.strings" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/fr.lproj"36"55EABF44-2A7A-4EB2-AB5D-09104F3BBD3D-
+
+CGenerateDSYMFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app.dSYM" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization"
+s388987949.856798
+e388987949.941123
+r1
+xGenerateDSYMFile
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app.dSYM
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Generate /Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app.dSYM836adb2d7c2fb741^20ecf02d7c2fb741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/build/Debug-iphonesimulator/Localization.app.dSYM000000000080d041^742"GenerateDSYMFile build/Debug-iphonesimulator/Localization.app.dSYM build/Debug-iphonesimulator/Localization.app/Localization    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization" -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app.dSYM"36"B3A6BF8C-A1EB-4C24-9C0C-DECEEC708547-
+
+CLd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization" normal i386
+s388987949.204513
+e388987949.847957
+r1
+xLd
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Link /Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization1972342d7c2fb741^8313d92d7c2fb741^---0#0#0#--1327"Ld build/Debug-iphonesimulator/Localization.app/Localization normal i386    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk "-L/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator" -filelist "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Objects-normal/i386/Localization.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Localization"36"9F98DC72-8114-485F-9AFE-8C39AD3AC393-
+
+CProcessInfoPlistFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Info.plist" Localization/Localization-Info.plist
+s388987947.659513
+e388987947.663191
+r1
+xProcessInfoPlistFile
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Info.plist
+xLocalization/Localization-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process Localization/Localization-Info.plist14e7a82b7c2fb741^d2c6a92b7c2fb741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/Localization/Localization-Info.plist0000000000000000^772"ProcessInfoPlistFile build/Debug-iphonesimulator/Localization.app/Info.plist Localization/Localization-Info.plist    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Localization/Localization-Info.plist -genpkginfo "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app/Info.plist"36"3E60F257-E2E0-4C9C-8DB9-3E18919A666F-
+
+CProcessPCH /Users/harikunwar/Library/Developer/Xcode/DerivedData/Localization-gnueuzgckdwliacxcurtqfvblxse/Index/PrecompiledHeaders/Localization-Prefix-fhcsxvlkqpocjqbijpagkzvtltqd_ast/Localization-Prefix.pch.pth Localization/Localization-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch.pth Localization/Localization-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388987947.672220
+e388987948.691547
+r1
+xProcessPCH
+x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch.pth
+xLocalization/Localization-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Localization/Localization-Prefix.pch0d37ac2b7c2fb741^910cb12c7c2fb741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/Localization/Localization/Localization-Prefix.pch0000000000000000^3879"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch.pth Localization/Localization-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-generated-files.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-own-target-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-all-target-headers.hmap" -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/Localization-project-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/DerivedSources/i386" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Localization.build/Debug-iphonesimulator/Localization.build/DerivedSources" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator" --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch.dia -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/Localization/Localization-Prefix.pch" -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Localization-Prefix-edejyghwanyzpddybacqwalmstzt/Localization-Prefix.pch.d36"57AD7F15-F2E9-469C-A91F-8DFFEF59AE5F-
+
+CTouch "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app"
+s388988203.150238
+e388988203.243194
+r1
+xTouch
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Touch /Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app6589262b7d2fb741^c4413e2b7d2fb741^---0#0#0#--456"Touch build/Debug-iphonesimulator/Localization.app    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /Localization/build/Debug-iphonesimulator/Localization.app"36"2C0A4769-4BA6-4F46-B298-A322401F4667-
+

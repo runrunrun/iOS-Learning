@@ -1,0 +1,315 @@
+TCoreAnimation
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Info.plist" CoreAnimation/CoreAnimation-Info.plist
+cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch.pth CoreAnimation/CoreAnimation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/AppDelegate.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/main.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/RootViewController.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation" normal i386
+cGenerateDSYMFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app.dSYM" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation"
+cCopyStringsFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/en.lproj/InfoPlist.strings" CoreAnimation/en.lproj/InfoPlist.strings
+cCpResource CoreAnimation/Default.png build/Debug-iphonesimulator/CoreAnimation.app/Default.png
+cCpResource CoreAnimation/Default-568h@2x.png build/Debug-iphonesimulator/CoreAnimation.app/Default-568h@2x.png
+cCpResource CoreAnimation/Default@2x.png build/Debug-iphonesimulator/CoreAnimation.app/Default@2x.png
+cCompileXIB "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.xib"
+cTouch "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000512FB99A0000000000228FE0
+t1362082202
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000512FB99B00000000003DDFA0
+t1362082203
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000512FB99B00000000000015F7
+t1362082203
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000512FB99E0000000000000E8D
+t1362082206
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000512FB99F0000000000AB6230
+t1362082207
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000512FB9AE0000000000001B73
+t1362082222
+s7027
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/AppDelegate.m
+c0000000051760DB00000000000000938
+t1366691248
+s2360
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/CoreAnimation-Prefix.pch
+c0000000051760A7B0000000000000149
+t1366690427
+s329
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.m
+c0000000051760D9500000000000002DE
+t1366691221
+s734
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.xib
+c0000000051760C930000000000001757
+t1366690963
+s5975
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/en.lproj/InfoPlist.strings
+c0000000051760A7B000000000000002D
+t1366690427
+s45
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/main.m
+c0000000051760A7B0000000000000152
+t1366690427
+s338
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/CoreAnimation.LinkFileList
+c0000000051760DB500000000000001FB
+t1366691253
+s507
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app.dSYM
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Default.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Default@2x.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Info.plist
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/PkgInfo
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/RootViewController.nib
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch.pth
+t2
+s0
+
+NCoreAnimation/CoreAnimation-Info.plist
+c0000000051760A7B00000000000005B2
+t1366690427
+s1458
+
+CBuild AST from "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.m"
+r0
+
+CBuild AST from "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd751d1354526b741^5fb308364526b741^---0#1#0#--18"Check dependencies36"9B151FA6-2277-4755-B915-FD56787DF788-
+
+CCompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/AppDelegate.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388384056.603944
+e388384057.167886
+r1
+xCompileC
+xbuild/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/AppDelegate.o
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/AppDelegate.mb2d89a384526b741^1afb2a394526b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/CoreAnimation/AppDelegate.m0000000000000000^3991"CompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/AppDelegate.o CoreAnimation/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-generated-files.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-own-target-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-all-target-headers.hmap" -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-project-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/DerivedSources/i386" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/DerivedSources" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch -MMD -MT dependencies -MF "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/AppDelegate.d" --serialize-diagnostics "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/AppDelegate.dia" -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/AppDelegate.m" -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/AppDelegate.o"36"9CE57832-51D7-4CC0-A8CA-FFF4487125F3-
+
+CCompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/RootViewController.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388384056.603962
+e388384057.167913
+r1
+xCompileC
+xbuild/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/RootViewController.o
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.me0d99a384526b741^6dff2a394526b741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/CoreAnimation/RootViewController.m0000000000000000^4033"CompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/RootViewController.o CoreAnimation/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-generated-files.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-own-target-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-all-target-headers.hmap" -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-project-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/DerivedSources/i386" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/DerivedSources" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch -MMD -MT dependencies -MF "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/RootViewController.d" --serialize-diagnostics "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/RootViewController.dia" -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.m" -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/RootViewController.o"36"BF65B158-8B46-4D75-99C1-DBFFEAC928D7-
+
+CCompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/main.o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388384056.603954
+e388384057.158116
+r1
+xCompileC
+xbuild/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/main.o
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/main.m49d99a384526b741^dd7b28394526b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/CoreAnimation/main.m0000000000000000^3949"CompileC build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/main.o CoreAnimation/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-generated-files.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-own-target-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-all-target-headers.hmap" -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-project-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/DerivedSources/i386" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/DerivedSources" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch -MMD -MT dependencies -MF "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/main.dia" -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/main.m" -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/main.o"36"A696C349-DE28-4B7A-8605-747FC47EB235-
+
+CCompileXIB "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.xib"
+s388384059.050568
+e388384059.111819
+r1
+xCompileXIB
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compiling /Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.xib25060d3b4526b741^b2a01c3b4526b741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/CoreAnimation/RootViewController.xib0000000000000000^1007"CompileXIB CoreAnimation/RootViewController.xib    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/RootViewController.nib" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/RootViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"C20C21D4-B3D8-4BB1-8358-E979687204F6-
+
+CCopyStringsFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/en.lproj/InfoPlist.strings" CoreAnimation/en.lproj/InfoPlist.strings
+s388384059.046202
+e388384059.052459
+r1
+xCopyStringsFile
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/en.lproj/InfoPlist.strings
+xCoreAnimation/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy CoreAnimation/en.lproj/InfoPlist.strings21040c3b4526b741^056e0d3b4526b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/CoreAnimation/en.lproj/InfoPlist.strings0000000000000000^659"CopyStringsFile build/Debug-iphonesimulator/CoreAnimation.app/en.lproj/InfoPlist.strings CoreAnimation/en.lproj/InfoPlist.strings    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/en.lproj" -- CoreAnimation/en.lproj/InfoPlist.strings36"B031E7C7-DAEC-47B0-B93F-405919F26C27-
+
+CCpResource CoreAnimation/Default-568h@2x.png build/Debug-iphonesimulator/CoreAnimation.app/Default-568h@2x.png
+s388384059.046254
+e388384059.051506
+r1
+xCpResource
+xCoreAnimation/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/CoreAnimation.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/CoreAnimation.app/Default-568h@2x.png0c010c3b4526b741^27300d3b4526b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Default-568h@2x.png000000000080d041^716"CpResource "CoreAnimation/Default-568h@2x.png" "build/Debug-iphonesimulator/CoreAnimation.app/Default-568h@2x.png"    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/Default-568h@2x.png" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app"36"B208B28B-E50A-4BEE-9B68-19D658665386-
+
+CCpResource CoreAnimation/Default.png build/Debug-iphonesimulator/CoreAnimation.app/Default.png
+s388384059.046231
+e388384059.050457
+r1
+xCpResource
+xCoreAnimation/Default.png
+xbuild/Debug-iphonesimulator/CoreAnimation.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/CoreAnimation.app/Default.png54000c3b4526b741^4eed0c3b4526b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Default.png000000000080d041^688"CpResource CoreAnimation/Default.png build/Debug-iphonesimulator/CoreAnimation.app/Default.png    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/Default.png" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app"36"B802FDA7-F6A6-4F1F-9392-367C53EC2D59-
+
+CCpResource CoreAnimation/Default@2x.png build/Debug-iphonesimulator/CoreAnimation.app/Default@2x.png
+s388384059.046294
+e388384059.049306
+r1
+xCpResource
+xCoreAnimation/Default@2x.png
+xbuild/Debug-iphonesimulator/CoreAnimation.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/CoreAnimation.app/Default@2x.png00000c3b4526b741^6fa00c3b4526b741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Default@2x.png000000000080d041^701"CpResource "CoreAnimation/Default@2x.png" "build/Debug-iphonesimulator/CoreAnimation.app/Default@2x.png"    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/Default@2x.png" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app"36"421012A6-B017-430D-AC0E-1CEB1A7D0356-
+
+CGenerateDSYMFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app.dSYM" "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation"
+s388384058.887902
+e388384059.038172
+r1
+xGenerateDSYMFile
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app.dSYM
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Generate /Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app.dSYM1269e33a4526b741^c5c5093b4526b741^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app.dSYM000000000080d041^751"GenerateDSYMFile build/Debug-iphonesimulator/CoreAnimation.app.dSYM build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation" -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app.dSYM"36"2B2ABB94-D4CB-493B-AE02-7F40CCA89C02-
+
+CLd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation" normal i386
+s388384057.174950
+e388384058.880380
+r1
+xLd
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation2ae22c394526b741^a660e13a4526b741^---0#0#0#--1339"Ld build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation normal i386    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk "-L/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator" -filelist "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/Objects-normal/i386/CoreAnimation.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/CoreAnimation"36"CA15E2EA-472E-459A-842E-914ECEE639EA-
+
+CProcessInfoPlistFile "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Info.plist" CoreAnimation/CoreAnimation-Info.plist
+s388384054.068061
+e388384054.086162
+r1
+xProcessInfoPlistFile
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Info.plist
+xCoreAnimation/CoreAnimation-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process CoreAnimation/CoreAnimation-Info.plistdba511364526b741^761b20364526b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/CoreAnimation/CoreAnimation-Info.plist0000000000000000^782"ProcessInfoPlistFile build/Debug-iphonesimulator/CoreAnimation.app/Info.plist CoreAnimation/CoreAnimation-Info.plist    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CoreAnimation/CoreAnimation-Info.plist -genpkginfo "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app/Info.plist"36"13336F4C-78C8-4577-93F7-C64364339271-
+
+CProcessPCH /Users/harikunwar/Library/Developer/Xcode/DerivedData/CoreAnimation-dzmntainhkxebuacqxcaaxdqutus/Index/PrecompiledHeaders/CoreAnimation-Prefix-gbeacycxjtqqgkgkphomhnvmitso_ast/CoreAnimation-Prefix.pch.pth CoreAnimation/CoreAnimation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch.pth CoreAnimation/CoreAnimation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s388384054.095411
+e388384056.595897
+r1
+xProcessPCH
+x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch.pth
+xCoreAnimation/CoreAnimation-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile CoreAnimation/CoreAnimation-Prefix.pchb49418364526b741^9b8e98384526b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/harikunwar/Documents/GitHub/iOS%20Topical%20Code%20/CoreAnimation/CoreAnimation/CoreAnimation-Prefix.pch0000000000000000^3917"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch.pth CoreAnimation/CoreAnimation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-generated-files.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-own-target-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-all-target-headers.hmap" -iquote "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/CoreAnimation-project-headers.hmap" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/DerivedSources/i386" "-I/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/CoreAnimation.build/Debug-iphonesimulator/CoreAnimation.build/DerivedSources" "-F/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator" --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch.dia -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/CoreAnimation/CoreAnimation-Prefix.pch" -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreAnimation-Prefix-dooujeekojriswardjnfquqplznq/CoreAnimation-Prefix.pch.d36"297512DA-1FB9-4309-B7D1-B9F57E647E3A-
+
+CTouch "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app"
+s388384059.119876
+e388384059.203542
+r1
+xTouch
+x/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Touch /Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app6dc51e3b4526b741^ef1a343b4526b741^---0#0#0#--460"Touch build/Debug-iphonesimulator/CoreAnimation.app    cd "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/harikunwar/Documents/GitHub/iOS Topical Code /CoreAnimation/build/Debug-iphonesimulator/CoreAnimation.app"36"03EA86A6-3B49-47B0-822D-2B5E04B85618-
+

@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EF565B81A10926300AC4DDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF565B71A10926300AC4DDB /* main.m */; };
+		1EF565BB1A10926300AC4DDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF565BA1A10926300AC4DDB /* AppDelegate.m */; };
+		1EF565BE1A10926300AC4DDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF565BD1A10926300AC4DDB /* ViewController.m */; };
+		1EF565C11A10926300AC4DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EF565BF1A10926300AC4DDB /* Main.storyboard */; };
+		1EF565C31A10926300AC4DDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF565C21A10926300AC4DDB /* Images.xcassets */; };
+		1EF565C61A10926300AC4DDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF565C41A10926300AC4DDB /* LaunchScreen.xib */; };
+		1EF565D21A10926300AC4DDB /* ConditionalViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF565D11A10926300AC4DDB /* ConditionalViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EF565CC1A10926300AC4DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EF565AA1A10926300AC4DDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EF565B11A10926300AC4DDB;
+			remoteInfo = ConditionalView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EF565B21A10926300AC4DDB /* ConditionalView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConditionalView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF565B61A10926300AC4DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF565B71A10926300AC4DDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EF565B91A10926300AC4DDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1EF565BA1A10926300AC4DDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1EF565BC1A10926300AC4DDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1EF565BD1A10926300AC4DDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1EF565C01A10926300AC4DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EF565C21A10926300AC4DDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1EF565C51A10926300AC4DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1EF565CB1A10926300AC4DDB /* ConditionalViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConditionalViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF565D01A10926300AC4DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EF565D11A10926300AC4DDB /* ConditionalViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConditionalViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EF565AF1A10926300AC4DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF565C81A10926300AC4DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EF565A91A10926300AC4DDB = {
+			isa = PBXGroup;
+			children = (
+				1EF565B41A10926300AC4DDB /* ConditionalView */,
+				1EF565CE1A10926300AC4DDB /* ConditionalViewTests */,
+				1EF565B31A10926300AC4DDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EF565B31A10926300AC4DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF565B21A10926300AC4DDB /* ConditionalView.app */,
+				1EF565CB1A10926300AC4DDB /* ConditionalViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EF565B41A10926300AC4DDB /* ConditionalView */ = {
+			isa = PBXGroup;
+			children = (
+				1EF565B91A10926300AC4DDB /* AppDelegate.h */,
+				1EF565BA1A10926300AC4DDB /* AppDelegate.m */,
+				1EF565BC1A10926300AC4DDB /* ViewController.h */,
+				1EF565BD1A10926300AC4DDB /* ViewController.m */,
+				1EF565BF1A10926300AC4DDB /* Main.storyboard */,
+				1EF565C21A10926300AC4DDB /* Images.xcassets */,
+				1EF565C41A10926300AC4DDB /* LaunchScreen.xib */,
+				1EF565B51A10926300AC4DDB /* Supporting Files */,
+			);
+			path = ConditionalView;
+			sourceTree = "<group>";
+		};
+		1EF565B51A10926300AC4DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EF565B61A10926300AC4DDB /* Info.plist */,
+				1EF565B71A10926300AC4DDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EF565CE1A10926300AC4DDB /* ConditionalViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EF565D11A10926300AC4DDB /* ConditionalViewTests.m */,
+				1EF565CF1A10926300AC4DDB /* Supporting Files */,
+			);
+			path = ConditionalViewTests;
+			sourceTree = "<group>";
+		};
+		1EF565CF1A10926300AC4DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EF565D01A10926300AC4DDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EF565B11A10926300AC4DDB /* ConditionalView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF565D51A10926300AC4DDB /* Build configuration list for PBXNativeTarget "ConditionalView" */;
+			buildPhases = (
+				1EF565AE1A10926300AC4DDB /* Sources */,
+				1EF565AF1A10926300AC4DDB /* Frameworks */,
+				1EF565B01A10926300AC4DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConditionalView;
+			productName = ConditionalView;
+			productReference = 1EF565B21A10926300AC4DDB /* ConditionalView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EF565CA1A10926300AC4DDB /* ConditionalViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EF565D81A10926300AC4DDB /* Build configuration list for PBXNativeTarget "ConditionalViewTests" */;
+			buildPhases = (
+				1EF565C71A10926300AC4DDB /* Sources */,
+				1EF565C81A10926300AC4DDB /* Frameworks */,
+				1EF565C91A10926300AC4DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF565CD1A10926300AC4DDB /* PBXTargetDependency */,
+			);
+			name = ConditionalViewTests;
+			productName = ConditionalViewTests;
+			productReference = 1EF565CB1A10926300AC4DDB /* ConditionalViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EF565AA1A10926300AC4DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hari Kunwar";
+				TargetAttributes = {
+					1EF565B11A10926300AC4DDB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1EF565CA1A10926300AC4DDB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1EF565B11A10926300AC4DDB;
+					};
+				};
+			};
+			buildConfigurationList = 1EF565AD1A10926300AC4DDB /* Build configuration list for PBXProject "ConditionalView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EF565A91A10926300AC4DDB;
+			productRefGroup = 1EF565B31A10926300AC4DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EF565B11A10926300AC4DDB /* ConditionalView */,
+				1EF565CA1A10926300AC4DDB /* ConditionalViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EF565B01A10926300AC4DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF565C11A10926300AC4DDB /* Main.storyboard in Resources */,
+				1EF565C61A10926300AC4DDB /* LaunchScreen.xib in Resources */,
+				1EF565C31A10926300AC4DDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF565C91A10926300AC4DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EF565AE1A10926300AC4DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF565BE1A10926300AC4DDB /* ViewController.m in Sources */,
+				1EF565BB1A10926300AC4DDB /* AppDelegate.m in Sources */,
+				1EF565B81A10926300AC4DDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EF565C71A10926300AC4DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF565D21A10926300AC4DDB /* ConditionalViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EF565CD1A10926300AC4DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EF565B11A10926300AC4DDB /* ConditionalView */;
+			targetProxy = 1EF565CC1A10926300AC4DDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EF565BF1A10926300AC4DDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF565C01A10926300AC4DDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EF565C41A10926300AC4DDB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EF565C51A10926300AC4DDB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EF565D31A10926300AC4DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EF565D41A10926300AC4DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EF565D61A10926300AC4DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConditionalView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EF565D71A10926300AC4DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConditionalView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EF565D91A10926300AC4DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConditionalViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConditionalView.app/ConditionalView";
+			};
+			name = Debug;
+		};
+		1EF565DA1A10926300AC4DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConditionalViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConditionalView.app/ConditionalView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EF565AD1A10926300AC4DDB /* Build configuration list for PBXProject "ConditionalView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF565D31A10926300AC4DDB /* Debug */,
+				1EF565D41A10926300AC4DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EF565D51A10926300AC4DDB /* Build configuration list for PBXNativeTarget "ConditionalView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF565D61A10926300AC4DDB /* Debug */,
+				1EF565D71A10926300AC4DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EF565D81A10926300AC4DDB /* Build configuration list for PBXNativeTarget "ConditionalViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EF565D91A10926300AC4DDB /* Debug */,
+				1EF565DA1A10926300AC4DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EF565AA1A10926300AC4DDB /* Project object */;
+}

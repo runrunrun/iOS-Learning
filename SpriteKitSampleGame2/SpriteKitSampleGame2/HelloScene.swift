@@ -12,34 +12,34 @@ class HelloScene: SKScene {
     
     let labelNode = "helloNode"
     
-    override func didMoveToView(view: SKView) {
-        self.backgroundColor = UIColor.blueColor()
+    override func didMove(to view: SKView) {
+        self.backgroundColor = UIColor.blue
 
         /* Setup your scene here */
         let myLabel = SKLabelNode(fontNamed:"Chalkduster")
         myLabel.name = labelNode
         myLabel.text = "Hello, World!"
         myLabel.fontSize = 45
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
+        myLabel.position = CGPoint(x:self.frame.midX, y:self.frame.midY)
         
         self.addChild(myLabel)
     }
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         /* Called when a touch begins */
         
-        if let helloNode = self.childNodeWithName(labelNode) {
+        if let helloNode = self.childNode(withName: labelNode) {
             helloNode.name = nil
-            let moveUp = SKAction.moveByX(0, y: 100.0, duration: 0.5)
-            let zoom = SKAction.scaleTo(2.0, duration: 0.25)
-            let pause = SKAction.waitForDuration(0.5)
-            let fadeAway = SKAction.fadeOutWithDuration(0.25)
+            let moveUp = SKAction.moveBy(x: 0, y: 100.0, duration: 0.5)
+            let zoom = SKAction.scale(to: 2.0, duration: 0.25)
+            let pause = SKAction.wait(forDuration: 0.5)
+            let fadeAway = SKAction.fadeOut(withDuration: 0.25)
             let remove = SKAction.removeFromParent()
             let moveSequence = SKAction.sequence([moveUp, zoom, pause, fadeAway, remove])
             
-            helloNode.runAction(moveSequence, completion: {
+            helloNode.run(moveSequence, completion: {
                 let spaceshipScene = SpaceshipScene(size: self.size)
-                let doors = SKTransition.doorsOpenVerticalWithDuration(0.5)
+                let doors = SKTransition.doorsOpenVertical(withDuration: 0.5)
                 self.view?.presentScene(spaceshipScene, transition: doors)
             })
         }
