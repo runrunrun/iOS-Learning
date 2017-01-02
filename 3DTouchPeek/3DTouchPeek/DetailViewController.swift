@@ -9,9 +9,7 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
     @IBOutlet weak var titleLabel: UILabel!
-    
     var detailText: String? {
         didSet {
             self.configureView()
@@ -19,7 +17,6 @@ class DetailViewController: UIViewController {
     }
     
     func configureView() {
-        // Update the user interface for the detail item.
         if let detail = self.detailText {
             if let label = self.titleLabel {
                 label.text = detail
@@ -30,23 +27,6 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configureView()
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    
-
 }
