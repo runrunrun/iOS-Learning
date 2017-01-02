@@ -8,12 +8,10 @@
 
 import IntentsUI
 
-// As an example, this extension's Info.plist has been configured to handle interactions for INStartWorkoutIntent.
-// You will want to replace this or add other intents as appropriate.
-// The intents whose interactions you wish to handle must be declared in the extension's Info.plist.
+// The INUIHostedViewControlling protocol defines methods for presenting a custom interface from Siri or Maps. 
+// You adopt this protocol in a view controller, which you then deliver in an Intents UI extension as part of your iOS app.
 
-// You can test this example integration by saying things to Siri like:
-// "Start my workout using <myApp>"
+// This is the UI presented from Siri.
 
 class IntentViewController: UIViewController, INUIHostedViewControlling {
     
