@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         self.circle.layer.cornerRadius = circleHeightConstraint.constant/2
         
         self.circle.layer.borderWidth = 1
-        self.circle.layer.borderColor = UIColor.blueColor().CGColor
+        self.circle.layer.borderColor = UIColor.blue.cgColor
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,21 +37,19 @@ class ViewController: UIViewController {
 
     // MARK :- UITouch delegates
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
-            let touchPoint = touch.locationInView(self.view)
+            let touchPoint = touch.location(in: self.view)
             if self.circleLeadingConstraint != nil {
                 self.circleLeadingConstraint.constant = touchPoint.x - self.circleWidthConstraint.constant
                 self.circleTopConstraint.constant = touchPoint.y - self.circleHeightConstraint.constant
-                self.circle.layer.borderColor = UIColor.blueColor().CGColor
+                self.circle.layer.borderColor = UIColor.blue.cgColor
             }
             break
         }
     }
     
-    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
             if self.circleLeadingConstraint != nil {
                 print(touch.force)
@@ -62,10 +60,7 @@ class ViewController: UIViewController {
             }
             break
         }
-
     }
     
-    
-
 }
 
