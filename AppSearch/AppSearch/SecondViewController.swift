@@ -46,7 +46,7 @@ class SecondViewController: UIViewController {
         let item = CSSearchableItem(uniqueIdentifier: "learn.something.today", domainIdentifier: "tv-shows", attributeSet: attributeSet)
         searchableItems.append(item)
         
-        CSSearchableIndex.defaultSearchableIndex().indexSearchableItems(searchableItems) { (error) -> Void in
+        CSSearchableIndex.default().indexSearchableItems(searchableItems) { (error) -> Void in
             if error != nil {
                 print(error?.localizedDescription)
             }

@@ -34,9 +34,9 @@ class ViewController: UIViewController {
         /*
         Next, you set a number of properties of the NSUserActivity object to tell the operating system what you want this user activity to be used for. In this tutorial, we are only looking at the search component of the API so we disable Handoff and enable search.
         */
-        activity.eligibleForHandoff = true
-        activity.eligibleForSearch = true
-        activity.eligibleForPublicIndexing = true
+        activity.isEligibleForHandoff = true
+        activity.isEligibleForSearch = true
+        activity.isEligibleForPublicIndexing = true
         /*
         You then assign a userInfo dictionary to the user activity. This will be used later to restore the state of the application.
         */
