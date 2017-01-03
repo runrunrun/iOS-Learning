@@ -8,36 +8,37 @@
 
 import UIKit
 
+// We can show ActionSheet and Alert using UIAlertController
+// ActionSheet will present as popover in iPad automatically.
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var alertButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func alertButtonPressed(_ sender: UIButton) {
+        let alertController = UIAlertController(title: "Alert Title here", message: "Alert message here.", preferredStyle: UIAlertControllerStyle.alert)
+
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action: UIAlertAction!) -> Void in
+            print("You tapped OK")
+        }))
+        self.present(alertController, animated: true, completion: nil)
     }
-
-    @IBAction func alertButtonPressed(sender: UIButton) {
-        let buttonTitle = sender.titleLabel?.text;
-        var message = ""
-        var alertController = UIAlertController(title: "hello", message: message, preferredStyle: UIAlertControllerStyle.ActionSheet)
+    
+    @IBAction func actionSheetButtonPressed(_ sender: UIButton) {
+        let alertController = UIAlertController(title: "ActionSheet title here.", message: "ActionSheet message here.", preferredStyle: UIAlertControllerStyle.actionSheet)
         
-//        var alertController = UIAlertController(title: "hello", message: message, preferredStyle: UIAlertControllerStyle.Alert)
-
-        
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: { (action: UIAlertAction!) -> Void in
-            println("You tapped OK")
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action: UIAlertAction!) -> Void in
+            print("You tapped OK")
         }))
         
         //for iPad
         alertController.popoverPresentationController?.sourceView = self.view;
         alertController.popoverPresentationController?.sourceRect = sender.frame;
-        self.presentViewController(alertController, animated: true, completion: nil)
+        self.present(alertController, animated: true, completion: nil)
     }
 
 }

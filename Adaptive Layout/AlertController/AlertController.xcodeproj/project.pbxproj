@@ -161,9 +161,11 @@
 				TargetAttributes = {
 					1E51A6F21A12A03400486F35 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0820;
 					};
 					1E51A7071A12A03400486F35 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 1E51A6F21A12A03400486F35;
 					};
 				};
@@ -341,6 +343,7 @@
 				INFOPLIST_FILE = AlertController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -351,6 +354,7 @@
 				INFOPLIST_FILE = AlertController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -369,6 +373,7 @@
 				INFOPLIST_FILE = AlertControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertController.app/AlertController";
 			};
 			name = Debug;
@@ -384,6 +389,7 @@
 				INFOPLIST_FILE = AlertControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlertController.app/AlertController";
 			};
 			name = Release;
@@ -407,6 +413,7 @@
 				1E51A7141A12A03400486F35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E51A7151A12A03400486F35 /* Build configuration list for PBXNativeTarget "AlertControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +422,7 @@
 				1E51A7171A12A03400486F35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
