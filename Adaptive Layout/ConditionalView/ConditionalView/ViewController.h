@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+// Show views only for certain sizes.
+// This is controlled in Storyboard.
+
 @interface ViewController : UIViewController
 
 

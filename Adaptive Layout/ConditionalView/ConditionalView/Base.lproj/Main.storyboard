@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,18 +18,18 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="jVH-mF-Gna">
-                                <rect key="frame" x="200" y="20" width="200" height="200"/>
+                                <rect key="frame" x="87.5" y="20" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="ddc-h9-1ig"/>
                                     <constraint firstAttribute="width" constant="200" id="ety-JW-hGg"/>
                                 </constraints>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="banana" translatesAutoresizingMaskIntoConstraints="NO" id="ljQ-vd-nJw">
-                                <rect key="frame" x="0.0" y="-201" width="251" height="201"/>
+                                <rect key="frame" x="233.5" y="221" width="200" height="201"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="7gv-2F-5cd"/>
                                     <constraint firstAttribute="height" constant="201" id="Eu9-Ui-F9v"/>
@@ -43,7 +48,7 @@
                                 </variation>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="ljQ-vd-nJw" secondAttribute="centerX" constant="54" id="H3v-aF-Nux">
                                 <variation key="heightClass=compact" constant="0.0"/>
@@ -57,8 +62,8 @@
                                 <exclude reference="ljQ-vd-nJw"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ucp-1e-kzY"/>
                                 <exclude reference="H3v-aF-Nux"/>
+                                <exclude reference="ucp-1e-kzY"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -66,8 +71,8 @@
                                 <include reference="ljQ-vd-nJw"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ucp-1e-kzY"/>
                                 <include reference="H3v-aF-Nux"/>
+                                <include reference="ucp-1e-kzY"/>
                             </mask>
                         </variation>
                     </view>
