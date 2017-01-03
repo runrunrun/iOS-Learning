@@ -11,8 +11,8 @@ import Foundation
 class Bike: Vehicle {
     var numberOfWheels = 4
     var seats: Int = 4
-    var energySource = EnergySource.Human
-    var transportSurface = TransportSurface.Land
+    var energySource = EnergySource.human
+    var transportSurface = TransportSurface.land
 
     func start() {
         //start car
@@ -22,7 +22,7 @@ class Bike: Vehicle {
         //stop car
     }
     
-    func moveDirection(direction: Direction) {
+    func moveDirection(_ direction: Direction) {
         //stir car to direction
     }
 }

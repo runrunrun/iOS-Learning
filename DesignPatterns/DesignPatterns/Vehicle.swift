@@ -9,22 +9,22 @@
 import Foundation
 
 enum Direction{
-    case Left
-    case Right
-    case Forward
-    case Backward
+    case left
+    case right
+    case forward
+    case backward
 }
 
 enum EnergySource {
-    case Human
-    case Animal
-    case Fuel
+    case human
+    case animal
+    case fuel
 }
 
 enum TransportSurface {
-    case Land
-    case Water
-    case Air
+    case land
+    case water
+    case air
 }
 
 protocol Vehicle {
@@ -35,5 +35,5 @@ protocol Vehicle {
     
     func start()
     func stop()
-    func moveDirection(direction: Direction)
+    func moveDirection(_ direction: Direction)
 }

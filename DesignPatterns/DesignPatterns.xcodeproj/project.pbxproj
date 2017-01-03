@@ -211,9 +211,11 @@
 				TargetAttributes = {
 					1E7BCFE21A89688600086E85 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0820;
 					};
 					1E7BCFF71A89688600086E85 = {
 						CreatedOnToolsVersion = 6.1.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 1E7BCFE21A89688600086E85;
 					};
 				};
@@ -395,6 +397,7 @@
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -405,6 +408,7 @@
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -423,6 +427,7 @@
 				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
 			};
 			name = Debug;
@@ -438,6 +443,7 @@
 				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
 			};
 			name = Release;
@@ -461,6 +467,7 @@
 				1E7BD0041A89688600086E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E7BD0051A89688600086E85 /* Build configuration list for PBXNativeTarget "DesignPatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				1E7BD0071A89688600086E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,18 +9,18 @@
 import Foundation
 
 enum VehicleType {
-    case Car
-    case Bike
+    case car
+    case bike
 }
 
 class VehicleFactory {
 
-    class func createVehicleType(type: VehicleType) -> Vehicle? {
+    class func createVehicleType(_ type: VehicleType) -> Vehicle? {
         var vehicle: Vehicle?
         switch type {
-        case VehicleType.Car:
+        case VehicleType.car:
             vehicle = Car() as Vehicle
-        case VehicleType.Bike:
+        case VehicleType.bike:
             vehicle = Bike() as Vehicle
         default:
             vehicle = nil
