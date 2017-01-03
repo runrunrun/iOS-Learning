@@ -11,6 +11,9 @@
 #import "Fruit.h"
 #import "UIView+Layout.h"
 
+// 1 - Implement delegate tableView:estimatedHeightForRowAtIndexPath: and return UITableViewAutomaticDimension.
+// 2 - Set constraints to top and bottom of table cell.
+
 NSString *fruitCellIdentifier = @"fruitCell";
 
 @interface FruitTableViewController ()
@@ -25,6 +28,8 @@ NSString *fruitCellIdentifier = @"fruitCell";
     [super viewDidLoad];
     _fruits = [Fruit fruitsCollection];
     
+    // Setting tableView.rowHeight = UITableViewAutomaticDimension does not work on iOS 10.
+    // Need to implement delegate tableView:estimatedHeightForRowAtIndexPath: and return UITableViewAutomaticDimension.
     self.tableView.rowHeight = UITableViewAutomaticDimension;
 }
 
@@ -50,7 +55,6 @@ NSString *fruitCellIdentifier = @"fruitCell";
     return _fruits.count;
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     FruitTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:fruitCellIdentifier forIndexPath:indexPath];
     
@@ -63,6 +67,11 @@ NSString *fruitCellIdentifier = @"fruitCell";
 //    [cell showLayoutBorders];
         
     return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return UITableViewAutomaticDimension;
 }
 
 
