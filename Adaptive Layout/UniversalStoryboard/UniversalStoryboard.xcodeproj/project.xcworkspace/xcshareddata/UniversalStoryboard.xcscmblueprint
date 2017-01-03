@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ACB536E0CBC1A930B3F0346D0EC9620362D61C62",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ACB536E0CBC1A930B3F0346D0EC9620362D61C62" : 9223372036854775807,
+    "3E9DCFB9A275A9ED62003D441CA0F2A40062051E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3E27493C-E200-40DC-B8F8-200F946A3015",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ACB536E0CBC1A930B3F0346D0EC9620362D61C62" : "iOS-Tutorials\/",
+    "3E9DCFB9A275A9ED62003D441CA0F2A40062051E" : "iOSTopicalCode"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UniversalStoryboard",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Adaptive Layout\/UniversalStoryboard\/UniversalStoryboard.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/runrunrun\/iOSTopicalCode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E9DCFB9A275A9ED62003D441CA0F2A40062051E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/runrunrun\/iOS-Tutorials.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ACB536E0CBC1A930B3F0346D0EC9620362D61C62"
+    }
+  ]
+}

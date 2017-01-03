@@ -161,9 +161,11 @@
 				TargetAttributes = {
 					1EB5C81119DDC2F900E846F6 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0820;
 					};
 					1EB5C82619DDC2F900E846F6 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0820;
 						TestTargetID = 1EB5C81119DDC2F900E846F6;
 					};
 				};
@@ -341,6 +343,7 @@
 				INFOPLIST_FILE = UniversalStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -351,6 +354,7 @@
 				INFOPLIST_FILE = UniversalStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -369,6 +373,7 @@
 				INFOPLIST_FILE = UniversalStoryboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversalStoryboard.app/UniversalStoryboard";
 			};
 			name = Debug;
@@ -384,6 +389,7 @@
 				INFOPLIST_FILE = UniversalStoryboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversalStoryboard.app/UniversalStoryboard";
 			};
 			name = Release;
@@ -407,6 +413,7 @@
 				1EB5C83319DDC2F900E846F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EB5C83419DDC2F900E846F6 /* Build configuration list for PBXNativeTarget "UniversalStoryboardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +422,7 @@
 				1EB5C83619DDC2F900E846F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
