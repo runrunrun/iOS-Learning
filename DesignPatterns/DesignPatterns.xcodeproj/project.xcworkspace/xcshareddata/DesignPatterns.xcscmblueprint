@@ -10,7 +10,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E793AB58-08A0-4647-B6DD-D62EC5628A6E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "ACB536E0CBC1A930B3F0346D0EC9620362D61C62" : "iOS-Tutorials\/",
-    "3E9DCFB9A275A9ED62003D441CA0F2A40062051E" : "iOSTopicalCode"
+    "3E9DCFB9A275A9ED62003D441CA0F2A40062051E" : "iOSTopicalCode\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "DesignPatterns",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
