@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         // Adding custom actions to notifications.
-        let action = UNNotificationAction(identifier: NotificationScheduler.notificationRemindActionId, title: "Remind me later", options: [])
+        let action = UNNotificationAction(identifier: "cancel", title: "Cancel", options: [])
         let category = UNNotificationCategory(identifier: NotificationScheduler.matchCategoryId, actions: [action], intentIdentifiers: [], options: [])
         UNUserNotificationCenter.current().setNotificationCategories([category])
         
@@ -55,16 +55,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 }
 
-
-extension AppDelegate: UNUserNotificationCenterDelegate {
-    
-    // Respond to notification action button press.
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        if response.actionIdentifier == NotificationScheduler.notificationRemindActionId {
-            let newDate = Date(timeInterval: 60, since: Date())
-            NotificationScheduler.scheduleNotification(at: newDate)
-        }
-    }
-    
-}
 
