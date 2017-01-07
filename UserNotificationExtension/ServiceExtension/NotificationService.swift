@@ -23,7 +23,7 @@ import UserNotifications
  4 If your extension takes too long to perform its work, it will be notified and immediately terminated.
  5 Notification is displayed to the user.
  */
-
+// This may only work with push notifications and not local notifications.
 
 class NotificationService: UNNotificationServiceExtension {
 
