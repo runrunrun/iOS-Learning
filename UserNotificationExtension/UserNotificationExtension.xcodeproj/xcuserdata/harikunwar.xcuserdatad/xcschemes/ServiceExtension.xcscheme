@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1E918F421E2145C8002174C3"
-               BuildableName = "RemindMe.appex"
-               BlueprintName = "RemindMe"
+               BlueprintIdentifier = "1E918F5D1E21573C002174C3"
+               BuildableName = "ServiceExtension.appex"
+               BlueprintName = "ServiceExtension"
                ReferencedContainer = "container:UserNotificationExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1E918F421E2145C8002174C3"
-            BuildableName = "RemindMe.appex"
-            BlueprintName = "RemindMe"
+            BlueprintIdentifier = "1E918F5D1E21573C002174C3"
+            BuildableName = "ServiceExtension.appex"
+            BlueprintName = "ServiceExtension"
             ReferencedContainer = "container:UserNotificationExtension.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

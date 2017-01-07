@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RemindMe.xcscheme</key>
+		<key>ContentExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>ServiceExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>UserNotificationExtension.xcscheme</key>
 		<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>1E918F421E2145C8002174C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1E918F5D1E21573C002174C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
