@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HapticFeedbackSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bfQ-Qa-mbk">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="NFT-9U-6Eg"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="URf-Na-Fub"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UnE-Ax-jMk"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZq-v6-tUi">
+                                <rect key="frame" x="16" y="20" width="133" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIa-jl-uO8">
+                                <rect key="frame" x="193" y="15" width="51" height="31"/>
+                                <connections>
+                                    <action selector="impactAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="FHW-3i-ohM"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9k4-98-xdl">
+                                <rect key="frame" x="228" y="96" width="51" height="31"/>
+                                <connections>
+                                    <action selector="notificationAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="PDi-gg-gcN"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notification Feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKy-Pg-Ign">
+                                <rect key="frame" x="16" y="101" width="168" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KIa-jl-uO8" firstAttribute="leading" secondItem="wZq-v6-tUi" secondAttribute="trailing" constant="44" id="0Rs-4d-Ywj"/>
+                            <constraint firstItem="hKy-Pg-Ign" firstAttribute="top" secondItem="wZq-v6-tUi" secondAttribute="bottom" constant="60" id="3h5-3x-7Yd"/>
+                            <constraint firstItem="bfQ-Qa-mbk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4tY-vb-RYH"/>
+                            <constraint firstItem="KIa-jl-uO8" firstAttribute="centerY" secondItem="wZq-v6-tUi" secondAttribute="centerY" id="Aev-Zs-DLI"/>
+                            <constraint firstItem="wZq-v6-tUi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AxE-Fn-Mdf"/>
+                            <constraint firstItem="wZq-v6-tUi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="CpO-Q6-V9C"/>
+                            <constraint firstItem="hKy-Pg-Ign" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KKD-4y-ep8"/>
+                            <constraint firstAttribute="bottom" secondItem="bfQ-Qa-mbk" secondAttribute="bottom" id="Kv1-AL-zR5"/>
+                            <constraint firstAttribute="trailing" secondItem="bfQ-Qa-mbk" secondAttribute="trailing" id="ZeZ-WF-J3d"/>
+                            <constraint firstItem="9k4-98-xdl" firstAttribute="centerY" secondItem="hKy-Pg-Ign" secondAttribute="centerY" id="vfx-tv-c5D"/>
+                            <constraint firstItem="9k4-98-xdl" firstAttribute="leading" secondItem="hKy-Pg-Ign" secondAttribute="trailing" constant="44" id="z1b-D0-izb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pickerView" destination="bfQ-Qa-mbk" id="QHX-e6-5Ex"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-47" y="79"/>
+        </scene>
+    </scenes>
+</document>
