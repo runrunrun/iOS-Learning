@@ -1,0 +1,44 @@
+{
+  "stickers" : [
+    {
+      "filename" : "arsenal-logo-vector.sticker"
+    },
+    {
+      "filename" : "chelsea-logo-vector.sticker"
+    },
+    {
+      "filename" : "everton-fc-logo-vector.sticker"
+    },
+    {
+      "filename" : "liverpool-logo-vector.sticker"
+    },
+    {
+      "filename" : "manchester-city-logo-vector.sticker"
+    },
+    {
+      "filename" : "manchester-united-logo-vector.sticker"
+    },
+    {
+      "filename" : "southampton-f.c-logo-vector.sticker"
+    },
+    {
+      "filename" : "stoke-city-fc-vector.gif.sticker"
+    },
+    {
+      "filename" : "sunderland-afc-logo-vector.sticker"
+    },
+    {
+      "filename" : "tottenham-hotspur-fc-logo-vector.sticker"
+    },
+    {
+      "filename" : "west-ham-united-logo-vector.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
