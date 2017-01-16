@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ConstraintAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3q9-tc-qQm">
+                                <rect key="frame" x="92" y="50" width="191" height="106"/>
+                                <color key="backgroundColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="106" identifier="heightConstraint" id="TJV-tQ-XQU"/>
+                                    <constraint firstAttribute="width" constant="191" identifier="widthConstraint" id="hX9-HU-Hfp"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXT-qF-Tf2">
+                                <rect key="frame" x="143" y="617" width="89" height="30"/>
+                                <state key="normal" title="Animate Size"/>
+                                <connections>
+                                    <action selector="animateSizeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E3R-i4-vE3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipl-VS-X6i">
+                                <rect key="frame" x="93" y="567" width="189" height="30"/>
+                                <state key="normal" title="Animate Constraint Change"/>
+                                <connections>
+                                    <action selector="animateConstraintChangeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eEd-bk-6SO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rXT-qF-Tf2" secondAttribute="bottom" constant="20" id="F0Y-sN-utu"/>
+                            <constraint firstItem="3q9-tc-qQm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" identifier="topConstraint" id="M2J-sM-mfn"/>
+                            <constraint firstItem="rXT-qF-Tf2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XZS-0z-0cJ"/>
+                            <constraint firstItem="ipl-VS-X6i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nRq-LT-gJl"/>
+                            <constraint firstItem="3q9-tc-qQm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" identifier="centerYConstraint" id="rgX-HV-twc"/>
+                            <constraint firstItem="rXT-qF-Tf2" firstAttribute="top" secondItem="ipl-VS-X6i" secondAttribute="bottom" constant="20" id="wLg-Ue-uQg"/>
+                            <constraint firstItem="3q9-tc-qQm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yWU-4j-UYe"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rgX-HV-twc"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="centerYConstraint" destination="rgX-HV-twc" id="ejO-GU-xfT"/>
+                        <outlet property="colorView" destination="3q9-tc-qQm" id="jiG-Y0-Q2B"/>
+                        <outlet property="topConstraint" destination="M2J-sM-mfn" id="hqe-VE-Lla"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
