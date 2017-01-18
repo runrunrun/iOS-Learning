@@ -15,9 +15,15 @@ import UIKit
  
  Animation objects in Core Animation are simply data models; you create an instance of the model and set its data properties accordingly.
  
- kCAFillModeBoth
+ kCAFillModeBoth:
  kCAFillModeBoth is a combination of kCAFillModeForwards and kCAFillModeBackwards; as you’d expect, this makes the first frame of the animation appear on the screen immediately and retains the final frame on the screen when
  the animation is finished
+ 
+ Animations vs. real content:
+ When you animate a text field, you’re not actually seeing the field itself animated; instead, you’re seeing a cached version of it known as the presentation layer. The presentation layer is removed from the screen once the animation completes and the original layer shows itself again.
+ 
+ When possible, design your layers in Interface Builder with their final values, and use fromValue for the starting and in-between values. This reduces the complexity of keeping your model and presentation layers in sync.
+ 
  */
 
 class ViewController: UIViewController {
@@ -37,7 +43,7 @@ class ViewController: UIViewController {
         moveRight.fromValue = -view.bounds.width/2
         moveRight.toValue = view.bounds.width/2
         moveRight.duration = 0.5
-        moveRight.beginTime = CACurrentMediaTime() + 10
+        moveRight.beginTime = CACurrentMediaTime() + 0.3
         moveRight.fillMode = kCAFillModeBoth
         
         // forKey is used as identifier for this animation.
