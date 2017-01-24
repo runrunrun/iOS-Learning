@@ -8,6 +8,10 @@
 
 import UIKit
 
+/**
+ Sample showing how to apply Shape Mask and animate it.
+ */
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var babyImageView: UIImageView!
