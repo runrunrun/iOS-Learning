@@ -29,8 +29,41 @@ class ViewController: UIViewController {
         gradientLayer.colors = [UIColor.black.cgColor, UIColor.white.cgColor, UIColor.black.cgColor]
         //Location specifies each color locations
         gradientLayer.locations = [0.15, 0.5, 0.85]
-        gradientLayer.frame = gradientView.bounds
+        let bounds = gradientView.bounds
+        // Have larger gradientLayer size to maximize the effect.
+        gradientLayer.frame = bounds//CGRect(x: -bounds.width, y: bounds.origin.y, width: 3*bounds.width, height: bounds.size.height)
         gradientView.layer.addSublayer(gradientLayer)
+        
+        // Create Text Mask
+        // Create text attributes.
+        let textAttributes: [String: AnyObject] = {
+            let style = NSMutableParagraphStyle()
+            style.alignment = .center
+            return [
+                NSFontAttributeName: UIFont(
+                    name: "HelveticaNeue-Thin",
+                    size: 28.0)!,
+                NSParagraphStyleAttributeName: style
+            ]
+        }()
+        
+        // Create image from text.
+        let text = "Today is best day of my Life."
+        let image = UIGraphicsImageRenderer(size: bounds.size)
+            .image {
+                _ in
+                text.draw(in: bounds, withAttributes: textAttributes)
+        }
+        
+        // Create mask from text image
+        let maskLayer = CALayer()
+        maskLayer.backgroundColor = UIColor.clear.cgColor
+        //A rectangle that is the same size as the source, but with its origin offset by dx units along the x-axis and dy units along the y-axis with respect to the source. Returns a null rectangle if rect is a null rectangle.
+        maskLayer.frame = bounds//bounds.offsetBy(dx: bounds.size.width, dy: 0)
+        maskLayer.contents = image.cgImage
+        
+        // Add mask to gradient
+        gradientLayer.mask = maskLayer
     }
     
     override func viewDidAppear(_ animated: Bool) {
