@@ -27,8 +27,21 @@ class ViewController: UIViewController {
                                                      width: 2*refreshRadius,
                                                      height: 2*refreshRadius)).cgPath
         view.layer.addSublayer(ovalShape)
+                
+        // Animate stroke ends
+        let strokeStartAnimation  = CABasicAnimation(keyPath: "strokeStart")
+        strokeStartAnimation.fromValue = -0.5
+        strokeStartAnimation.toValue = 1.0
         
-        ovalShape.strokeEnd = 0.25
+        let strokeEndAnimation = CABasicAnimation(keyPath: "strokeEnd")
+        strokeEndAnimation.fromValue = 0.0
+        strokeEndAnimation.toValue = 1.0
+        
+        let strokeAnimationGroup = CAAnimationGroup()
+        strokeAnimationGroup.duration = 1.5
+        strokeAnimationGroup.repeatDuration = .infinity
+        strokeAnimationGroup.animations = [strokeStartAnimation, strokeEndAnimation]
+        ovalShape.add(strokeAnimationGroup, forKey: nil)
     }
 
     override func didReceiveMemoryWarning() {
