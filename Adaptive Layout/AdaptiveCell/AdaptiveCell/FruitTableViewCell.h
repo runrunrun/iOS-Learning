@@ -13,5 +13,4 @@
 @property (weak, nonatomic) IBOutlet UILabel *fruitLabel;
 @property (weak, nonatomic) IBOutlet UILabel *fruitSubLabel;
 
-
 @end

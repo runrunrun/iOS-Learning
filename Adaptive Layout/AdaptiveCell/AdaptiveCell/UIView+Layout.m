@@ -10,13 +10,11 @@
 
 @implementation UIView (Layout)
 
-- (void)showLayoutBorders
-{
+- (void)showLayoutBorders {
     [self showLayoutBordersWithColor:[UIColor redColor]];
 }
 
-- (void)showLayoutBordersWithColor:(UIColor *)color
-{
+- (void)showLayoutBordersWithColor:(UIColor *)color {
     self.layer.borderColor = color.CGColor;
     self.layer.borderWidth = 1.0;
 }

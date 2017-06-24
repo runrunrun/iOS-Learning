@@ -6,18 +6,20 @@
 //  Copyright (c) 2014 Hari Kunwar. All rights reserved.
 //
 
+// Converting to Adaptive cell.
+// 1 - Add constraints to pin each subview on all sides — that is, each subview should have leading, top, trailing and bottom constraints.
+// 2 - Add `self.tableView.rowHeight = UITableViewAutomaticDimension;` and `self.tableView.estimatedRowHeight = 200;` in viewDidLoad
+//
+
 #import "FruitTableViewController.h"
 #import "FruitTableViewCell.h"
 #import "Fruit.h"
 #import "UIView+Layout.h"
 
-// 1 - Implement delegate tableView:estimatedHeightForRowAtIndexPath: and return UITableViewAutomaticDimension.
-// 2 - Set constraints to top and bottom of table cell.
 
 NSString *fruitCellIdentifier = @"fruitCell";
 
-@interface FruitTableViewController ()
-{
+@interface FruitTableViewController () {
     NSArray *_fruits;
 }
 @end
@@ -28,14 +30,12 @@ NSString *fruitCellIdentifier = @"fruitCell";
     [super viewDidLoad];
     _fruits = [Fruit fruitsCollection];
     
-    // Setting tableView.rowHeight = UITableViewAutomaticDimension does not work on iOS 10.
-    // Need to implement delegate tableView:estimatedHeightForRowAtIndexPath: and return UITableViewAutomaticDimension.
     self.tableView.rowHeight = UITableViewAutomaticDimension;
+    self.tableView.estimatedRowHeight = 200;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    self.tableView.estimatedRowHeight = 200;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -62,16 +62,8 @@ NSString *fruitCellIdentifier = @"fruitCell";
     
     cell.fruitLabel.text = fruit.name;
     cell.fruitSubLabel.text = fruit.name;
-//    cell.imageView.image = [UIImage imageNamed:fruit.image];
     
-//    [cell showLayoutBorders];
-        
     return cell;
-}
-
-- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return UITableViewAutomaticDimension;
 }
 
 
