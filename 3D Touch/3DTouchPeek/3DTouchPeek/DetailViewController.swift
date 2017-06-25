@@ -10,14 +10,10 @@ import UIKit
 
 class DetailViewController: UIViewController {
     @IBOutlet weak var textLabel: UILabel!
-    var detailText: String? {
-        didSet {
-        }
-    }
+    var detailText: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         textLabel.text = detailText
     }
-    
 }

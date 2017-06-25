@@ -11,7 +11,6 @@ import UIKit
 // Peek and Pop effect is setup in storyboard. 
 
 class MasterViewController: UIViewController {
-
     @IBOutlet weak var tableView: UITableView!
     let names = ["life", "love", "death", "birth", "age"]
     
@@ -50,6 +49,4 @@ class MasterViewController: UIViewController {
             }
         }
     }
-    
-
 }
