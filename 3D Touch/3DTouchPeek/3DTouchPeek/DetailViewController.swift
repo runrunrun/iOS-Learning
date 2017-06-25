@@ -9,24 +9,15 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var textLabel: UILabel!
     var detailText: String? {
         didSet {
-            self.configureView()
-        }
-    }
-    
-    func configureView() {
-        if let detail = self.detailText {
-            if let label = self.titleLabel {
-                label.text = detail
-            }
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.configureView()
+        textLabel.text = detailText
     }
     
 }
