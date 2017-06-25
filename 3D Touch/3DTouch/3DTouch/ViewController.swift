@@ -21,46 +21,41 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        self.circle.translatesAutoresizingMaskIntoConstraints = false;
-        self.circle.layer.cornerRadius = circleHeightConstraint.constant/2
+        circle.translatesAutoresizingMaskIntoConstraints = false;
+        circle.layer.cornerRadius = circleHeightConstraint.constant/2
         
-        self.circle.layer.borderWidth = 1
-        self.circle.layer.borderColor = UIColor.blue.cgColor
+        circle.layer.borderWidth = 1
+        circle.layer.borderColor = UIColor.blue.cgColor
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    // MARK :- UITouch delegates
-    
+// MARK: UIResponder override
+extension ViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
+            // Center the circle to touch position.
             let touchPoint = touch.location(in: self.view)
-            if self.circleLeadingConstraint != nil {
-                self.circleLeadingConstraint.constant = touchPoint.x - self.circleWidthConstraint.constant
-                self.circleTopConstraint.constant = touchPoint.y - self.circleHeightConstraint.constant
-                self.circle.layer.borderColor = UIColor.blue.cgColor
-            }
+            circleLeadingConstraint.constant = touchPoint.x - self.circleWidthConstraint.constant/2
+            circleTopConstraint.constant = touchPoint.y - self.circleHeightConstraint.constant/2
             break
         }
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
-            if self.circleLeadingConstraint != nil {
-                print(touch.force)
-                self.circleWidthConstraint.constant += 2 * touch.force
-                self.circleHeightConstraint.constant = self.circleWidthConstraint.constant
-                self.circle.layer.cornerRadius = circleHeightConstraint.constant/2
-
-            }
+            let touchPoint = touch.location(in: self.view)
+            print(touch.force)
+            // Center the circle to touch position.
+            circleLeadingConstraint.constant = touchPoint.x - self.circleWidthConstraint.constant/2
+            circleTopConstraint.constant = touchPoint.y - self.circleHeightConstraint.constant/2
+            
+            // Increase circle size based on touch force.
+            circleWidthConstraint.constant += 2 * touch.force
+            circleHeightConstraint.constant = self.circleWidthConstraint.constant
+            circle.layer.cornerRadius = circleHeightConstraint.constant/2
             break
         }
     }
-    
 }
 
