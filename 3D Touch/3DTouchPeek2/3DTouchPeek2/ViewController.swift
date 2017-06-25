@@ -8,32 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIViewControllerPreviewingDelegate {
-
+class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         if #available(iOS 9, *) {
-            if(traitCollection.forceTouchCapability == .Available) {
-                registerForPreviewingWithDelegate(self, sourceView: self.view)
+            if(traitCollection.forceTouchCapability == .available) {
+                registerForPreviewing(with: self, sourceView: self.view)
             }
         }
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    
-    // MARK: UIViewControllerPreviewingDelegate
-    
-    func previewingContext(previewingContext: UIViewControllerPreviewing, viewControllerForLocation location: CGPoint) -> UIViewController? {
+extension ViewController: UIViewControllerPreviewingDelegate {
+    func previewingContext(_ previewingContext: UIViewControllerPreviewing, viewControllerForLocation location: CGPoint) -> UIViewController? {
         if imageView.frame.contains(location) {
-            guard let controller = storyboard?.instantiateViewControllerWithIdentifier("photoViewController") as? PhotoViewController else { return nil }
-        
+            guard let controller = storyboard?.instantiateViewController(withIdentifier: "photoViewController") as? PhotoViewController
+                else {
+                    return nil
+            }
+            
             controller.preferredContentSize = CGSize(width: 0.0, height: 300)
             
             if #available(iOS 9, *) {
@@ -45,12 +41,8 @@ class ViewController: UIViewController, UIViewControllerPreviewingDelegate {
         return nil
     }
     
-    func previewingContext(previewingContext: UIViewControllerPreviewing, commitViewController viewControllerToCommit: UIViewController) {
-        
-        showViewController(viewControllerToCommit, sender: self)
-        
+    func previewingContext(_ previewingContext: UIViewControllerPreviewing, commit viewControllerToCommit: UIViewController) {
+        show(viewControllerToCommit, sender: self)
     }
-
-
 }
 
