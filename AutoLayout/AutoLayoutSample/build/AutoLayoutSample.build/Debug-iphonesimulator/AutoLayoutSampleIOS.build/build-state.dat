@@ -1,325 +1,0 @@
-TAutoLayoutSampleIOS
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Info.plist AutoLayoutSampleIOS/AutoLayoutSampleIOS-Info.plist
-cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch.pth AutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/LoginViewController.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS normal i386
-cGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app.dSYM /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS
-cCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/en.lproj/InfoPlist.strings AutoLayoutSampleIOS/en.lproj/InfoPlist.strings
-cCpResource AutoLayoutSampleIOS/Default@2x.png build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default@2x.png
-cCompileXIB /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.xib
-cCpResource AutoLayoutSampleIOS/Default-568h@2x.png build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default-568h@2x.png
-cCpResource AutoLayoutSampleIOS/Default.png build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default.png
-cTouch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c0000000050EDEAFB0000000000000110
-t1357769467
-s272
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000512FB99A0000000000228FE0
-t1362082202
-s2265056
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000512FB99B00000000003DDFA0
-t1362082203
-s4054944
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000512FB99B00000000000015F7
-t1362082203
-s5623
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c00000000512FB99E0000000000000E8D
-t1362082206
-s3725
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000512FB99F0000000000AB6230
-t1362082207
-s11231792
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
-c00000000512FB9AE0000000000001B73
-t1362082222
-s7027
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.h
-c0000000051E8BC950000000000000182
-t1374207125
-s386
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.m
-c0000000051E8BE55000000000000095A
-t1374207573
-s2394
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pch
-c0000000051E8B8010000000000000155
-t1374205953
-s341
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/Default-568h@2x.png
-c000000005094C3F800000000000048A2
-t1351926776
-s18594
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/Default.png
-c000000005094C3F8000000000000198C
-t1351926776
-s6540
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/Default@2x.png
-c000000005094C3F80000000000003EEB
-t1351926776
-s16107
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.h
-c0000000051E8BE0300000000000000E6
-t1374207491
-s230
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.m
-c0000000051E8BE0300000000000002E5
-t1374207491
-s741
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.xib
-c0000000051E8C1720000000000059E28
-t1374208370
-s368168
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/en.lproj/InfoPlist.strings
-c0000000051E8B801000000000000002D
-t1374205953
-s45
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/main.m
-c0000000051E8B8010000000000000158
-t1374205953
-s344
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AppDelegate.o
-t1374207849
-s90340
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AutoLayoutSampleIOS.LinkFileList
-c0000000051E8BD440000000000000238
-t1374207300
-s568
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/LoginViewController.o
-t1374207504
-s68812
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/main.o
-t1374207301
-s3420
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app
-t1374208330
-s340
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app.dSYM
-t1374207849
-s102
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS
-t1374207849
-s22440
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default-568h@2x.png
-t1374207423
-s18594
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default.png
-t1374207423
-s6540
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default@2x.png
-t1374207423
-s16107
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Info.plist
-t1374207300
-s943
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/LoginViewController.nib
-t1374208330
-s1547
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/PkgInfo
-t1374207300
-s8
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/en.lproj/InfoPlist.strings
-t1374207423
-s42
-
-N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch.pth
-t1374207301
-s4684232
-
-NAutoLayoutSampleIOS/AutoLayoutSampleIOS-Info.plist
-c0000000051E8B80100000000000005AE
-t1374205953
-s1454
-
-CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.m
-r0
-
-CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.m
-r0
-
-CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies89d153f6f898b741^882a54f6f898b741^---0#1#0#--18"Check dependencies36"D9BFC97B-5DA7-4E7F-BC79-E032C1042B1E-
-
-CCompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s395900649.253082
-e395900649.309129
-r1
-xCompileC
-xbuild/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AppDelegate.o
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.m21e840e9f698b741^7d224fe9f698b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.m0000000000000000^4284"CompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AppDelegate.o AutoLayoutSampleIOS/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AppDelegate.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AppDelegate.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AppDelegate.o36"F0F3791F-A718-4AE3-ACFF-06A8048C1A06-
-
-CCompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/LoginViewController.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s395900304.285179
-e395900304.335494
-r1
-xCompileC
-xbuild/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/LoginViewController.o
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.m9f204990f598b741^0da95690f598b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.m0000000000000000^4332"CompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/LoginViewController.o AutoLayoutSampleIOS/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/LoginViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/LoginViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/LoginViewController.o36"D756BE84-A40A-4D9E-AD92-A261CE73731E-
-
-CCompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s395900101.294967
-e395900101.356526
-r1
-xCompileC
-xbuild/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/main.o
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/main.mf4a54bc5f498b741^17455bc5f498b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/main.m0000000000000000^4242"CompileC build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/main.o AutoLayoutSampleIOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/main.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/main.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/main.o36"4BC776E5-A3EE-40FF-9E77-A95EA9B74382-
-
-CCompileXIB /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.xib
-s395901174.382050
-e395901174.424703
-r1
-xCompileXIB
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compiling /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.xibfeee61f6f898b741^e4bb6cf6f898b741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.xib0000000000000000^1081"CompileXIB AutoLayoutSampleIOS/LoginViewController.xib    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.1    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH "/Applications/Xcode 4.6.app/Contents/Developer/usr/bin/.."    "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/LoginViewController.nib /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/LoginViewController.xib --sdk "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk"36"E897EBB0-C7F4-4A1E-A0C8-6D49BC98F68B-
-
-CCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/en.lproj/InfoPlist.strings AutoLayoutSampleIOS/en.lproj/InfoPlist.strings
-s395900223.312653
-e395900223.317353
-r1
-xCopyStringsFile
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/en.lproj/InfoPlist.strings
-xAutoLayoutSampleIOS/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy AutoLayoutSampleIOS/en.lproj/InfoPlist.strings0d1c503ff598b741^3e3e513ff598b741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/en.lproj/InfoPlist.strings0000000000000000^709"CopyStringsFile build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/en.lproj/InfoPlist.strings AutoLayoutSampleIOS/en.lproj/InfoPlist.strings    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/en.lproj -- AutoLayoutSampleIOS/en.lproj/InfoPlist.strings36"4C6BAB68-F101-449E-A180-C9FE977F5E3D-
-
-CCpResource AutoLayoutSampleIOS/Default-568h@2x.png build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default-568h@2x.png
-s395900223.312658
-e395900223.316120
-r1
-xCpResource
-xAutoLayoutSampleIOS/Default-568h@2x.png
-xbuild/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default-568h@2x.png581a503ff598b741^c3f1503ff598b741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default-568h@2x.png000000000080d041^777"CpResource "AutoLayoutSampleIOS/Default-568h@2x.png" "build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default-568h@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/Default-568h@2x.png" /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app36"3AA4FFE6-2ABE-40E3-B14B-9EF6A06ABD8B-
-
-CCpResource AutoLayoutSampleIOS/Default.png build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default.png
-s395900223.312607
-e395900223.314844
-r1
-xCpResource
-xAutoLayoutSampleIOS/Default.png
-xbuild/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default.pngc618503ff598b741^e199503ff598b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default.png000000000080d041^747"CpResource AutoLayoutSampleIOS/Default.png build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default.png    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/Default.png /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app36"14F13D36-00E6-4EEC-A95C-C6E806670E98-
-
-CCpResource AutoLayoutSampleIOS/Default@2x.png build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default@2x.png
-s395900223.312674
-e395900223.319741
-r1
-xCpResource
-xAutoLayoutSampleIOS/Default@2x.png
-xbuild/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default@2x.png6423503ff598b741^38da513ff598b741^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default@2x.png000000000080d041^762"CpResource "AutoLayoutSampleIOS/Default@2x.png" "build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Default@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/Default@2x.png" /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app36"9CF62A0C-B2FA-45F5-889C-CE6FA8C5E305-
-
-CGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app.dSYM /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS
-s395900649.348517
-e395900649.366978
-r1
-xGenerateDSYMFile
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app.dSYM
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Generate /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app.dSYM884859e9f698b741^d0f15de9f698b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app.dSYM/0000000000000000^828"GenerateDSYMFile build/Debug-iphonesimulator/AutoLayoutSampleIOS.app.dSYM build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app.dSYM36"CBAB3439-D21B-4DCB-B355-8749687E5F27-
-
-CLd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS normal i386
-s395900649.316169
-e395900649.341584
-r1
-xLd
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Link /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOSfb0351e9f698b741^507257e9f698b741^---0#0#0#--1443"Ld build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS normal i386    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -arch i386 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -L/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator -filelist /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/Objects-normal/i386/AutoLayoutSampleIOS.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/AutoLayoutSampleIOS36"2826E600-73DD-424C-851A-52A2D54E31B7-
-
-CProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Info.plist AutoLayoutSampleIOS/AutoLayoutSampleIOS-Info.plist
-s395900100.901719
-e395900100.904684
-r1
-xProcessInfoPlistFile
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Info.plist
-xAutoLayoutSampleIOS/AutoLayoutSampleIOS-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Process AutoLayoutSampleIOS/AutoLayoutSampleIOS-Info.plist36e9e6c4f498b741^0ebbe7c4f498b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AutoLayoutSampleIOS-Info.plist0000000000000000^859"ProcessInfoPlistFile build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Info.plist AutoLayoutSampleIOS/AutoLayoutSampleIOS-Info.plist    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AutoLayoutSampleIOS/AutoLayoutSampleIOS-Info.plist -genpkginfo /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app/Info.plist36"72886864-3BE9-4B3A-913B-3D3611436EAD-
-
-CProcessPCH /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/DerivedData/AutoLayoutSample/Index/PrecompiledHeaders/AutoLayoutSampleIOS-Prefix-gvzrfklyrfblcugdcstbscesirgc_ast/AutoLayoutSampleIOS-Prefix.pch.pth AutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch.pth AutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s395900100.912838
-e395900101.288304
-r1
-xProcessPCH
-x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch.pth
-xAutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile AutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pchdfdee9c4f498b741^a48e4ac5f498b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pch0000000000000000^4195"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch.pth AutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/AutoLayoutSampleIOS-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug-iphonesimulator/AutoLayoutSampleIOS.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleIOS/AutoLayoutSampleIOS-Prefix.pch -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleIOS-Prefix-aibneivvamunttdprzizsejcaszk/AutoLayoutSampleIOS-Prefix.pch.d36"0C3E4FC2-D161-41E1-A346-EC62BDD73B05-
-
-CTouch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app
-s395901174.432115
-e395901174.438596
-r1
-xTouch
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Touch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.appebac6ef6f898b741^494870f6f898b741^---0#0#0#--498"Touch build/Debug-iphonesimulator/AutoLayoutSampleIOS.app    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv PATH "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.6.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug-iphonesimulator/AutoLayoutSampleIOS.app36"E25D52E5-AE81-4F89-AD34-4492F42BF812-
-

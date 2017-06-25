@@ -1,259 +1,0 @@
-TAutoLayoutSampleOSX
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Info.plist AutoLayoutSampleOSX/AutoLayoutSampleOSX-Info.plist
-cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch.pth AutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/main.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/LoginViewController.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/MacOS/AutoLayoutSampleOSX normal x86_64
-cCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/InfoPlist.strings AutoLayoutSampleOSX/en.lproj/InfoPlist.strings
-cCompileXIB /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/MainMenu.xib
-cCpResource AutoLayoutSampleOSX/en.lproj/Credits.rtf build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/Credits.rtf
-cCompileXIB /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.xib
-cTouch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Library/Frameworks/Cocoa.framework/Cocoa
-c00000000000000000000000000000000
-t2
-s0
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000503F1B7700000000000000AA
-t1346313079
-s170
-
-N/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c00000000512FB9BF00000000000001E5
-t1362082239
-s485
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AppDelegate.m
-c0000000051E8B9D200000000000004F8
-t1374206418
-s1272
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch
-c0000000051E8B7BC00000000000000A9
-t1374205884
-s169
-i<Cocoa/Cocoa.h>
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.m
-c0000000051E8B82A00000000000001F7
-t1374205994
-s503
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.xib
-c0000000051E8B9E90000000000001407
-t1374206441
-s5127
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/Credits.rtf
-c0000000051E8B7BC00000000000001B4
-t1374205884
-s436
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/InfoPlist.strings
-c0000000051E8B7BC000000000000002D
-t1374205884
-s45
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/MainMenu.xib
-c0000000051E8B7BC0000000000033E45
-t1374205884
-s212549
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/main.m
-c0000000051E8B7BC0000000000000100
-t1374205884
-s256
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AppDelegate.o
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AutoLayoutSampleOSX.LinkFileList
-c0000000051E8B9EA000000000000020E
-t1374206442
-s526
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/LoginViewController.o
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Info.plist
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/MacOS/AutoLayoutSampleOSX
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/LoginViewController.nib
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/Credits.rtf
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/MainMenu.nib
-t2
-s0
-
-N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch.pth
-t2
-s0
-
-NAutoLayoutSampleOSX/AutoLayoutSampleOSX-Info.plist
-c0000000051E8B7BC0000000000000444
-t1374205884
-s1092
-
-CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AppDelegate.m
-r0
-
-CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.m
-r0
-
-CBuild AST from /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies965e276af198b741^6e502f6af198b741^---0#1#0#--18"Check dependencies36"BF63A889-E7EC-43F3-B0E6-806C8449E41D-
-
-CCompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s395899243.437445
-e395899243.657917
-r1
-xCompileC
-xbuild/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AppDelegate.o
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AppDelegate.m8b16706bf198b741^1e6da86bf198b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AppDelegate.m0000000000000000^3890"CompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AppDelegate.o AutoLayoutSampleOSX/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/DerivedSources/x86_64 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug "-F/Applications/Xcode 4.6.app/Contents/Developer/Library/Frameworks" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AppDelegate.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AppDelegate.o36"A8A61B33-A349-4502-B19A-9BC2DFC27764-
-
-CCompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/LoginViewController.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s395899243.437423
-e395899243.645007
-r1
-xCompileC
-xbuild/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/LoginViewController.o
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.m2716706bf198b741^0c1fa56bf198b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.m0000000000000000^3938"CompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/LoginViewController.o AutoLayoutSampleOSX/LoginViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/DerivedSources/x86_64 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug "-F/Applications/Xcode 4.6.app/Contents/Developer/Library/Frameworks" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/LoginViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/LoginViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/LoginViewController.o36"4791886A-DCCD-4662-AEFA-905586B8CBA3-
-
-CCompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/main.o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s395899243.437402
-e395899243.644231
-r1
-xCompileC
-xbuild/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/main.o
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/main.m1616706bf198b741^10eca46bf198b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/main.m0000000000000000^3848"CompileC build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/main.o AutoLayoutSampleOSX/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/DerivedSources/x86_64 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug "-F/Applications/Xcode 4.6.app/Contents/Developer/Library/Frameworks" -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/main.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/main.m -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/main.o36"FEC12D16-55F2-441F-920A-2CD39DA80B01-
-
-CCompileXIB /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.xib
-s395899244.506494
-e395899244.521950
-r1
-xCompileXIB
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compiling /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.xib88b8816cf198b741^06a0856cf198b741^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.xib0000000000000000^770"CompileXIB AutoLayoutSampleOSX/LoginViewController.xib    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv XCODE_DEVELOPER_USR_PATH "/Applications/Xcode 4.6.app/Contents/Developer/usr/bin/.."    "/Applications/Xcode 4.6.app/Contents/Developer/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/LoginViewController.nib /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/LoginViewController.xib --sdk "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk"36"268CCFD6-0D5D-43C5-8879-9E61313681B4-
-
-CCompileXIB /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/MainMenu.xib
-s395899244.506448
-e395899244.974382
-r1
-xCompileXIB
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/MainMenu.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compiling /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/MainMenu.xib24b8816cf198b741^2a71f96cf198b741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/MainMenu.xib0000000000000000^764"CompileXIB AutoLayoutSampleOSX/en.lproj/MainMenu.xib    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv XCODE_DEVELOPER_USR_PATH "/Applications/Xcode 4.6.app/Contents/Developer/usr/bin/.."    "/Applications/Xcode 4.6.app/Contents/Developer/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/MainMenu.nib /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/MainMenu.xib --sdk "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk"36"2D651562-B5BD-4F92-AD98-215B3D4DB8CA-
-
-CCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/InfoPlist.strings AutoLayoutSampleOSX/en.lproj/InfoPlist.strings
-s395899244.506427
-e395899244.510428
-r1
-xCopyStringsFile
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/InfoPlist.strings
-xAutoLayoutSampleOSX/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy AutoLayoutSampleOSX/en.lproj/InfoPlist.stringsfeb4816cf198b741^bdab826cf198b741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/InfoPlist.strings0000000000000000^512"CopyStringsFile build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/InfoPlist.strings AutoLayoutSampleOSX/en.lproj/InfoPlist.strings    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj -- AutoLayoutSampleOSX/en.lproj/InfoPlist.strings36"FA2C0099-2847-4353-8CBD-69AB2673BB6D-
-
-CCpResource AutoLayoutSampleOSX/en.lproj/Credits.rtf build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/Credits.rtf
-s395899244.506456
-e395899244.511218
-r1
-xCpResource
-xAutoLayoutSampleOSX/en.lproj/Credits.rtf
-xbuild/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/Credits.rtf
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/Credits.rtfddb4816cf198b741^40df826cf198b741^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^586"CpResource AutoLayoutSampleOSX/en.lproj/Credits.rtf build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/en.lproj/Credits.rtf /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Resources/en.lproj36"3D2A53CD-E63A-4973-92EC-34A64FF33E6D-
-
-CLd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/MacOS/AutoLayoutSampleOSX normal x86_64
-s395899243.664715
-e395899244.497643
-r1
-xLd
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/MacOS/AutoLayoutSampleOSX
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Link /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/MacOS/AutoLayoutSampleOSXbc3baa6bf198b741^88657f6cf198b741^---0#0#0#--1129"Ld build/Debug/AutoLayoutSampleOSX.app/Contents/MacOS/AutoLayoutSampleOSX normal x86_64    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv MACOSX_DEPLOYMENT_TARGET 10.8    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -arch x86_64 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -L/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug "-F/Applications/Xcode 4.6.app/Contents/Developer/Library/Frameworks" -filelist /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/Objects-normal/x86_64/AutoLayoutSampleOSX.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework Cocoa -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/MacOS/AutoLayoutSampleOSX36"80BA7088-2498-4DB1-86F0-B43DD320B7E1-
-
-CProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Info.plist AutoLayoutSampleOSX/AutoLayoutSampleOSX-Info.plist
-s395899242.189160
-e395899242.192505
-r1
-xProcessInfoPlistFile
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Info.plist
-xAutoLayoutSampleOSX/AutoLayoutSampleOSX-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Process AutoLayoutSampleOSX/AutoLayoutSampleOSX-Info.plist297a306af198b741^c559316af198b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AutoLayoutSampleOSX-Info.plist0000000000000000^611"ProcessInfoPlistFile build/Debug/AutoLayoutSampleOSX.app/Contents/Info.plist AutoLayoutSampleOSX/AutoLayoutSampleOSX-Info.plist    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    builtin-infoPlistUtility AutoLayoutSampleOSX/AutoLayoutSampleOSX-Info.plist -genpkginfo /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app/Contents/Info.plist36"0933C81F-3226-420C-B561-1BA411F1C399-
-
-CProcessPCH /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/DerivedData/AutoLayoutSample/Index/PrecompiledHeaders/AutoLayoutSampleOSX-Prefix-bsdbgrgdkafdwechzszecxermvcu_ast/AutoLayoutSampleOSX-Prefix.pch.pth AutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch.pth AutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s395899242.200980
-e395899243.430654
-r1
-xProcessPCH
-x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch.pth
-xAutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile AutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch048f336af198b741^253f6e6bf198b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch0000000000000000^3857"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch.pth AutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    setenv LANG en_US.US-ASCII    "/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 4.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk" -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/AutoLayoutSampleOSX-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/include "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 4.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/DerivedSources/x86_64 -I/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/AutoLayoutSample.build/Debug/AutoLayoutSampleOSX.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug "-F/Applications/Xcode 4.6.app/Contents/Developer/Library/Frameworks" --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch.dia -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/AutoLayoutSampleOSX/AutoLayoutSampleOSX-Prefix.pch -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AutoLayoutSampleOSX-Prefix-faatrjuwciiymtajplqilzeqeggl/AutoLayoutSampleOSX-Prefix.pch.d36"59AA4B6F-6C46-4F7A-B0AE-C4056AB92DB9-
-
-CTouch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app
-s395899244.982427
-e395899245.000026
-r1
-xTouch
-x/Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Touch /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.appd68dfb6cf198b741^b401006df198b741^---0#0#0#--263"Touch build/Debug/AutoLayoutSampleOSX.app    cd /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample    /usr/bin/touch -c /Users/harikunwar/Documents/GitHub/iOSTopicalCode/AutoLayout/AutoLayoutSample/build/Debug/AutoLayoutSampleOSX.app36"D66460A8-36DC-4FD7-83A9-D4B4CCF615B3-
-
