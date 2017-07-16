@@ -13,11 +13,11 @@ enum State {
     
     func keyPath() -> String {
         switch self {
-        case Ready:
+        case .Ready:
             return "isReady"
-        case Executing:
+        case .Executing:
             return "isExecuting"
-        case Finished:
+        case .Finished:
             return "isFinished"
         }
     }
@@ -76,8 +76,6 @@ class AlertOperation : Operation {
         super.cancel()
         state = .Finished
     }
-
-
     
     // MARK: - State methods
     override var isReady: Bool {

@@ -16,7 +16,7 @@
             startingLineNumber = "79"
             endingLineNumber = "79"
             landmarkName = "-viewWillLayoutSubviews"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,7 +32,39 @@
             startingLineNumber = "112"
             endingLineNumber = "112"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[RobotViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "Robots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harikunwar/Git/iOS-Tutorials/CustomTransition/Robots/Robots/RobotViewController.m"
+                  timestampString = "521007337.678794"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "253">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[RobotViewController tableView:didSelectRowAtIndexPath:]_block_invoke"
+                  moduleName = "Robots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harikunwar/Git/iOS-Tutorials/CustomTransition/Robots/Robots/RobotViewController.m"
+                  timestampString = "521007337.68274"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,7 +112,7 @@
             startingLineNumber = "38"
             endingLineNumber = "38"
             landmarkName = "-viewDidLoad"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,7 +128,7 @@
             startingLineNumber = "83"
             endingLineNumber = "83"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -112,7 +144,7 @@
             startingLineNumber = "57"
             endingLineNumber = "57"
             landmarkName = "-viewWillLayoutSubviews"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +176,7 @@
             startingLineNumber = "132"
             endingLineNumber = "132"
             landmarkName = "-animationControllerForDismissedController:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -160,7 +192,7 @@
             startingLineNumber = "27"
             endingLineNumber = "27"
             landmarkName = "-animateTransition:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -176,7 +208,54 @@
             startingLineNumber = "113"
             endingLineNumber = "113"
             landmarkName = "-animateTransition:"
-            landmarkType = "5">
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__39-[TransitionManager animateTransition:]_block_invoke.38"
+                  moduleName = "Robots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harikunwar/Git/iOS-Tutorials/CustomTransition/Robots/Robots/TransitionManager.m"
+                  timestampString = "521007337.712215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.39"
+                  moduleName = "Robots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harikunwar/Git/iOS-Tutorials/CustomTransition/Robots/Robots/TransitionManager.m"
+                  timestampString = "521007337.714157"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.40"
+                  moduleName = "Robots"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harikunwar/Git/iOS-Tutorials/CustomTransition/Robots/Robots/TransitionManager.m"
+                  timestampString = "521007337.715967"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -192,7 +271,7 @@
             startingLineNumber = "112"
             endingLineNumber = "112"
             landmarkName = "-animateTransition:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -208,7 +287,7 @@
             startingLineNumber = "64"
             endingLineNumber = "64"
             landmarkName = "-didReceiveMemoryWarning"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
