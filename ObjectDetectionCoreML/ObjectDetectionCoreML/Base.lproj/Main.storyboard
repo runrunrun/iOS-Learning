@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8am-WY-BMS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="RpG-hO-FgJ">
+            <objects>
+                <navigationController id="8am-WY-BMS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mUj-7E-bH1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3SH-vl-UmH" kind="relationship" relationship="rootViewController" id="b1L-Ey-bje"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6F-q2-Ley" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-969" y="-79"/>
+        </scene>
+        <!--Core ML-->
+        <scene sceneID="EMm-C8-B1O">
+            <objects>
+                <viewController id="3SH-vl-UmH" customClass="ViewController" customModule="ObjectDetectionCoreML" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="8dr-47-US5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aYG-xk-C72">
+                                <rect key="frame" x="67" y="215" width="240" height="301"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="CSs-Tb-mjS"/>
+                                    <constraint firstAttribute="height" constant="301" id="JfN-l9-rye"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Object is?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxf-vn-huS" userLabel="Object Label">
+                                <rect key="frame" x="8" y="576" width="359" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aYG-xk-C72" firstAttribute="centerY" secondItem="aaz-cD-d7A" secondAttribute="centerY" id="7rf-ug-CP3"/>
+                            <constraint firstItem="Cxf-vn-huS" firstAttribute="leading" secondItem="aaz-cD-d7A" secondAttribute="leading" constant="8" id="DbU-pu-ro4"/>
+                            <constraint firstItem="Cxf-vn-huS" firstAttribute="top" secondItem="aYG-xk-C72" secondAttribute="bottom" constant="60" id="LEC-W4-6xd"/>
+                            <constraint firstItem="aaz-cD-d7A" firstAttribute="trailing" secondItem="Cxf-vn-huS" secondAttribute="trailing" constant="8" id="pFI-Nh-r2l"/>
+                            <constraint firstItem="aYG-xk-C72" firstAttribute="centerX" secondItem="aaz-cD-d7A" secondAttribute="centerX" id="v9m-xW-7Nz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aaz-cD-d7A"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Core ML" id="HfW-pg-bsz">
+                        <barButtonItem key="leftBarButtonItem" systemItem="camera" id="8CI-yr-gVy">
+                            <connections>
+                                <action selector="cameraButtonPressed:" destination="3SH-vl-UmH" id="lay-Nq-WSc"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="ZUz-Uu-0gl">
+                            <connections>
+                                <action selector="imageLibraryButtonPressed:" destination="3SH-vl-UmH" id="pCh-ZA-9YV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="aYG-xk-C72" id="Ias-Ss-EAH"/>
+                        <outlet property="objectLabel" destination="Cxf-vn-huS" id="YSq-Xf-jps"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z04-rg-tVW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68" y="-80.50974512743629"/>
+        </scene>
+    </scenes>
+</document>
