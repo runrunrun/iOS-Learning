@@ -26,5 +26,4 @@ class VehicleFactory {
         
         return vehicle
     }
-
 }
