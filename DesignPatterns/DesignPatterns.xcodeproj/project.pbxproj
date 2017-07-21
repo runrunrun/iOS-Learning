@@ -19,6 +19,7 @@
 		1E7BD01B1A896F1300086E85 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BD01A1A896F1300086E85 /* Vehicle.swift */; };
 		1E7BD01D1A8972E500086E85 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BD01C1A8972E500086E85 /* Car.swift */; };
 		1E7BD01F1A89734700086E85 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BD01E1A89734700086E85 /* Bike.swift */; };
+		1EF023EF1F223ACA005D1C8E /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF023EE1F223ACA005D1C8E /* Creator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		1E7BD01A1A896F1300086E85 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		1E7BD01C1A8972E500086E85 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		1E7BD01E1A89734700086E85 /* Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
+		1EF023EE1F223ACA005D1C8E /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +91,9 @@
 		1E7BCFE51A89688600086E85 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				1E7BD0081A89688F00086E85 /* Creational Patterns */,
-				1E7BD00A1A8968AE00086E85 /* Structural Patterns */,
-				1E7BD0091A89689C00086E85 /* Behavioral Patterns */,
+				1EF023ED1F223907005D1C8E /* Structural */,
+				1EF023EC1F2238E4005D1C8E /* Behavioral */,
+				1EF023E91F22384F005D1C8E /* Creational */,
 				1E7BCFE81A89688600086E85 /* AppDelegate.swift */,
 				1E7BCFEA1A89688600086E85 /* ViewController.swift */,
 				1E7BCFEC1A89688600086E85 /* Main.storyboard */,
@@ -127,30 +129,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1E7BD0081A89688F00086E85 /* Creational Patterns */ = {
+		1EF023E91F22384F005D1C8E /* Creational */ = {
 			isa = PBXGroup;
 			children = (
-				1E7BD0151A896E0600086E85 /* Factory */,
-				1E7BD00B1A8968F000086E85 /* Singleton.swift */,
+				1EF023EB1F2238C7005D1C8E /* Singleton */,
+				1EF023EA1F2238A1005D1C8E /* Factory */,
+				1EF023EE1F223ACA005D1C8E /* Creator.swift */,
 			);
-			name = "Creational Patterns";
+			path = Creational;
 			sourceTree = "<group>";
 		};
-		1E7BD0091A89689C00086E85 /* Behavioral Patterns */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Behavioral Patterns";
-			sourceTree = "<group>";
-		};
-		1E7BD00A1A8968AE00086E85 /* Structural Patterns */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Structural Patterns";
-			sourceTree = "<group>";
-		};
-		1E7BD0151A896E0600086E85 /* Factory */ = {
+		1EF023EA1F2238A1005D1C8E /* Factory */ = {
 			isa = PBXGroup;
 			children = (
 				1E7BD01A1A896F1300086E85 /* Vehicle.swift */,
@@ -159,7 +148,29 @@
 				1E7BD00D1A896A6900086E85 /* VehicleFactory.swift */,
 				1E7BD0131A896DE500086E85 /* factory.gif */,
 			);
-			name = Factory;
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		1EF023EB1F2238C7005D1C8E /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				1E7BD00B1A8968F000086E85 /* Singleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		1EF023EC1F2238E4005D1C8E /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		1EF023ED1F223907005D1C8E /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structural;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,11 +222,11 @@
 				TargetAttributes = {
 					1E7BCFE21A89688600086E85 = {
 						CreatedOnToolsVersion = 6.1.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0900;
 					};
 					1E7BCFF71A89688600086E85 = {
 						CreatedOnToolsVersion = 6.1.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0900;
 						TestTargetID = 1E7BCFE21A89688600086E85;
 					};
 				};
@@ -265,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF023EF1F223ACA005D1C8E /* Creator.swift in Sources */,
 				1E7BD01F1A89734700086E85 /* Bike.swift in Sources */,
 				1E7BD00E1A896A6900086E85 /* VehicleFactory.swift in Sources */,
 				1E7BCFEB1A89688600086E85 /* ViewController.swift in Sources */,
@@ -397,7 +409,8 @@
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -408,7 +421,8 @@
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -427,7 +441,8 @@
 				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
 			};
 			name = Debug;
@@ -443,7 +458,8 @@
 				INFOPLIST_FILE = DesignPatternsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignPatterns.app/DesignPatterns";
 			};
 			name = Release;
