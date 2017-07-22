@@ -44,5 +44,9 @@ class CreationalPattern {
         // order or using a specific algorithm. An external class controls the construction algorithm.
         self.meal = Cashier.adultMeal(burgerType: .chicken, drink: .coke)
         
+        //🃏 Prototype
+        
+        // The prototype pattern is used to instantiate a new object by copying all of the properties of an existing object,
+        // creating an independent clone. This practise is particularly useful when the construction of a new object is inefficient.
     }
 }
