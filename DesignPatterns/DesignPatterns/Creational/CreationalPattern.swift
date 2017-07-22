@@ -17,6 +17,8 @@ import Foundation
 class CreationalPattern {
     let singleton: Singleton
     let car: Vehicle?
+    let window: Window?
+    let meal: Meal?
     
     init() {
         // 💍 Singleton
@@ -35,8 +37,12 @@ class CreationalPattern {
         // The "family" of objects created by the factory are determined at run-time.
         // - Abstract Factory is a super-factory which creates other factories (Factory of factories).
         let macWindowFactory = GUIBuilder.windowFactory(.mac)
-        let macWindow = macWindowFactory.createWindow()
+        self.window = macWindowFactory.createWindow()
         
+        // 👷 Builder
+        // The builder pattern is used to create complex objects with constituent parts that must be created in the same
+        // order or using a specific algorithm. An external class controls the construction algorithm.
+        self.meal = Cashier.adultMeal(burgerType: .chicken, drink: .coke)
         
     }
 }

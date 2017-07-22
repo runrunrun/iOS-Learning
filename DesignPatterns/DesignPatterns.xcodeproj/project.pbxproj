@@ -21,6 +21,10 @@
 		1E7BD01F1A89734700086E85 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BD01E1A89734700086E85 /* Bike.swift */; };
 		1EF023EF1F223ACA005D1C8E /* CreationalPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF023EE1F223ACA005D1C8E /* CreationalPattern.swift */; };
 		1EFC40901F237F100090A4F5 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC408F1F237F100090A4F5 /* Window.swift */; };
+		1EFC40931F238C510090A4F5 /* Builder_example.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1EFC40921F238C510090A4F5 /* Builder_example.svg */; };
+		1EFC40951F238C740090A4F5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC40941F238C740090A4F5 /* Meal.swift */; };
+		1EFC40971F238FEF0090A4F5 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC40961F238FEF0090A4F5 /* Food.swift */; };
+		1EFC40991F2394A80090A4F5 /* Cashier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC40981F2394A80090A4F5 /* Cashier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		1E7BD01E1A89734700086E85 /* Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 		1EF023EE1F223ACA005D1C8E /* CreationalPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationalPattern.swift; sourceTree = "<group>"; };
 		1EFC408F1F237F100090A4F5 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		1EFC40921F238C510090A4F5 /* Builder_example.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Builder_example.svg; path = ../../../../../../Downloads/Builder_example.svg; sourceTree = "<group>"; };
+		1EFC40941F238C740090A4F5 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		1EFC40961F238FEF0090A4F5 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		1EFC40981F2394A80090A4F5 /* Cashier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cashier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,7 @@
 		1EF023E91F22384F005D1C8E /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				1EFC40911F238BF90090A4F5 /* Builder */,
 				1EF023F11F224161005D1C8E /* Abstract Factory */,
 				1EF023EB1F2238C7005D1C8E /* Singleton */,
 				1EF023EA1F2238A1005D1C8E /* Factory */,
@@ -182,6 +191,17 @@
 				1EFC408F1F237F100090A4F5 /* Window.swift */,
 			);
 			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		1EFC40911F238BF90090A4F5 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1EFC40921F238C510090A4F5 /* Builder_example.svg */,
+				1EFC40941F238C740090A4F5 /* Meal.swift */,
+				1EFC40961F238FEF0090A4F5 /* Food.swift */,
+				1EFC40981F2394A80090A4F5 /* Cashier.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +289,7 @@
 				1E7BCFEE1A89688600086E85 /* Main.storyboard in Resources */,
 				1E7BCFF31A89688600086E85 /* LaunchScreen.xib in Resources */,
 				1E7BCFF01A89688600086E85 /* Images.xcassets in Resources */,
+				1EFC40931F238C510090A4F5 /* Builder_example.svg in Resources */,
 				1E7BD0141A896DE500086E85 /* factory.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFC40971F238FEF0090A4F5 /* Food.swift in Sources */,
+				1EFC40951F238C740090A4F5 /* Meal.swift in Sources */,
 				1EF023EF1F223ACA005D1C8E /* CreationalPattern.swift in Sources */,
+				1EFC40991F2394A80090A4F5 /* Cashier.swift in Sources */,
 				1E7BD01F1A89734700086E85 /* Bike.swift in Sources */,
 				1EFC40901F237F100090A4F5 /* Window.swift in Sources */,
 				1E7BD00E1A896A6900086E85 /* VehicleFactory.swift in Sources */,

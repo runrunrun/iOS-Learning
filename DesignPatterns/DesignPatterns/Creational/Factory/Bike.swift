@@ -26,3 +26,4 @@ class Bike: Vehicle {
         //stir car to direction
     }
 }
+
