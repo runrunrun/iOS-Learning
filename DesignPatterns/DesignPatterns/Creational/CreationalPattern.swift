@@ -1,5 +1,5 @@
 //
-//  Creator.swift
+//  CreationalPattern.swift
 //  DesignPatterns
 //
 //  Created by Hari Kunwar on 7/21/17.
@@ -14,7 +14,7 @@ import Foundation
 // design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling
 // this object creation.
 
-class Creator {
+class CreationalPattern {
     let singleton: Singleton
     let car: Vehicle?
     
@@ -29,5 +29,14 @@ class Creator {
         // The factory pattern is used to replace class constructors, abstracting the process of object generation so
         // that the type of the object instantiated can be determined at run-time.
         self.car = VehicleFactory.vehicle(.car)
+        
+        // 🌰 Abstract Factory
+        // The abstract factory pattern is used to provide a client with a set of related or dependant objects.
+        // The "family" of objects created by the factory are determined at run-time.
+        // - Abstract Factory is a super-factory which creates other factories (Factory of factories).
+        let macWindowFactory = GUIBuilder.windowFactory(.mac)
+        let macWindow = macWindowFactory.createWindow()
+        
+        
     }
 }

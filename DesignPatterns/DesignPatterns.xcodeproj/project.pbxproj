@@ -19,7 +19,8 @@
 		1E7BD01B1A896F1300086E85 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BD01A1A896F1300086E85 /* Vehicle.swift */; };
 		1E7BD01D1A8972E500086E85 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BD01C1A8972E500086E85 /* Car.swift */; };
 		1E7BD01F1A89734700086E85 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BD01E1A89734700086E85 /* Bike.swift */; };
-		1EF023EF1F223ACA005D1C8E /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF023EE1F223ACA005D1C8E /* Creator.swift */; };
+		1EF023EF1F223ACA005D1C8E /* CreationalPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF023EE1F223ACA005D1C8E /* CreationalPattern.swift */; };
+		1EFC40901F237F100090A4F5 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC408F1F237F100090A4F5 /* Window.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +50,8 @@
 		1E7BD01A1A896F1300086E85 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		1E7BD01C1A8972E500086E85 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		1E7BD01E1A89734700086E85 /* Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
-		1EF023EE1F223ACA005D1C8E /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
+		1EF023EE1F223ACA005D1C8E /* CreationalPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationalPattern.swift; sourceTree = "<group>"; };
+		1EFC408F1F237F100090A4F5 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +134,10 @@
 		1EF023E91F22384F005D1C8E /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				1EF023F11F224161005D1C8E /* Abstract Factory */,
 				1EF023EB1F2238C7005D1C8E /* Singleton */,
 				1EF023EA1F2238A1005D1C8E /* Factory */,
-				1EF023EE1F223ACA005D1C8E /* Creator.swift */,
+				1EF023EE1F223ACA005D1C8E /* CreationalPattern.swift */,
 			);
 			path = Creational;
 			sourceTree = "<group>";
@@ -171,6 +174,14 @@
 			children = (
 			);
 			path = Structural;
+			sourceTree = "<group>";
+		};
+		1EF023F11F224161005D1C8E /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1EFC408F1F237F100090A4F5 /* Window.swift */,
+			);
+			path = "Abstract Factory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF023EF1F223ACA005D1C8E /* Creator.swift in Sources */,
+				1EF023EF1F223ACA005D1C8E /* CreationalPattern.swift in Sources */,
 				1E7BD01F1A89734700086E85 /* Bike.swift in Sources */,
+				1EFC40901F237F100090A4F5 /* Window.swift in Sources */,
 				1E7BD00E1A896A6900086E85 /* VehicleFactory.swift in Sources */,
 				1E7BCFEB1A89688600086E85 /* ViewController.swift in Sources */,
 				1E7BD01D1A8972E500086E85 /* Car.swift in Sources */,
