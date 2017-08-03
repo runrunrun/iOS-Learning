@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5B356C1F2A17120039AF60 /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B356B1F2A17120039AF60 /* RemoteControl.swift */; };
+		1E5B356E1F2A177D0039AF60 /* Appliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B356D1F2A177D0039AF60 /* Appliance.swift */; };
 		1E7BCFE91A89688600086E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BCFE81A89688600086E85 /* AppDelegate.swift */; };
 		1E7BCFEB1A89688600086E85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BCFEA1A89688600086E85 /* ViewController.swift */; };
 		1E7BCFEE1A89688600086E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7BCFEC1A89688600086E85 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E5B356B1F2A17120039AF60 /* RemoteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
+		1E5B356D1F2A177D0039AF60 /* Appliance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appliance.swift; sourceTree = "<group>"; };
 		1E7BCFE31A89688600086E85 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7BCFE71A89688600086E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E7BCFE81A89688600086E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5B356A1F2A16BF0039AF60 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				1E5B356B1F2A17120039AF60 /* RemoteControl.swift */,
+				1E5B356D1F2A177D0039AF60 /* Appliance.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
 		1E7BCFDA1A89688600086E85 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +206,7 @@
 		1EF023ED1F223907005D1C8E /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				1E5B356A1F2A16BF0039AF60 /* Bridge */,
 				1EAFFC231F28D38800F88064 /* Adapter */,
 				1EAFFC241F28D59700F88064 /* StructuralPattern.swift */,
 			);
@@ -327,7 +341,9 @@
 				1EF023EF1F223ACA005D1C8E /* CreationalPattern.swift in Sources */,
 				1EFC40991F2394A80090A4F5 /* Cashier.swift in Sources */,
 				1E7BD01F1A89734700086E85 /* Bike.swift in Sources */,
+				1E5B356C1F2A17120039AF60 /* RemoteControl.swift in Sources */,
 				1EFC40901F237F100090A4F5 /* Window.swift in Sources */,
+				1E5B356E1F2A177D0039AF60 /* Appliance.swift in Sources */,
 				1E7BD00E1A896A6900086E85 /* VehicleFactory.swift in Sources */,
 				1EAFFC251F28D59700F88064 /* StructuralPattern.swift in Sources */,
 				1E7BCFEB1A89688600086E85 /* ViewController.swift in Sources */,
