@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E19761E1F34A0230046B7BC /* WhiteBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E19761D1F34A0230046B7BC /* WhiteBoard.swift */; };
 		1E5B356C1F2A17120039AF60 /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B356B1F2A17120039AF60 /* RemoteControl.swift */; };
 		1E5B356E1F2A177D0039AF60 /* Appliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B356D1F2A177D0039AF60 /* Appliance.swift */; };
 		1E7BCFE91A89688600086E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BCFE81A89688600086E85 /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E19761D1F34A0230046B7BC /* WhiteBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteBoard.swift; sourceTree = "<group>"; };
 		1E5B356B1F2A17120039AF60 /* RemoteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
 		1E5B356D1F2A177D0039AF60 /* Appliance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appliance.swift; sourceTree = "<group>"; };
 		1E7BCFE31A89688600086E85 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E19761C1F34A0110046B7BC /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				1E19761D1F34A0230046B7BC /* WhiteBoard.swift */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		1E19761F1F34A3700046B7BC /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
 		1E5B356A1F2A16BF0039AF60 /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +223,8 @@
 		1EF023ED1F223907005D1C8E /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				1E19761F1F34A3700046B7BC /* Decorator */,
+				1E19761C1F34A0110046B7BC /* Composite */,
 				1E5B356A1F2A16BF0039AF60 /* Bridge */,
 				1EAFFC231F28D38800F88064 /* Adapter */,
 				1EAFFC241F28D59700F88064 /* StructuralPattern.swift */,
@@ -337,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EFC40971F238FEF0090A4F5 /* Food.swift in Sources */,
+				1E19761E1F34A0230046B7BC /* WhiteBoard.swift in Sources */,
 				1EFC40951F238C740090A4F5 /* Meal.swift in Sources */,
 				1EF023EF1F223ACA005D1C8E /* CreationalPattern.swift in Sources */,
 				1EFC40991F2394A80090A4F5 /* Cashier.swift in Sources */,

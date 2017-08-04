@@ -32,10 +32,23 @@ class StructuralPattern {
         // The composite pattern is used to create hierarchical, recursive tree structures of related objects where any
         // element of the structure may be accessed and utilised in a standard manner.
         
+        // Problem: Application needs to manipulate a hierarchical collection of "primitive" and "composite"
+        // objects. Processing of a primitive object is handled one way, and processing of a composite object is
+        // handled differently. Having to query the "type" of each object before attempting to process it is not
+        // desirable.
+        
+        // Child management methods [e.g. addChild(), removeChild()] should normally be defined in the Composite
+        // class. Unfortunately, the desire to treat Primitives and Composites uniformly requires that these
+        // methods be moved to the abstract Component class. See the "Opinions" section below for a discussion of
+        // "safety" versus "transparency" issues.
+        let whiteboard = Whiteboard(Circle(), Square())
+        whiteboard.draw(fillColor: "Red")
         
         // 🍧 Decorator
         // The decorator pattern is used to extend or alter the functionality of objects at run- time by wrapping them
         // in an object of a decorator class. This provides a flexible alternative to using inheritance to modify behaviour.
+        
+        
         
         
         // 🎁 Façade
