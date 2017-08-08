@@ -24,6 +24,7 @@
 		1E7BD01F1A89734700086E85 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BD01E1A89734700086E85 /* Bike.swift */; };
 		1EAFFC251F28D59700F88064 /* StructuralPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAFFC241F28D59700F88064 /* StructuralPattern.swift */; };
 		1EAFFC291F28D76D00F88064 /* Laser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAFFC281F28D76D00F88064 /* Laser.swift */; };
+		1ECC3F4E1F34AA220094ED94 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC3F4D1F34AA220094ED94 /* Coffee.swift */; };
 		1EF023EF1F223ACA005D1C8E /* CreationalPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF023EE1F223ACA005D1C8E /* CreationalPattern.swift */; };
 		1EFC40901F237F100090A4F5 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC408F1F237F100090A4F5 /* Window.swift */; };
 		1EFC40931F238C510090A4F5 /* Builder_example.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1EFC40921F238C510090A4F5 /* Builder_example.svg */; };
@@ -64,6 +65,7 @@
 		1E7BD01E1A89734700086E85 /* Bike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 		1EAFFC241F28D59700F88064 /* StructuralPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuralPattern.swift; sourceTree = "<group>"; };
 		1EAFFC281F28D76D00F88064 /* Laser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laser.swift; sourceTree = "<group>"; };
+		1ECC3F4D1F34AA220094ED94 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		1EF023EE1F223ACA005D1C8E /* CreationalPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationalPattern.swift; sourceTree = "<group>"; };
 		1EFC408F1F237F100090A4F5 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		1EFC40921F238C510090A4F5 /* Builder_example.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Builder_example.svg; path = ../../../../../../Downloads/Builder_example.svg; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		1E19761F1F34A3700046B7BC /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				1ECC3F4D1F34AA220094ED94 /* Coffee.swift */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				1EFC40951F238C740090A4F5 /* Meal.swift in Sources */,
 				1EF023EF1F223ACA005D1C8E /* CreationalPattern.swift in Sources */,
 				1EFC40991F2394A80090A4F5 /* Cashier.swift in Sources */,
+				1ECC3F4E1F34AA220094ED94 /* Coffee.swift in Sources */,
 				1E7BD01F1A89734700086E85 /* Bike.swift in Sources */,
 				1E5B356C1F2A17120039AF60 /* RemoteControl.swift in Sources */,
 				1EFC40901F237F100090A4F5 /* Window.swift in Sources */,
