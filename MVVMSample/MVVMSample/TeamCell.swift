@@ -15,10 +15,4 @@ class TeamCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-
-    func setup(vm: TeamViewModel) {
-        rankLabel.text =  "\(vm.team.rank)"
-        teamNameLabel.text = vm.team.name
-    }
-
 }

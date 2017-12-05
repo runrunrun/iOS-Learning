@@ -9,6 +9,6 @@
 import UIKit
 
 protocol CellRepresentable {
-    var rowHeight: CGFloat { get }
+    func rowHeight() -> CGFloat
     func cellInstance(_ tableView: UITableView, indexPath: IndexPath) -> UITableViewCell
 }

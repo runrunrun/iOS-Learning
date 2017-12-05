@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1ED56CEE1ECB3425000759CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56CED1ECB3425000759CD /* AppDelegate.swift */; };
-		1ED56CF01ECB3425000759CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56CEF1ECB3425000759CD /* ViewController.swift */; };
+		1ED56CF01ECB3425000759CD /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED56CEF1ECB3425000759CD /* TeamViewController.swift */; };
 		1ED56CF31ECB3425000759CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED56CF11ECB3425000759CD /* Main.storyboard */; };
 		1ED56CF51ECB3425000759CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED56CF41ECB3425000759CD /* Assets.xcassets */; };
 		1ED56CF81ECB3425000759CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED56CF61ECB3425000759CD /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		1ED56CEA1ECB3425000759CD /* MVVMSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED56CED1ECB3425000759CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1ED56CEF1ECB3425000759CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ED56CEF1ECB3425000759CD /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		1ED56CF21ECB3425000759CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ED56CF41ECB3425000759CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ED56CF71ECB3425000759CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		1ED56D011ECB348D000759CD /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1ED56CEF1ECB3425000759CD /* ViewController.swift */,
+				1ED56CEF1ECB3425000759CD /* TeamViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 				1ED56D031ECB34C0000759CD /* Team.swift in Sources */,
 				1ED56D051ECB353F000759CD /* TeamViewModel.swift in Sources */,
 				1ED56D0B1ECB3610000759CD /* TeamCell.swift in Sources */,
-				1ED56CF01ECB3425000759CD /* ViewController.swift in Sources */,
+				1ED56CF01ECB3425000759CD /* TeamViewController.swift in Sources */,
 				1ED56CEE1ECB3425000759CD /* AppDelegate.swift in Sources */,
 				1ED56D081ECB3572000759CD /* CellRepresentable.swift in Sources */,
 			);
@@ -360,6 +360,7 @@
 				1ED56CFE1ECB3425000759CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
