@@ -1,0 +1,6 @@
+framework module Pods_SimpleReactive {
+  umbrella header "Pods-SimpleReactive-umbrella.h"
+
+  export *
+  module * { export * }
+}

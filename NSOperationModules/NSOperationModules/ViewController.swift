@@ -18,14 +18,32 @@ class ViewController: UIViewController {
         
         operationQueue.maxConcurrentOperationCount = 1
 
-        // Create alert opertions
-        let alertOperation1 = AlertOperation(viewController: self)
-        let alertOperation2 = AlertOperation(viewController: self)
-        let alertOperation3 = AlertOperation(viewController: self)
+        let alertOperation1 = BlockOperation()
+        alertOperation1.addExecutionBlock {
+            print("1")
+        }
+        
+        let alertOperation2 = BlockOperation()
+        alertOperation2.addExecutionBlock {
+            print("2")
+        }
+
+        let alertOperation3 = BlockOperation()
+        alertOperation3.addExecutionBlock {
+            print("3")
+            let alertOperation1 = AlertOperation(viewController: self)
+            self.operationQueue.addOperation(alertOperation1)
+
+        }
+
+        
+//         Create alert opertions
+//        let alertOperation2 = AlertOperation(viewController: self)
+//        let alertOperation3 = AlertOperation(viewController: self)
 
         // Add dependencies
-        alertOperation2.addDependency(alertOperation1)
-        alertOperation3.addDependency(alertOperation2)
+//        alertOperation2.addDependency(alertOperation1)
+//        alertOperation3.addDependency(alertOperation2)
         
         // Add to operation queue
         operationQueue.addOperation(alertOperation1)
